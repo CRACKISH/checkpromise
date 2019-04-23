@@ -4,10 +4,12 @@ import { MatCheckboxModule, MatDividerModule } from '@angular/material';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ChartComponent } from './components/chart/chart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChartComponent
   ],
   imports: [
     AppRoutingModule,

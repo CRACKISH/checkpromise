@@ -3,4 +3,13 @@
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
+
+    .mat-checkbox-layout {
+        white-space: normal;
+    }
+
+    .mat-checkbox-inner-container {
+        width: 32px;
+        height: 32px;
+    }
 }
