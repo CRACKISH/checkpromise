@@ -1,0 +1,47 @@
+.header-wrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.charts-wrap {
+    margin-bottom: 60px;
+}
+
+.chart-wrap {
+    min-height: 100px;
+}
+.promises-wrap {
+    margin-bottom: 60px;
+}
+
+.promises-header {
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+.promise-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-content: stretch;
+    min-height: 100px;
+    max-height: 200px;      
+}
+
+.footer-wrap {
+    height: 120px;
+    background-color: #000000;
+    text-align: center;
+    font-size: 14px;
+    line-height: 23px;
+    color: #ffffff;
+    vertical-align: middle;
+}
