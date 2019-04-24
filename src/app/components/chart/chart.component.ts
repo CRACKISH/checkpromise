@@ -24,11 +24,11 @@ export class ChartComponent {
     let arrowClass;
     const initialDataValue = this.data.initialData.value;
     const currentDataValue = this.data.currentData.value;
-    const invert = this.data.invert;
+    const invert = this.data.invertArrow;
     if (currentDataValue > initialDataValue) {
       arrowClass = invert ? 'green-arrow-up-positive' : 'red-arrow-up-negative';
     } else if (currentDataValue < initialDataValue) {
-      arrowClass = invert ? 'red-arrow-down-negative' : 'green-arrow-down-positive';
+      arrowClass = invert ? 'red-arrow-down-negativeç' : 'green-arrow-down-positive';
     }
     return arrowClass;
   }

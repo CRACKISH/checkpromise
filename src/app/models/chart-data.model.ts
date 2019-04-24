@@ -11,7 +11,7 @@ export class ChartDataValue {
 
 export class ChartData {
     public label: string;
-    public invert: boolean;
+    public invertArrow: boolean;
     public initialData: ChartDataValue;
     public currentData: ChartDataValue;
 }

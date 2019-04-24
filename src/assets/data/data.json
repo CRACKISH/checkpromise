@@ -1,7 +1,7 @@
 {
   "chartData": [{
     "label": "Курс доллара (UAH за 1 USD)",
-    "invert": false,
+    "invertArrow": false,
     "initialData": {
       "date": "01.06.2019",
       "currency": "UAH",
@@ -14,7 +14,7 @@
     }
   }, {
     "label": "Курс доллара (UAH за 1 USD)",
-    "invert": false,
+    "invertArrow": false,
     "initialData": {
       "date": "01.06.2019",
       "currency": "UAH",
@@ -27,7 +27,7 @@
     }
   }, {
     "label": "Курс доллара (UAH за 1 USD)",
-    "invert": false,
+    "invertArrow": false,
     "initialData": {
       "date": "01.06.2019",
       "currency": "UAH",
@@ -40,7 +40,7 @@
     }
   }, {
     "label": "Курс доллара (UAH за 1 USD)",
-    "invert": false,
+    "invertArrow": false,
     "initialData": {
       "date": "01.06.2019",
       "currency": "UAH",
@@ -53,7 +53,7 @@
     }
   }, {
     "label": "Курс доллара (UAH за 1 USD)",
-    "invert": false,
+    "invertArrow": false,
     "initialData": {
       "date": "01.06.2019",
       "currency": "UAH",
@@ -66,7 +66,7 @@
     }
   }, {
     "label": "Курс доллара (UAH за 1 USD)",
-    "invert": true,
+    "invertArrow": true,
     "initialData": {
       "date": "01.06.2019",
       "currency": "UAH",
@@ -79,7 +79,7 @@
     }
   }, {
     "label": "Курс доллара (UAH за 1 USD)",
-    "invert": false,
+    "invertArrow": false,
     "initialData": {
       "date": "01.06.2019",
       "currency": "UAH",
@@ -92,7 +92,7 @@
     }
   }, {
     "label": "Курс доллара (UAH за 1 USD)",
-    "invert": true,
+    "invertArrow": true,
     "initialData": {
       "date": "01.06.2019",
       "currency": "UAH",
