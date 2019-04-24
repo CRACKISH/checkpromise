@@ -49,14 +49,24 @@
     background-color: #000000;
     text-align: center;
     font-size: 14px;
-    line-height: 23px;
+    line-height: 120px;
     color: #ffffff;
-    vertical-align: middle;
+
+    & > label {
+      vertical-align: middle;
+      display: inline-block;
+    }
 }
 
 @media screen and (max-width: 600px) {
   .chart-line-wrap {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    app-chart:first-child {
+      margin-bottom: 32px;
+    }
   }
 }
 
