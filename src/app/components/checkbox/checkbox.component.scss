@@ -28,5 +28,9 @@
 
   .content {
     min-height: 32px;
+
+    &.checked {
+      color: #00b259;
+    }
   }
 }

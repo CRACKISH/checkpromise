@@ -2,5 +2,5 @@
   <div class="icon-wrap">
       <div class="icon" [ngClass]="{'checked': checked}"></div>
   </div>
-  <span class="content"><ng-content></ng-content></span>
+  <span class="content" [ngClass]="{'checked': checked}"><ng-content></ng-content></span>
 </div>
