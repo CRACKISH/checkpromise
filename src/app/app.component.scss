@@ -33,9 +33,14 @@
 }
 
 .promise-content {
+  overflow: hidden;
+  padding: 0px 50px;
+
     & app-checkbox {
         margin-bottom: 32px;
         display: block;
+        float: left;
+        width: 50%;
     }
 }
 

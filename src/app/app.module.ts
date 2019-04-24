@@ -1,11 +1,13 @@
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { MatDividerModule, MatGridListModule } from '@angular/material';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatDividerModule } from '@angular/material';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ChartComponent } from './components/chart/chart.component';
 import { CheckboxComponent } from './components/checkbox/checkbox.component';
+
 
 @NgModule({
   declarations: [
@@ -16,8 +18,8 @@ import { CheckboxComponent } from './components/checkbox/checkbox.component';
   imports: [
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatDividerModule,
-    MatGridListModule
+    HttpClientModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -18,11 +18,9 @@
           <label>Передвиборчі обіцянки</label>
       </div>
       <div class="promise-content">
-        <mat-grid-list [cols]="breakpoint" rowHeight="5:1" (window:resize)="onResize($event)">
-          <mat-grid-tile *ngFor="let promise of promiseData;">
-            <app-checkbox [checked]="promise.completed">{{promise.description}}</app-checkbox>
-          </mat-grid-tile>
-        </mat-grid-list>
+        <ng-container *ngFor="let promise of promiseData;">
+          <app-checkbox [checked]="promise.completed">{{promise.description}}</app-checkbox>
+        </ng-container>
       </div>
     </div>
   </div>
