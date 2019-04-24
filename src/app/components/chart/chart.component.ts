@@ -28,7 +28,7 @@ export class ChartComponent {
     if (currentDataValue > initialDataValue) {
       arrowClass = invert ? 'green-arrow-up-positive' : 'red-arrow-up-negative';
     } else if (currentDataValue < initialDataValue) {
-      arrowClass = invert ? 'red-arrow-down-positive' : 'green-arrow-down-positive';
+      arrowClass = invert ? 'red-arrow-down-negative' : 'green-arrow-down-positive';
     }
     return arrowClass;
   }
