@@ -64,6 +64,10 @@
     align-items: center;
     justify-content: center;
 
+    & > * {
+      width: 100%;
+    }
+
     app-chart:first-child {
       margin-bottom: 32px;
     }
