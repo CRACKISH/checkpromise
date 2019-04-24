@@ -53,3 +53,17 @@
     color: #ffffff;
     vertical-align: middle;
 }
+
+@media screen and (max-width: 600px) {
+  .chart-line-wrap {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .promise-content {
+    & app-checkbox {
+      width: 100%;
+    }
+  }
+}
