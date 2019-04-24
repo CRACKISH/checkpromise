@@ -1,0 +1,32 @@
+.wrap {
+  color: #888888;
+  font-size: 20px;
+  display: inline-flex;
+
+  & > span {
+    display: inline-block;
+    min-height: 32px;
+    vertical-align: middle;
+  }
+
+  .icon-wrap {
+    width: 32px;
+    min-height: 32px;
+    margin-right: 16px;
+
+    .icon {
+      width: 32px;
+      height: 32px;
+      background-repeat: no-repeat;
+      background: url("./images/unchecked.svg");
+
+      &.checked {
+        background: url("./images/checked.svg");
+      }
+    }
+  }
+
+  .content {
+    min-height: 32px;
+  }
+}
