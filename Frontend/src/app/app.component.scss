@@ -42,6 +42,18 @@
       font-size: 24px;
       line-height: 36px;
       margin-bottom: 40px;
+
+      .promises-source {
+        font-size: 14px;
+        font-family: Roboto;
+        color: #0078b4;
+        margin-top: 8px;
+
+        & > a {
+          color: #0078b4;
+          text-decoration: none;
+        }
+      }
     }
 
     .promise-content {

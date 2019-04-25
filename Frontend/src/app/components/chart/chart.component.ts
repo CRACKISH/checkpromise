@@ -21,7 +21,7 @@ export class ChartComponent {
   }
 
   public getArrowClass(): string {
-    let arrowClass;
+    let arrowClass = 'grey-arrow';
     const initialDataValue = this.data.initialData.value;
     const currentDataValue = this.data.currentData.value;
     const invert = this.data.invertArrow;
