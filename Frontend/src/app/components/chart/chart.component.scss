@@ -19,16 +19,17 @@
     .content {
         display: flex;
 
-        & > * {
-            width: 50%;
-        }
-
         .left-content {
           text-align: left;
+          width: 100%;
 
           .value {
             color: #787878;
           }
+        }
+
+        .right-content {
+          width: auto;
         }
 
         .date {
@@ -95,7 +96,15 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-  
+
+      .left-content {
+        width: 50%;
+      }
+
+      .right-content {
+        width: 50%;
+      }
+
       div:first-child {
         margin-bottom: 12px;
       }
