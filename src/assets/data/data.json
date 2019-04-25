@@ -3,105 +3,109 @@
     "label": "Курс доллара (UAH за 1 USD)",
     "invertArrow": false,
     "initialData": {
-      "date": "01.06.2019",
-      "currency": "UAH",
-      "value": "27,10"
+      "date": "24.04.2019",
+      "measure": "UAH",
+      "value": "26,60"
     },
     "currentData": {
-      "date": "01.07.2019",
-      "currency": "UAH",
-      "value": "27,20"
+      "date": "01.05.2019",
+      "measure": "UAH",
+      "value": "0"
     }
   }, {
-    "label": "Курс доллара (UAH за 1 USD)",
+    "label": "Газ для населення (за 1 куб. м.)",
     "invertArrow": false,
     "initialData": {
-      "date": "01.06.2019",
-      "currency": "UAH",
-      "value": "25,10"
+      "date": "24.04.2019",
+      "measure": "UAH",
+      "value": "8,54"
     },
     "currentData": {
-      "date": "01.07.2019",
-      "currency": "UAH",
-      "value": "24,20"
+      "date": "01.05.2019",
+      "measure": "UAH",
+      "value": "0"
     }
   }, {
-    "label": "Курс доллара (UAH за 1 USD)",
+    "label": "А-95 (вартість за 1 літр)",
     "invertArrow": false,
     "initialData": {
-      "date": "01.06.2019",
-      "currency": "UAH",
-      "value": "27,10"
+      "date": "21.04.2019",
+      "measure": "UAH",
+      "value": "29,29"
     },
     "currentData": {
-      "date": "01.07.2019",
-      "currency": "UAH",
-      "value": "24,20"
+      "date": "01.05.2019",
+      "measure": "UAH",
+      "value": "0"
     }
   }, {
-    "label": "Курс доллара (UAH за 1 USD)",
+    "label": "Зовнішній борг",
     "invertArrow": false,
     "initialData": {
-      "date": "01.06.2019",
-      "currency": "UAH",
-      "value": "27,10"
+      "date": "21.04.2019",
+      "measure": "USD",
+      "quantity": "млрд",
+      "value": "50,07"
     },
     "currentData": {
-      "date": "01.07.2019",
-      "currency": "UAH",
-      "value": "27,20"
+      "date": "01.05.2019",
+      "measure": "USD",
+      "quantity": "млрд",
+      "value": "0"
     }
   }, {
-    "label": "Курс доллара (UAH за 1 USD)",
-    "invertArrow": false,
-    "initialData": {
-      "date": "01.06.2019",
-      "currency": "UAH",
-      "value": "26,10"
-    },
-    "currentData": {
-      "date": "01.07.2019",
-      "currency": "UAH",
-      "value": "27,20"
-    }
-  }, {
-    "label": "Курс доллара (UAH за 1 USD)",
+    "label": "Мінімальна пенсія",
     "invertArrow": true,
     "initialData": {
-      "date": "01.06.2019",
-      "currency": "UAH",
-      "value": "26,10"
+      "date": "21.04.2019",
+      "measure": "UAH",
+      "value": "1 669,20"
     },
     "currentData": {
-      "date": "01.07.2019",
-      "currency": "UAH",
-      "value": "27,20"
+      "date": "01.05.2019",
+      "measure": "UAH",
+      "value": "0"
     }
   }, {
-    "label": "Курс доллара (UAH за 1 USD)",
-    "invertArrow": false,
-    "initialData": {
-      "date": "01.06.2019",
-      "currency": "UAH",
-      "value": "27,10"
-    },
-    "currentData": {
-      "date": "01.07.2019",
-      "currency": "UAH",
-      "value": "26,20"
-    }
-  }, {
-    "label": "Курс доллара (UAH за 1 USD)",
+    "label": "Мінімальна заробітна плата",
     "invertArrow": true,
     "initialData": {
-      "date": "01.06.2019",
-      "currency": "UAH",
-      "value": "27,10"
+      "date": "21.04.2019",
+      "measure": "UAH",
+      "value": "4 173,00"
     },
     "currentData": {
-      "date": "01.07.2019",
-      "currency": "UAH",
-      "value": "26,20"
+      "date": "01.05.2019",
+      "measure": "UAH",
+      "value": "0"
+    }
+  }, {
+    "label": "Золотовалютний резерв",
+    "invertArrow": true,
+    "initialData": {
+      "date": "21.04.20199",
+      "measure": "USD",
+      "quantity": "млрд",
+      "value": "20,22"
+    },
+    "currentData": {
+      "date": "01.05.2019",
+      "measure": "USD",
+      "quantity": "млрд",
+      "value": "0"
+    }
+  }, {
+    "label": "Індекс інфляції",
+    "invertArrow": false,
+    "initialData": {
+      "date": "21.04.2019",
+      "measure": "%",
+      "value": "100,9"
+    },
+    "currentData": {
+      "date": "01.05.2019",
+      "measure": "%",
+      "value": "0"
     }
   }],
   "promiseData": [{
@@ -133,12 +137,15 @@
     "completed": false
   }, {
     "description": "Заробітна плата вчителям $ 4,000.",
-    "completed": true
+    "completed": false
   }, {
     "description": "Не йти на компроміси в питаннях про приналежність Україні Криму та окупованих територій Донецької і Луганської областей.",
     "completed": false
   }, {
-    "description": "Перезапустити реформу судів та силових структур, а також нтикорупційної інфраструктури, створити Службу фінансових розслідувань.",
+    "description": "Перезапустити реформу судів та силових структур, а також антикорупційної інфраструктури, створити Службу фінансових розслідувань.",
+    "completed": false
+  }, {
+    "description": "Переїхати з Банкової в Open Space.",
     "completed": false
   }, {
     "description": "Прийняття пакету законопроектів про народовладдя.",

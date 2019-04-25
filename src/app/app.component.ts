@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { ChartData, Currency } from './models/chart-data.model';
+import { ChartData } from './models/chart-data.model';
 import { PromiseData } from './models/promise-data.model';
 import { DataService } from './services/data.service';
 

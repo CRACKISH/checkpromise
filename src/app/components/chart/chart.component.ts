@@ -13,11 +13,11 @@ export class ChartComponent {
   public data: ChartData = new ChartData();
 
   public getInitialDataValue(): string {
-    return this.data.initialData.value + ' ' + this.data.initialData.currency;
+    return this.data.initialData.value + ' ' + this.data.initialData.measure;
   }
 
   public getCurrentDataValue(): string {
-    return this.data.currentData.value + ' ' + this.data.currentData.currency;
+    return this.data.currentData.value + ' ' + this.data.currentData.measure;
   }
 
   public getArrowClass(): string {
@@ -28,7 +28,7 @@ export class ChartComponent {
     if (currentDataValue > initialDataValue) {
       arrowClass = invert ? 'green-arrow-up-positive' : 'red-arrow-up-negative';
     } else if (currentDataValue < initialDataValue) {
-      arrowClass = invert ? 'red-arrow-down-negativeç' : 'green-arrow-down-positive';
+      arrowClass = invert ? 'red-arrow-down-negative' : 'green-arrow-down-positive';
     }
     return arrowClass;
   }
