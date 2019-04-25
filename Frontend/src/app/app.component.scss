@@ -8,34 +8,21 @@
     padding-top: 64px;
 }
 
-.content-wrap {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-
 .charts-wrap {
     margin-bottom: 48px;
-    max-width: 940px;
 }
 
 .chart-line-wrap {
     display: flex;
-    padding: 48px 0px;
+    padding: 48px;
 
     & > * {
-        width: 380px;
-
-        &:first-child {
-          margin-right: 180px;
-        }
+        width: 50%;
     }
 }
 
 .promises-wrap {
     margin-bottom: 60px;
-    max-width: 940px;
 }
 
 .promises-header {
@@ -48,10 +35,13 @@
 
 .promise-content {
   overflow: hidden;
+  padding: 0px 50px;
 
-    & > * {
+    & app-checkbox {
         margin-bottom: 32px;
-        width: 380px;
+        display: block;
+        float: left;
+        width: 50%;
     }
 }
 
@@ -77,10 +67,10 @@
 
     & > * {
       width: 100%;
+    }
 
-      &:first-child {
-        margin-bottom: 32px;
-      }
+    app-chart:first-child {
+      margin-bottom: 32px;
     }
   }
 }
