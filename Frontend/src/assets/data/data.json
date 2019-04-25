@@ -8,8 +8,8 @@
       "value": "26,83"
     },
     "currentData": {
-      "date": "01.05.2019",
-      "value": "0"
+      "date": "25.04.2019",
+      "value": "26,61"
     },
     "source": "https://bank.gov.ua/control/uk/curmetal/detail/currency?period=daily"
   }, {
@@ -21,8 +21,8 @@
       "value": "8,54"
     },
     "currentData": {
-      "date": "01.05.2019",
-      "value": "0"
+      "date": "25.04.2019",
+      "value": "8,54"
     },
     "source": "https://index.minfin.com.ua/ua/tariff/gas/"
   }, {
@@ -34,8 +34,8 @@
       "value": "29,29"
     },
     "currentData": {
-      "date": "01.05.2019",
-      "value": "0"
+      "date": "25.04.2019",
+      "value": "29,65"
     },
     "source": "https://index.minfin.com.ua/ua/markets/fuel/"
   }, {
@@ -48,9 +48,9 @@
       "value": "50,07"
     },
     "currentData": {
-      "date": "01.05.2019",
+      "date": "25.04.2019",
       "quantity": "млрд",
-      "value": "0"
+      "value": "50,07"
     },
     "source": "https://index.minfin.com.ua/ua/finance/debtgov/2019 "
   }, {
@@ -62,8 +62,8 @@
       "value": "1 669,20"
     },
     "currentData": {
-      "date": "01.05.2019",
-      "value": "0"
+      "date": "25.04.2019",
+      "value": "1 669,20"
     },
     "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html"
   }, {
@@ -75,8 +75,8 @@
       "value": "4 173,00"
     },
     "currentData": {
-      "date": "01.05.2019",
-      "value": "0"
+      "date": "25.04.2019",
+      "value": "4 173,00"
     },
     "source": "https://index.minfin.com.ua/ua/labour/salary/min/"
   }, {
@@ -89,9 +89,9 @@
       "value": "20,22"
     },
     "currentData": {
-      "date": "01.05.2019",
+      "date": "25.04.2019",
       "quantity": "млрд",
-      "value": "0"
+      "value": "20,22"
     },
     "source": "https://index.minfin.com.ua/ua/finance/assets/"
   }, {
@@ -103,8 +103,8 @@
       "value": "100,9"
     },
     "currentData": {
-      "date": "01.05.2019",
-      "value": "0"
+      "date": "25.04.2019",
+      "value": "100,9"
     },
     "source": "https://index.minfin.com.ua/ua/economy/index/inflation/"
   }],

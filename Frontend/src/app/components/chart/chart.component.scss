@@ -1,3 +1,9 @@
+@mixin icon {
+  width: 24px;
+  height: 30px;
+  margin-right: 16px;
+}
+
 .chart-wrap {
     min-height: 100px;
 
@@ -30,6 +36,10 @@
 
         .right-content {
           width: auto;
+          
+          .value {
+            width: -webkit-max-content;
+          }
         }
 
         .date {
@@ -59,25 +69,26 @@
     }
 
     .icon {
-      width: 24px;
-      height: 30px;
       background-repeat: no-repeat;
       display: inline-block;
-      margin-right: 16px;
 
       &.red-arrow-up-negative {
+        @include icon();
         background: url("./images/red-arrow-up-negative.svg");
       }
 
       &.red-arrow-down-negative {
+        @include icon();
         background: url("./images/red-arrow-down-negative.svg");
       }
 
       &.green-arrow-up-positive {
+        @include icon();
         background: url("./images/green-arrow-up-positive.svg");
       }
 
       &.green-arrow-down-positive {
+        @include icon();
         background: url("./images/green-arrow-down-positive.svg");
       }
     }
