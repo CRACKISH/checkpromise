@@ -69,26 +69,30 @@
       height: 30px;
       margin-right: 16px;
 
-      &.grey-arrow {
-        width: 30px;
-        height: 24px;
-        background: url("./images/grey-arrow.svg");
+      &.still-icon {
+        height: 16px;
+        background: url("./images/still-icon.svg");
+        background-repeat: no-repeat;
       }
 
       &.red-arrow-up-negative {
         background: url("./images/red-arrow-up-negative.svg");
+        background-repeat: no-repeat;
       }
 
       &.red-arrow-down-negative {
         background: url("./images/red-arrow-down-negative.svg");
+        background-repeat: no-repeat;
       }
 
       &.green-arrow-up-positive {
         background: url("./images/green-arrow-up-positive.svg");
+        background-repeat: no-repeat;
       }
 
       &.green-arrow-down-positive {
         background: url("./images/green-arrow-down-positive.svg");
+        background-repeat: no-repeat;
       }
     }
 }
