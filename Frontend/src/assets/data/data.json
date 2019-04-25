@@ -1,11 +1,11 @@
 {
   "chartData": [{
-    "label": "Курс доллара (UAH за 1 USD)",
+    "label": "Курс долара (UAH за 1 USD)",
     "invertArrow": false,
     "initialData": {
-      "date": "24.04.2019",
+      "date": "21.04.2019",
       "measure": "UAH",
-      "value": "26,60"
+      "value": "26,83"
     },
     "currentData": {
       "date": "01.05.2019",
@@ -16,7 +16,7 @@
     "label": "Газ для населення (за 1 куб. м.)",
     "invertArrow": false,
     "initialData": {
-      "date": "24.04.2019",
+      "date": "21.04.2019",
       "measure": "UAH",
       "value": "8,54"
     },
