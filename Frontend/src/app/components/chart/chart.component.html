@@ -1,7 +1,7 @@
 <div class="chart-wrap">
     <div class="header">
       <span class="icon" [ngClass]="getArrowClass()"></span>
-      <span>{{data.label}}</span>
+      <span class="header-label">{{data.label}}</span>
     </div>
     <div class="content">
       <div class="left-content">
@@ -15,4 +15,5 @@
           <div class="quantity">{{data.currentData.quantity}}</div>
       </div>
     </div>
+    <div class="source"><a href="{{data.source}}" target="_blank">Джерело</a></div>
 </div>

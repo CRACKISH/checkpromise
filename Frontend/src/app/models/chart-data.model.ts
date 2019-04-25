@@ -6,7 +6,6 @@ export enum Measure {
 
 export class ChartDataValue {
     public date: string;
-    public measure: Measure = Measure.UAH;
     public value: number;
     public quantity: string;
 }
@@ -14,6 +13,8 @@ export class ChartDataValue {
 export class ChartData {
     public label: string;
     public invertArrow = false;
+    public measure: Measure = Measure.UAH;
     public initialData: ChartDataValue;
     public currentData: ChartDataValue;
+    public source: string;
 }

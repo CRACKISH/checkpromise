@@ -13,11 +13,11 @@ export class ChartComponent {
   public data: ChartData = new ChartData();
 
   public getInitialDataValue(): string {
-    return this.data.initialData.value + ' ' + this.data.initialData.measure;
+    return this.data.initialData.value + ' ' + this.data.measure;
   }
 
   public getCurrentDataValue(): string {
-    return this.data.currentData.value + ' ' + this.data.currentData.measure;
+    return this.data.currentData.value + ' ' + this.data.measure;
   }
 
   public getArrowClass(): string {

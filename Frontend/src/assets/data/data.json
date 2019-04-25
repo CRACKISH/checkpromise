@@ -1,112 +1,112 @@
 {
   "chartData": [{
-    "label": "Курс долара (UAH за 1 USD)",
+    "label": "Курс долара (₴ за 1 $)",
     "invertArrow": false,
+    "measure": "₴",
     "initialData": {
       "date": "21.04.2019",
-      "measure": "UAH",
       "value": "26,83"
     },
     "currentData": {
       "date": "01.05.2019",
-      "measure": "UAH",
       "value": "0"
-    }
+    },
+    "source": "https://bank.gov.ua/control/uk/curmetal/detail/currency?period=daily"
   }, {
     "label": "Газ для населення (за 1 куб. м.)",
     "invertArrow": false,
+    "measure": "₴",
     "initialData": {
       "date": "21.04.2019",
-      "measure": "UAH",
       "value": "8,54"
     },
     "currentData": {
       "date": "01.05.2019",
-      "measure": "UAH",
       "value": "0"
-    }
+    },
+    "source": "https://index.minfin.com.ua/ua/tariff/gas/"
   }, {
     "label": "А-95 (вартість за 1 літр)",
     "invertArrow": false,
+    "measure": "₴",
     "initialData": {
       "date": "21.04.2019",
-      "measure": "UAH",
       "value": "29,29"
     },
     "currentData": {
       "date": "01.05.2019",
-      "measure": "UAH",
       "value": "0"
-    }
+    },
+    "source": "https://index.minfin.com.ua/ua/markets/fuel/"
   }, {
     "label": "Зовнішній борг",
     "invertArrow": false,
+    "measure": "$",
     "initialData": {
       "date": "21.04.2019",
-      "measure": "USD",
       "quantity": "млрд",
       "value": "50,07"
     },
     "currentData": {
       "date": "01.05.2019",
-      "measure": "USD",
       "quantity": "млрд",
       "value": "0"
-    }
+    },
+    "source": "https://index.minfin.com.ua/ua/finance/debtgov/2019 "
   }, {
     "label": "Мінімальна пенсія",
     "invertArrow": true,
+    "measure": "₴",
     "initialData": {
       "date": "21.04.2019",
-      "measure": "UAH",
       "value": "1 669,20"
     },
     "currentData": {
       "date": "01.05.2019",
-      "measure": "UAH",
       "value": "0"
-    }
+    },
+    "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html"
   }, {
     "label": "Мінімальна заробітна плата",
     "invertArrow": true,
+    "measure": "₴",
     "initialData": {
       "date": "21.04.2019",
-      "measure": "UAH",
       "value": "4 173,00"
     },
     "currentData": {
       "date": "01.05.2019",
-      "measure": "UAH",
       "value": "0"
-    }
+    },
+    "source": "https://index.minfin.com.ua/ua/labour/salary/min/"
   }, {
     "label": "Золотовалютний резерв",
     "invertArrow": true,
+    "measure": "$",
     "initialData": {
       "date": "21.04.20199",
-      "measure": "USD",
       "quantity": "млрд",
       "value": "20,22"
     },
     "currentData": {
       "date": "01.05.2019",
-      "measure": "USD",
       "quantity": "млрд",
       "value": "0"
-    }
+    },
+    "source": "https://index.minfin.com.ua/ua/finance/assets/"
   }, {
     "label": "Індекс інфляції",
     "invertArrow": false,
+    "measure": "%",
     "initialData": {
       "date": "21.04.2019",
-      "measure": "%",
       "value": "100,9"
     },
     "currentData": {
       "date": "01.05.2019",
-      "measure": "%",
       "value": "0"
-    }
+    },
+    "source": "https://index.minfin.com.ua/ua/economy/index/inflation/"
   }],
   "promiseData": [{
     "description": "Знизити вартість комунальних послуг.",

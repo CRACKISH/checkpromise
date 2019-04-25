@@ -4,44 +4,60 @@
     text-align: center;
     font-size: 24px;
     line-height: 36px;
-    color: #333333;
     padding-top: 64px;
+}
+
+.content-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .charts-wrap {
     margin-bottom: 48px;
-}
+    width: 940px;
 
-.chart-line-wrap {
-    display: flex;
-    padding: 48px;
+    .chart-line-wrap {
+      display: flex;
+      padding: 48px 0px;
+  
+      & > * {
+        width: 380px;
+        min-width: 320px;
 
-    & > * {
-        width: 50%;
+        &:first-child {
+          margin-right: 180px;
+        }
+      }
     }
 }
 
 .promises-wrap {
     margin-bottom: 60px;
-}
+    width: 940px;
 
-.promises-header {
-    text-align: center;
-    font-size: 24px;
-    line-height: 36px;
-    color: #333333;
-    margin-bottom: 40px;
-}
+    .promises-header {
+      text-align: center;
+      font-size: 24px;
+      line-height: 36px;
+      margin-bottom: 40px;
+    }
 
-.promise-content {
-  overflow: hidden;
-  padding: 0px 50px;
+    .promise-content {
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 560px 380px;
 
-    & app-checkbox {
+      & > * {
+        width: 380px;
+        min-width: 320px;
         margin-bottom: 32px;
-        display: block;
-        float: left;
-        width: 50%;
+
+        &:nth-child(odd) {
+          margin-right: 180px;
+        }
+      }
     }
 }
 
@@ -59,26 +75,67 @@
     }
 }
 
-@media screen and (max-width: 600px) {
-  .chart-line-wrap {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+@media screen and (max-width: 940px) {
+  .charts-wrap {
+    width: 380px;
 
-    & > * {
-      width: 100%;
+    .chart-line-wrap {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      & > * {
+        &:first-child {
+          margin-bottom: 32px;
+          margin-right: 0px;
+        }
+      }
     }
+  }
 
-    app-chart:first-child {
-      margin-bottom: 32px;
+  .promises-wrap {
+    width: 380px;
+
+    .promise-content {
+      grid-template-columns: 380px;
+
+      & > * {
+        &:nth-child(odd) {
+          margin-right: 0px;
+        }
+      }
     }
   }
 }
 
-@media screen and (max-width: 900px) {
-  .promise-content {
-    & app-checkbox {
-      width: 100%;
+@media screen and (max-width: 380px) {
+  .charts-wrap {
+    max-width: 320px;
+
+    .chart-line-wrap {
+      & > * {
+        width: 320px;
+
+        &:first-child {
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+
+  .promises-wrap {
+    max-width: 320px;
+
+    .promise-content {
+      grid-template-columns: 320px;
+
+      & > * {
+        width: 320px;
+
+        &:nth-child(odd) {
+          margin-right: 0px;
+        }
+      }
     }
   }
 }
