@@ -8,8 +8,8 @@
       "value": "26,83"
     },
     "currentData": {
-      "date": "25.04.2019",
-      "value": "26,61"
+      "date": "26.04.2019",
+      "value": "26,49"
     },
     "source": "https://bank.gov.ua/control/uk/curmetal/detail/currency?period=daily"
   }, {
@@ -21,7 +21,7 @@
       "value": "8,54"
     },
     "currentData": {
-      "date": "25.04.2019",
+      "date": "26.04.2019",
       "value": "8,54"
     },
     "source": "https://index.minfin.com.ua/ua/tariff/gas/"
@@ -34,8 +34,8 @@
       "value": "29,29"
     },
     "currentData": {
-      "date": "25.04.2019",
-      "value": "29,65"
+      "date": "26.04.2019",
+      "value": "29,80"
     },
     "source": "https://index.minfin.com.ua/ua/markets/fuel/"
   }, {
@@ -48,7 +48,7 @@
       "value": "50,07"
     },
     "currentData": {
-      "date": "25.04.2019",
+      "date": "26.04.2019",
       "quantity": "млрд",
       "value": "50,07"
     },
@@ -57,26 +57,32 @@
     "label": "Мінімальна пенсія",
     "invertArrow": true,
     "measure": "₴",
+    "measure2": "$",
     "initialData": {
       "date": "21.04.2019",
-      "value": "1 497"
+      "value": "1 497",
+      "value2": "55,80"
     },
     "currentData": {
-      "date": "25.04.2019",
-      "value": "1 497"
+      "date": "26.04.2019",
+      "value": "1 497",
+      "value2": "56,51"
     },
     "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html"
   }, {
     "label": "Мінімальна заробітна плата",
     "invertArrow": true,
     "measure": "₴",
+    "measure2": "$",
     "initialData": {
       "date": "21.04.2019",
-      "value": "4 173,00"
+      "value": "4 173,00",
+      "value2": "155,53"
     },
     "currentData": {
-      "date": "25.04.2019",
-      "value": "4 173,00"
+      "date": "26.04.2019",
+      "value": "4 173,00",
+      "value2": "157,53"
     },
     "source": "https://index.minfin.com.ua/ua/labour/salary/min/"
   }, {
@@ -89,7 +95,7 @@
       "value": "20,22"
     },
     "currentData": {
-      "date": "25.04.2019",
+      "date": "26.04.2019",
       "quantity": "млрд",
       "value": "20,22"
     },
@@ -103,7 +109,7 @@
       "value": "100,9"
     },
     "currentData": {
-      "date": "25.04.2019",
+      "date": "26.04.2019",
       "value": "100,9"
     },
     "source": "https://index.minfin.com.ua/ua/economy/index/inflation/"
@@ -119,9 +125,6 @@
     "completed": false
   }, {
     "description": "Кардинально переглянути привілеї президента (продати державні літаки, виїхати з Адміністрації президента на Банковій, відмовитися від кортежів та перекривання доріг).",
-    "completed": false
-  }, {
-    "description": "Перезапустити реформу судів та силових структур, а також антикорупційної інфраструктури, створити Службу фінансових розслідувань.",
     "completed": false
   }, {
     "description": "Перезапустити реформу судів та силових структур, а також антикорупційної інфраструктури, створити Службу фінансових розслідувань.",
