@@ -48,6 +48,9 @@ export class ChartComponent {
   }
 
   public onValueClick() {
+    if (!this.data.measure2) {
+      return;
+    }
     this.invertValue = !this.invertValue;
   }
 
