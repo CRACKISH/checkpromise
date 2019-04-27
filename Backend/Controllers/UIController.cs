@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Checkpromise.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("GetData")]
     [ApiController]
     public class UIController : ControllerBase
     {

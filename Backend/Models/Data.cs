@@ -2,6 +2,8 @@
 {
     public class Data
     {
-        public PromiseData[] promiseData;
+        public ChartData[] ChartData;
+
+        public PromiseData[] PromiseData;
     }
 }
