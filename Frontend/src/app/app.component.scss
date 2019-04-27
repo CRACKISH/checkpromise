@@ -78,12 +78,16 @@
     background-color: #000000;
     text-align: center;
     font-size: 14px;
-    line-height: 120px;
     color: #ffffff;
 
-    & > label {
-      vertical-align: middle;
+    .footer-text {
       display: inline-block;
+
+      .mailto {
+        color: #0078b4;
+        text-decoration: none;
+        font-weight: bold;
+      }
     }
 }
 

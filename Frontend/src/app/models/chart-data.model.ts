@@ -15,6 +15,7 @@ export class ChartData {
     public label: string;
     public invertArrow = false;
     public measure: Measure;
+    public measure2: Measure;
     public initialData: ChartDataValue;
     public currentData: ChartDataValue;
     public source: string;
