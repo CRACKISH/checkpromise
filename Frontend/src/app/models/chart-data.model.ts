@@ -14,8 +14,7 @@ export class ChartDataValue {
 export class ChartData {
     public label: string;
     public invertArrow = false;
-    public measure: Measure = Measure.UAH;
-    public measure2: Measure = Measure.USD;
+    public measure: Measure;
     public initialData: ChartDataValue;
     public currentData: ChartDataValue;
     public source: string;
