@@ -1,8 +1,10 @@
 ﻿using Checkpromise.Models;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Checkpromise.Controllers
 {
+    [EnableCors]
     [Route("GetData")]
     [ApiController]
     public class UIController : ControllerBase
