@@ -4,7 +4,6 @@ using Checkpromise.Persistence;
 
 namespace Checkpromise.Promises
 {
-    public interface IPromiseRepository : IRepository<Promise> { }
 
     public class PromiseRepository : IPromiseRepository
     {
