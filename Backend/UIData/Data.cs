@@ -1,4 +1,4 @@
-﻿namespace Checkpromise.Models
+﻿namespace Checkpromise.UIData
 {
     public class Data
     {

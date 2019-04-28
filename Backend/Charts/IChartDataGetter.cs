@@ -1,4 +1,4 @@
-﻿using Checkpromise.Models;
+﻿using Checkpromise.UIData;
 
 namespace Checkpromise.Charts
 {

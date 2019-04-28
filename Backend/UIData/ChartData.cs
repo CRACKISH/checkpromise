@@ -1,5 +1,6 @@
-﻿using System;
-namespace Checkpromise.Models
+﻿using Checkpromise.Models;
+
+namespace Checkpromise.UIData
 {
     public enum Measure
     {
@@ -19,7 +20,7 @@ namespace Checkpromise.Models
         public string Quantity;
     }
 
-    public class ChartData
+   public class ChartData
     {
         public string Label;
 
@@ -38,6 +39,11 @@ namespace Checkpromise.Models
         public ChartData()
         {
             Measure = Measure.UAH;
+        }
+
+        public ChartData(Chart chart)
+        {
+            Source = chart.Source;
         }
     }
 }
