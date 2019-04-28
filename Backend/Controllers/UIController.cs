@@ -1,4 +1,6 @@
-﻿using Checkpromise.Models;
+﻿using Checkpromise.Charts;
+using Checkpromise.Models;
+using Checkpromise.Promises;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,10 +11,15 @@ namespace Checkpromise.Controllers
     [ApiController]
     public class UIController : ControllerBase
     {
-       [HttpGet]
+       [HttpPost]
         public ActionResult<Data> GetData()
         {
-            return new Data();
+            var chartManager = new ChartManager();
+            var promiseManager = new PromiseManager();
+            return new Data() {
+                ChartData = chartManager.GetAll(),
+                PromiseData = promiseManager.GetAll()
+            };
         }
     }
 }
