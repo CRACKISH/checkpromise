@@ -16,26 +16,32 @@
     "label": "Газ для громадян (1 куб.м.)",
     "invertArrow": false,
     "measure": "₴",
+    "measure2": "$",
     "initialData": {
       "date": "21.04.2019",
-      "value": "8,54"
+      "value": "8,54",
+      "value2": "0,318"
     },
     "currentData": {
       "date": "26.04.2019",
-      "value": "8,54"
+      "value": "8,54",
+      "value2": "0,322"
     },
     "source": "https://index.minfin.com.ua/ua/tariff/gas/"
   }, {
     "label": "А-95 (1 л.)",
     "invertArrow": false,
     "measure": "₴",
+    "measure2": "$",
     "initialData": {
       "date": "21.04.2019",
-      "value": "29,29"
+      "value": "29,29",
+      "value2": "1,092"
     },
     "currentData": {
       "date": "26.04.2019",
-      "value": "29,80"
+      "value": "29,80",
+      "value2": "1,125"
     },
     "source": "https://index.minfin.com.ua/ua/markets/fuel/"
   }, {

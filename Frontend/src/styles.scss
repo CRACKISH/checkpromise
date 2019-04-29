@@ -7,4 +7,44 @@ body {
     min-width: 320px;
     margin: 0;
     color: #333333;
+    
+    .mat-slide-toggle {
+
+        &.cdk-focused {
+            .mat-slide-toggle-bar {
+                .mat-slide-toggle-persistent-ripple {
+                    background-color: #000;
+                    opacity: 0;
+                }
+            }
+        }
+
+        &.mat-checked {
+            .mat-slide-toggle-bar {
+                background-color: #9060eb;
+
+                .mat-slide-toggle-thumb {
+                    background-color: #fafafa;
+                }
+
+                .mat-ripple-element {
+                    background-color: #000;
+                    opacity: 0;
+                }
+            }
+        }
+
+        .mat-slide-toggle-bar {
+            background-color: #00b259;
+            
+            .mat-slide-toggle-thumb {
+                background-color: #fafafa;
+            }
+
+            .mat-ripple-element {
+                background-color: #000;
+                opacity: 0;
+            }
+        }
+    }
 }

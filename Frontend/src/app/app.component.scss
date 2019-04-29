@@ -5,6 +5,24 @@
     font-size: 24px;
     line-height: 36px;
     padding-top: 64px;
+
+    .header-currency-switcher {
+      margin-top: 24px;
+
+      & > span {
+        margin-right: 8px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .header-label {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
 }
 
 .content-wrap {

@@ -12,14 +12,15 @@ export class ChartComponent {
   @Input()
   public data: ChartData = new ChartData();
 
+  @Input()
   public invertValue = false;
 
   protected getDataValue(data: ChartDataValue): number {
-    return this.invertValue ? data.value2 : data.value;
+    return this.invertValue && this.data.measure2 ? data.value2 : data.value;
   }
 
   protected getChartMeasure(): string {
-    return this.invertValue ? this.data.measure2 : this.data.measure;
+    return this.invertValue && this.data.measure2 ? this.data.measure2 : this.data.measure;
   }
 
   public getInitialDataValue(): string {
@@ -41,17 +42,6 @@ export class ChartComponent {
       arrowClass = invert ? 'red-arrow-down-negative' : 'green-arrow-down-positive';
     }
     return arrowClass;
-  }
-
-  public getValueClass(): string {
-    return this.data.measure2 ? 'clickable' : '';
-  }
-
-  public onValueClick() {
-    if (!this.data.measure2) {
-      return;
-    }
-    this.invertValue = !this.invertValue;
   }
 
 }

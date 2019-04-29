@@ -1,14 +1,19 @@
 <div class="page-wrap">
   <div class="header-wrap">
-    <label>Стежимо за успіхами влади</label>
-    <label>З любов'ю до України ❤️</label>
+    <div class="header-label">
+      <label>Стежимо за успіхами влади</label>
+      <label>З любов'ю до України ❤️</label>
+    </div>
+    <div class="header-currency-switcher">
+        <span (click)="onChangeCurrency(null)">₴</span><mat-slide-toggle [disableRipple]="true" [(checked)]="isUSDChecked" (change)="onChangeCurrency($event)">$</mat-slide-toggle>
+    </div>
   </div>
   <div class="content-wrap">
     <div class="charts-wrap">
         <ng-container *ngFor="let chart of chartData; let i = index; let even = even;">
           <div class="chart-line-wrap" *ngIf="even">
-            <app-chart [data]="chartData[i]"></app-chart>
-            <app-chart [data]="chartData[i + 1]"></app-chart>
+            <app-chart [data]="chartData[i]" [invertValue]="isUSDChecked"></app-chart>
+            <app-chart [data]="chartData[i + 1]" [invertValue]="isUSDChecked"></app-chart>
           </div>
           <mat-divider *ngIf="even"></mat-divider>
         </ng-container>

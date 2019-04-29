@@ -6,12 +6,12 @@
     <div class="content">
       <div class="left-content">
           <div class="date">{{data.initialData.date}}</div>
-          <div class="value" [ngClass]="getValueClass()" (click)="onValueClick()">{{getInitialDataValue()}}</div>
+          <div class="value">{{getInitialDataValue()}}</div>
           <div class="quantity">{{data.initialData.quantity}}</div>
       </div>
       <div class="right-content">
           <div class="date">{{data.currentData.date}}</div>
-          <div class="value" [ngClass]="getValueClass()" (click)="onValueClick()">{{getCurrentDataValue()}}</div>
+          <div class="value">{{getCurrentDataValue()}}</div>
           <div class="quantity">{{data.currentData.quantity}}</div>
       </div>
     </div>
