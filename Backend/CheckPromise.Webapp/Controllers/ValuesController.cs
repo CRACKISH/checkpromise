@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CheckPromise.Data.DataContext;
+using CheckPromise.Data.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CheckPromise.Webapp.Controllers
@@ -10,11 +12,17 @@ namespace CheckPromise.Webapp.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        public CheckPromiseContext Context { get; set; }
+        public ValuesController(CheckPromiseContext context)
+        {
+            Context = context;
+        }
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<IEnumerable<Promise>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return Context.Promises.ToList();
+            
         }
 
         // GET api/values/5

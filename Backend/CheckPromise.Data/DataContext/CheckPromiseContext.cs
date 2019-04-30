@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CheckPromise.Data.DataContext
 {
-    public class DataContext : DbContext
+    public class CheckPromiseContext : DbContext
     {
-        public DataContext(DbContextOptions<DataContext> options)
+        public CheckPromiseContext(DbContextOptions<CheckPromiseContext> options)
             : base(options)
         { }
 

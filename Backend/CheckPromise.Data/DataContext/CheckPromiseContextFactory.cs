@@ -8,36 +8,36 @@ using Newtonsoft.Json;
 
 namespace CheckPromise.Data.DataContext
 {
-    class DataContextFactory : IDesignTimeDbContextFactory<DataContext>
+    class CheckPromiseContextFactory : IDesignTimeDbContextFactory<CheckPromiseContext>
     {
         private static string _connectionString;
         [JsonProperty("DefaultConnection")]
         public string DefaultConnection { get; set; }
 
-        public DataContext CreateDbContext()
+        public CheckPromiseContext CreateDbContext()
         {
             return CreateDbContext(null);
         }
 
-        public DataContext CreateDbContext(string[] args)
+        public CheckPromiseContext CreateDbContext(string[] args)
         {
             if (string.IsNullOrEmpty(_connectionString))
             {
                 LoadConnectionString();
             }
 
-            var builder = new DbContextOptionsBuilder<DataContext>();
+            var builder = new DbContextOptionsBuilder<CheckPromiseContext>();
             builder.UseSqlServer(_connectionString);
 
-            return new DataContext(builder.Options);
+            return new CheckPromiseContext(builder.Options);
         }
 
-        public DataContext CreateDbContextFromConnectionString(string connectionString)
+        public CheckPromiseContext CreateDbContextFromConnectionString(string connectionString)
         {
-            var builder = new DbContextOptionsBuilder<DataContext>();
+            var builder = new DbContextOptionsBuilder<CheckPromiseContext>();
             builder.UseSqlServer(connectionString);
 
-            return new DataContext(builder.Options);
+            return new CheckPromiseContext(builder.Options);
         }
 
         private static void LoadConnectionString()
