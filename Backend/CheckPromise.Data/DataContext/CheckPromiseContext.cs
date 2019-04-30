@@ -10,5 +10,15 @@ namespace CheckPromise.Data.DataContext
         { }
 
         public DbSet<Promise> Promises { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Promise>()
+                .Property(p => p.Id)
+                .HasDefaultValueSql("newid()");
+            modelBuilder.Entity<Promise>()
+                .Property(p => p.IsCompleted)
+                .HasDefaultValue(false);
+        }
     }
 }
