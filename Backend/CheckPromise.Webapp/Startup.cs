@@ -2,20 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Checkpromise.Charts;
-using Checkpromise.Persistence;
-using Checkpromise.Promises;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace Checkpromise
+namespace CheckPromise.Webapp
 {
     public class Startup
     {
@@ -26,21 +22,15 @@ namespace Checkpromise
 
         public IConfiguration Configuration { get; }
 
+        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddHealthChecks();
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlite("Filename=data.db"));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-
-            services.AddScoped<IChartRepository, ChartRepository>();
-            services.AddScoped<IPromiseRepository, PromiseRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            app.UseHealthChecks("/health");
-
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -53,7 +43,6 @@ namespace Checkpromise
 
             app.UseHttpsRedirection();
             app.UseMvc();
-            SeedData.EnsurePopulated(app);
         }
     }
 }

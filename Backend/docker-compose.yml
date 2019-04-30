@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  checkpromise:
-    image: ${DOCKER_REGISTRY-}checkpromise
-    build:
-      context: .
-      dockerfile: ./Dockerfile

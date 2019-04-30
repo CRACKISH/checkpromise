@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace Checkpromise
+namespace CheckPromise.Webapp
 {
     public class Program
     {
@@ -19,7 +19,6 @@ namespace Checkpromise
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>()
-                .UseDefaultServiceProvider(options => options.ValidateScopes = false);
+                .UseStartup<Startup>();
     }
 }
