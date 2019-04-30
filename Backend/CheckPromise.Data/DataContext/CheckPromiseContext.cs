@@ -16,7 +16,9 @@ namespace CheckPromise.Data.DataContext
             modelBuilder.Entity<Promise>()
                 .Property(p => p.Id)
                 .HasDefaultValueSql("newid()");
-            modelBuilder.Entity<Promise>()
+			modelBuilder.Entity<Promise>()
+				.Property(p => p.Value).IsRequired();
+			modelBuilder.Entity<Promise>()
                 .Property(p => p.IsCompleted)
                 .HasDefaultValue(false);
         }
