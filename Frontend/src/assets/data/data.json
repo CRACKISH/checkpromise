@@ -8,12 +8,12 @@
       "value": "26,83"
     },
     "currentData": {
-      "date": "26.04.2019",
+      "date": "01.05.2019",
       "value": "26,49"
     },
     "source": "https://bank.gov.ua/control/uk/curmetal/detail/currency?period=daily"
   }, {
-    "label": "Газ для громадян (1 куб.м.)",
+    "label": "Газ для громадян (1 м³)",
     "invertArrow": false,
     "measure": "₴",
     "measure2": "$",
@@ -23,7 +23,7 @@
       "value2": "0,318"
     },
     "currentData": {
-      "date": "26.04.2019",
+      "date": "01.05.2019",
       "value": "8,54",
       "value2": "0,322"
     },
@@ -35,13 +35,29 @@
     "measure2": "$",
     "initialData": {
       "date": "21.04.2019",
-      "value": "29,29",
-      "value2": "1,092"
+      "value": "28,82",
+      "value2": "1,074"
     },
     "currentData": {
-      "date": "26.04.2019",
+      "date": "01.05.2019",
       "value": "29,80",
-      "value2": "1,125"
+      "value2": "1,124"
+    },
+    "source": "https://index.minfin.com.ua/ua/markets/fuel/"
+  }, {
+     "label": "Дизельне паливо (1 л.)",
+    "invertArrow": false,
+    "measure": "₴",
+    "measure2": "$",
+    "initialData": {
+      "date": "21.04.2019",
+      "value": "28,37",
+      "value2": "1,057"
+    },
+    "currentData": {
+      "date": "01.05.2019",
+      "value": "29,38",
+      "value2": "1,109"
     },
     "source": "https://index.minfin.com.ua/ua/markets/fuel/"
   }, {
@@ -54,11 +70,26 @@
       "value": "50,07"
     },
     "currentData": {
-      "date": "26.04.2019",
+      "date": "01.05.2019",
       "quantity": "млрд",
       "value": "50,07"
     },
-    "source": "https://index.minfin.com.ua/ua/finance/debtgov/2019 "
+    "source": "https://index.minfin.com.ua/ua/finance/debtgov/2019"
+  }, {
+    "label": "ВВП України",
+    "invertArrow": false,
+    "measure": "₴",
+    "initialData": {
+      "date": "2017",
+      "quantity": "млн",
+      "value": "29,82"
+    },
+    "currentData": {
+      "date": "2018",
+      "quantity": "млн",
+      "value": "35,58"
+    },
+    "source": "https://index.minfin.com.ua/ua/economy/gdp/"
   }, {
     "label": "Мінімальна пенсія",
     "invertArrow": true,
@@ -70,7 +101,7 @@
       "value2": "55,80"
     },
     "currentData": {
-      "date": "26.04.2019",
+      "date": "01.05.2019",
       "value": "1 497",
       "value2": "56,51"
     },
@@ -86,7 +117,7 @@
       "value2": "155,53"
     },
     "currentData": {
-      "date": "26.04.2019",
+      "date": "01.05.2019",
       "value": "4 173,00",
       "value2": "157,53"
     },
@@ -101,7 +132,7 @@
       "value": "20,22"
     },
     "currentData": {
-      "date": "26.04.2019",
+      "date": "01.05.2019",
       "quantity": "млрд",
       "value": "20,22"
     },
@@ -115,7 +146,7 @@
       "value": "100,9"
     },
     "currentData": {
-      "date": "26.04.2019",
+      "date": "01.05.2019",
       "value": "100,9"
     },
     "source": "https://index.minfin.com.ua/ua/economy/index/inflation/"
