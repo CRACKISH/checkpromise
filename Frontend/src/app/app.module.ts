@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { ChartComponent } from './components/chart/chart.component';
 import { CheckboxComponent } from './components/checkbox/checkbox.component';
 import { DonateDialogComponent } from './components/donate-dialog/donate-dialog.component';
+import { ChartInfoPageComponent } from './components/chart-info-page/chart-info-page.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { DonateDialogComponent } from './components/donate-dialog/donate-dialog.
     AppComponent,
     ChartComponent,
     CheckboxComponent,
-    DonateDialogComponent
+    DonateDialogComponent,
+    ChartInfoPageComponent
   ],
   entryComponents: [
     DonateDialogComponent
