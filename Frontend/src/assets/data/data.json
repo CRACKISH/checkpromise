@@ -77,12 +77,12 @@
     "source": "https://index.minfin.com.ua/ua/finance/debtgov/2019"
   }, {
     "label": "ВВП України",
-    "invertArrow": false,
+    "invertArrow": true,
     "measure": "₴",
     "initialData": {
-      "date": "2017",
+      "date": "2018",
       "quantity": "млн",
-      "value": "29,82"
+      "value": "35,58"
     },
     "currentData": {
       "date": "2018",

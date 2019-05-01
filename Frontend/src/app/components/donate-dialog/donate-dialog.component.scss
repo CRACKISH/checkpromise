@@ -1,6 +1,5 @@
 :host() {
     max-width: 600px;
-    min-width: 320px;
     max-height: 275px;
     display: block;
 }
@@ -36,5 +35,11 @@ div {
         &:hover {
             cursor: pointer;
         }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    :host() {
+        max-height: none;
     }
 }
