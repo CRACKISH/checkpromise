@@ -122,14 +122,44 @@
     color: #ffffff;
 
     .footer-text {
-      position: relative;
-      float: left;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      margin-top: 20px;
+      margin-bottom: 16px;
+      display: inline-block;
+      width: 100%;
 
       .mailto {
         @include link();
+      }
+    }
+
+    .footer-share {
+      height: 20px;
+      display: inline-block;
+      width: 100%;
+
+      .share-icon {
+        height: 20px;
+        width: 56px;
+        display: inline-block;
+        margin-right: 16px;
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        &:last-child {
+          margin-right: 0px;
+        }
+
+        &.twitter {
+          background: url("./images/tweet.svg");
+          background-repeat: no-repeat;
+        }
+
+        &.facebook {
+          background: url("./images/facebook.svg");
+          background-repeat: no-repeat;
+        }
       }
     }
 }
