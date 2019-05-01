@@ -1,0 +1,40 @@
+:host() {
+    max-width: 600px;
+    min-width: 320px;
+    max-height: 275px;
+    display: block;
+}
+
+div {
+    text-align: center;
+    line-height: 30px;
+    color: #333333;
+    font-size: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.close-button {
+    height: 16px;
+
+    .close-icon {
+        display: block;
+        float: right;
+        width: 16px;
+        height: 16px;
+        background: url("./images/close.svg");
+        background-repeat: no-repeat;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

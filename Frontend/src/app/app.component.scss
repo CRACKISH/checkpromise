@@ -1,13 +1,31 @@
+@mixin link() {
+  color: #0078b4;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .header-wrap {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
     font-size: 24px;
     line-height: 36px;
-    padding-top: 64px;
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+
+    .header-inner {
+      display: flex;
+      width: 940px;
+    }
+
+    .header-block {
+      width: 33.333%;
+    }
 
     .header-currency-switcher {
       margin-top: 24px;
+      float: left;
 
       & > span {
         margin-right: 8px;
@@ -22,6 +40,14 @@
       display: flex;
       flex-direction: column;
       text-align: center;
+    }
+
+    .header-help {
+      margin-top: 24px;
+      float: right;
+      & > label {
+        @include link();
+      }
     }
 }
 
@@ -62,14 +88,11 @@
       margin-bottom: 40px;
 
       .promises-source {
-        font-size: 14px;
         font-family: Roboto;
-        color: #0078b4;
         margin-top: 8px;
 
         & > a {
-          color: #0078b4;
-          text-decoration: none;
+          @include link()
         }
       }
     }
@@ -106,14 +129,38 @@
       transform: translate(-50%, -50%);
 
       .mailto {
-        color: #0078b4;
-        text-decoration: none;
-        font-weight: bold;
+        @include link();
       }
     }
 }
 
 @media screen and (max-width: 940px) {
+  .header-wrap {
+    .header-inner {
+      width: 380px;
+      flex-direction: column;
+      text-align: center;
+
+      .header-block {
+        width: 100%;
+
+        &.header-block-switcher {
+          order: 1;
+        }
+      }
+
+      .header-currency-switcher {
+        float: none;
+        margin-top: 0px;
+      }
+
+      .header-help {
+        float: none;
+        margin-top: 0px;
+      }
+    }
+  }
+  
   .charts-wrap {
     width: 380px;
 
@@ -121,6 +168,10 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+
+      &:first-child {
+        padding-top: 32px;
+      }
 
       & > * {
         &:first-child {
@@ -147,6 +198,12 @@
 }
 
 @media screen and (max-width: 380px) {
+  .header-wrap {
+    .header-inner {
+      max-width: 320px;
+    }
+  }
+  
   .charts-wrap {
     max-width: 320px;
 

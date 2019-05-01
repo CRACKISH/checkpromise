@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog, MatSlideToggleChange } from '@angular/material';
 
 import { ChartData } from './models/chart-data.model';
 import { PromiseData } from './models/promise-data.model';
 import { DataService } from './services/data.service';
-import { MatSlideToggleChange } from '@angular/material';
+import { DonateDialogComponent } from './components/donate-dialog/donate-dialog.component';
 
 @Component({
   selector: 'app-root',
@@ -18,7 +19,10 @@ export class AppComponent implements OnInit {
 
   public isUSDChecked = false;
 
-  constructor(protected dataService: DataService) {}
+  constructor(
+    protected dataService: DataService,
+    protected dialog: MatDialog
+  ) {}
 
   public ngOnInit() {
     this.dataService.get().subscribe(data => {
@@ -33,7 +37,12 @@ export class AppComponent implements OnInit {
       isUSDChecked = event.checked;
     }
     this.isUSDChecked = isUSDChecked;
+  }
 
+  public showDonateDialog() {
+    this.dialog.open(DonateDialogComponent, {
+      autoFocus: false
+    });
   }
 
 }

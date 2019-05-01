@@ -21,11 +21,12 @@
     .icon {
       width: 32px;
       height: 32px;
-      background-repeat: no-repeat;
       background: url("./images/unchecked.svg");
+      background-repeat: no-repeat;
 
       &.checked {
         background: url("./images/checked.svg");
+        background-repeat: no-repeat;
       }
     }
   }
