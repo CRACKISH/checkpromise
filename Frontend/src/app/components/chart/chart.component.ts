@@ -15,6 +15,10 @@ export class ChartComponent {
   @Input()
   public invertValue = false;
 
+  protected replaceOnNonWhiteSpace(value: string): string {
+    return value.replace(/ /g, '\u00a0');
+  }
+
   protected getDataValue(data: ChartDataValue): number {
     return this.invertValue && this.data.measure2 ? data.value2 : data.value;
   }
@@ -24,11 +28,13 @@ export class ChartComponent {
   }
 
   public getInitialDataValue(): string {
-    return this.getDataValue(this.data.initialData) + ' ' + this.getChartMeasure();
+    const value = this.getDataValue(this.data.initialData) + ' ' + this.getChartMeasure();
+    return this.replaceOnNonWhiteSpace(value);
   }
 
   public getCurrentDataValue(): string {
-    return this.getDataValue(this.data.currentData) + ' ' + this.getChartMeasure();
+    const value = this.getDataValue(this.data.currentData) + ' ' + this.getChartMeasure();
+    return this.replaceOnNonWhiteSpace(value);
   }
 
   public getArrowClass(): string {
