@@ -26,7 +26,7 @@ export class DataService {
 
   public getIndicatorData(id: number): Observable<IndicatorData> {
     return this.get().pipe(
-      map(data => data.chartData.find(item => item.id === id))
+      map(data => data.indicatorData.find(item => item.id === id))
     );
   }
 

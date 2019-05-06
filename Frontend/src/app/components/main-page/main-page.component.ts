@@ -24,7 +24,7 @@ export class MainPageComponent implements OnInit {
 
   public ngOnInit() {
     this.dataService.get().subscribe(data => {
-      this.indicatorData = data.chartData;
+      this.indicatorData = data.indicatorData;
       this.promiseData = data.promiseData;
     });
   }
