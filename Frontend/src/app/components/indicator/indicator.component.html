@@ -1,7 +1,7 @@
 <div class="indicator-wrap">
     <div class="header">
       <span class="icon" [ngClass]="getArrowClass()"></span>
-      <span class="header-label">{{data.label}}</span>
+      <span class="header-label" routerLink="/{{data.id}}">{{data.label}}</span>
     </div>
     <div class="content">
       <div class="left-content">
