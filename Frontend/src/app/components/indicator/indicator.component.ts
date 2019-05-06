@@ -1,16 +1,16 @@
 import { Component, Input } from '@angular/core';
 
-import { ChartData, ChartDataValue } from 'src/app/models/chart-data.model';
+import { IndicatorData, IndicatorDataValue } from '../../models/indicator-data.model';
 
 @Component({
-  selector: 'app-chart',
-  templateUrl: './chart.component.html',
-  styleUrls: ['./chart.component.scss']
+  selector: 'app-indicator',
+  templateUrl: './indicator.component.html',
+  styleUrls: ['./indicator.component.scss']
 })
-export class ChartComponent {
+export class IndicatorComponent {
 
   @Input()
-  public data: ChartData = new ChartData();
+  public data: IndicatorData = new IndicatorData();
 
   @Input()
   public invertValue = false;
@@ -19,7 +19,7 @@ export class ChartComponent {
     return value.replace(/ /g, '\u00a0');
   }
 
-  protected getDataValue(data: ChartDataValue): number {
+  protected getDataValue(data: IndicatorDataValue): number {
     return this.invertValue && this.data.measure2 ? data.value2 : data.value;
   }
 

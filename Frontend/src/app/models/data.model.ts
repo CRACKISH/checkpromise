@@ -1,7 +1,7 @@
-import { ChartData } from './chart-data.model';
+import { IndicatorData } from './indicator-data.model';
 import { PromiseData } from './promise-data.model';
 
 export class Data {
-  public chartData: ChartData[];
+  public chartData: IndicatorData[];
   public promiseData: PromiseData[];
 }

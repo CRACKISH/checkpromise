@@ -5,18 +5,18 @@ import { Label } from 'ng2-charts';
 
 import { DataService } from '../../services/data.service';
 import { formatDate } from '@angular/common';
-import { ChartData } from '../../models/chart-data.model';
+import { IndicatorData } from '../../models/indicator-data.model';
 
 @Component({
-  selector: 'app-chart-info-page',
-  templateUrl: './chart-info-page.component.html',
-  styleUrls: ['./chart-info-page.component.scss']
+  selector: 'app-indicator-info-page',
+  templateUrl: './indicator-info-page.component.html',
+  styleUrls: ['./indicator-info-page.component.scss']
 })
-export class ChartInfoPageComponent implements OnInit {
+export class IndicatorInfoPageComponent implements OnInit {
 
   protected id: number;
 
-  public chartData = new ChartData();
+  public indicatorData = new IndicatorData();
 
   public graphOptions: ChartOptions = {
     responsive: true,
@@ -68,8 +68,8 @@ export class ChartInfoPageComponent implements OnInit {
   }
 
   public ngOnInit() {
-    this.dataService.getChartData(this.id).subscribe(chartData => {
-      this.chartData = chartData;
+    this.dataService.getIndicatorData(this.id).subscribe(indicatorData => {
+      this.indicatorData = indicatorData;
       this.buildData();
     });
   }

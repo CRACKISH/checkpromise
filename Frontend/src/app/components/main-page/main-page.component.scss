@@ -1,10 +1,10 @@
 @import '../../../styles.scss';
 
-.charts-wrap {
+.indicators-wrap {
     margin-bottom: 48px;
     width: 940px;
 
-    .chart-line-wrap {
+    .indicator-line-wrap {
       display: flex;
       padding: 48px 0px;
 
@@ -57,10 +57,10 @@
 }
 
 @media screen and (max-width: 940px) {
-  .charts-wrap {
+  .indicators-wrap {
     width: 380px;
 
-    .chart-line-wrap {
+    .indicator-line-wrap {
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -94,10 +94,10 @@
 }
 
 @media screen and (max-width: 380px) {
-  .charts-wrap {
+  .indicators-wrap {
     max-width: 320px;
 
-    .chart-line-wrap {
+    .indicator-line-wrap {
       & > * {
         width: 320px;
 

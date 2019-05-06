@@ -6,10 +6,10 @@ import { ChartsModule } from 'ng2-charts';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ChartComponent } from './components/chart/chart.component';
+import { IndicatorComponent } from './components/indicator/indicator.component';
 import { CheckboxComponent } from './components/checkbox/checkbox.component';
 import { DonateDialogComponent } from './components/donate-dialog/donate-dialog.component';
-import { ChartInfoPageComponent } from './components/chart-info-page/chart-info-page.component';
+import { IndicatorInfoPageComponent } from './components/indicator-info-page/indicator-info-page.component';
 import { SubscribeSnackBarComponent } from './components/subscribe-snack-bar/subscribe-snack-bar.component';
 import { MainPageComponent } from './components/main-page/main-page.component';
 
@@ -17,10 +17,10 @@ import { MainPageComponent } from './components/main-page/main-page.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ChartComponent,
+    IndicatorComponent,
     CheckboxComponent,
     DonateDialogComponent,
-    ChartInfoPageComponent,
+    IndicatorInfoPageComponent,
     SubscribeSnackBarComponent,
     MainPageComponent
   ],

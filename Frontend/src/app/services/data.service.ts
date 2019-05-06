@@ -4,7 +4,7 @@ import { Observable, pipe } from 'rxjs';
 import { share, map } from 'rxjs/operators';
 
 import { Data } from '../models/data.model';
-import { ChartData } from '../models/chart-data.model';
+import { IndicatorData } from '../models/indicator-data.model';
 
 @Injectable({
   providedIn: 'root'
@@ -24,7 +24,7 @@ export class DataService {
     return this.dataResponse$;
   }
 
-  public getChartData(id: number): Observable<ChartData> {
+  public getIndicatorData(id: number): Observable<IndicatorData> {
     return this.get().pipe(
       map(data => data.chartData.find(item => item.id === id))
     );

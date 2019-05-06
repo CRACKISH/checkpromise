@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ChartComponent } from './chart.component';
+import { IndicatorInfoPageComponent } from './indicator-info-page.component';
 
-describe('ChartComponent', () => {
-  let component: ChartComponent;
-  let fixture: ComponentFixture<ChartComponent>;
+describe('IndicatorInfoPageComponent', () => {
+  let component: IndicatorInfoPageComponent;
+  let fixture: ComponentFixture<IndicatorInfoPageComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ChartComponent ]
+      declarations: [ IndicatorInfoPageComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ChartComponent);
+    fixture = TestBed.createComponent(IndicatorInfoPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-import { ChartData } from '../../models/chart-data.model';
+import { IndicatorData } from '../../models/indicator-data.model';
 import { PromiseData } from '../../models/promise-data.model';
 import { DataService } from '../../services/data.service';
 
@@ -14,7 +14,7 @@ export class MainPageComponent implements OnInit {
   @Input()
   public isUSDChecked = false;
 
-  public chartData: ChartData[];
+  public indicatorData: IndicatorData[];
 
   public promiseData: PromiseData[];
 
@@ -24,7 +24,7 @@ export class MainPageComponent implements OnInit {
 
   public ngOnInit() {
     this.dataService.get().subscribe(data => {
-      this.chartData = data.chartData;
+      this.indicatorData = data.chartData;
       this.promiseData = data.promiseData;
     });
   }

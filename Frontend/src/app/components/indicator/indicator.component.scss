@@ -1,6 +1,6 @@
 @import '../../../styles.scss';
 
-.chart-wrap {
+.indicator-wrap {
     min-height: 100px;
 
     .header {
@@ -102,7 +102,7 @@
 }
 
 @media screen and (max-width: 380px) {
-  .chart-wrap {
+  .indicator-wrap {
     .header {
       .header-label {
         max-width: 280px;

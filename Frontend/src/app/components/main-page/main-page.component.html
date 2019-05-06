@@ -1,8 +1,8 @@
-<div class="charts-wrap">
-    <ng-container *ngFor="let chart of chartData; let i = index; let even = even;">
-      <div class="chart-line-wrap" *ngIf="even">
-        <app-chart [data]="chartData[i]" [invertValue]="isUSDChecked"></app-chart>
-        <app-chart [data]="chartData[i + 1]" [invertValue]="isUSDChecked"></app-chart>
+<div class="indicators-wrap">
+    <ng-container *ngFor="let indicator of indicatorData; let i = index; let even = even;">
+      <div class="indicator-line-wrap" *ngIf="even">
+        <app-indicator [data]="indicatorData[i]" [invertValue]="isUSDChecked"></app-indicator>
+        <app-indicator [data]="indicatorData[i + 1]" [invertValue]="isUSDChecked"></app-indicator>
       </div>
       <mat-divider *ngIf="even"></mat-divider>
     </ng-container>

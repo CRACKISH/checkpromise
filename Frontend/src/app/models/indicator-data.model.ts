@@ -4,20 +4,20 @@ export enum Measure {
   Percent = '%'
 }
 
-export class ChartDataValue {
+export class IndicatorDataValue {
   public date: string;
   public value: number;
   public value2: number;
   public quantity: string;
 }
 
-export class ChartData {
+export class IndicatorData {
   public id: number;
   public label: string;
   public invertArrow = false;
   public measure: Measure;
   public measure2: Measure;
-  public initialData: ChartDataValue;
-  public currentData: ChartDataValue;
+  public initialData: IndicatorDataValue;
+  public currentData: IndicatorDataValue;
   public source: string;
 }
