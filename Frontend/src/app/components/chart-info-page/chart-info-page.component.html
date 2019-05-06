@@ -1,3 +1,14 @@
 <div class="page-wrap">
-    <div class="chart-wrap"></div>
+  <div class="header-wrap">
+    <div class="link"><a routerLink="/">Всі показники</a></div>
+    <div class="chart-wrap"><app-chart [data]="chartData"></app-chart></div>
+  </div>
+  <div class="graph-wrap">
+    <canvas baseChart
+      [datasets]="graphData"
+      [labels]="graphLabels"
+      [options]="graphOptions"
+      chartType="line">
+    </canvas>
+  </div>
 </div>

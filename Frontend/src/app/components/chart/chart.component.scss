@@ -1,3 +1,5 @@
+@import '../../../styles.scss';
+
 .chart-wrap {
     min-height: 100px;
 
@@ -14,6 +16,10 @@
 
         .header-label {
           max-width: 340px;
+
+          &:hover {
+            cursor: pointer;
+          }
         }
     }
 
@@ -52,15 +58,11 @@
         }
     }
 
-    .source {
-      font-size: 14px;
-      font-family: Roboto;
-      color: #0078b4;
-      font-weight: bold;
+    .link {
+      display: flex;
 
-      & > a {
-        color: #0078b4;
-        text-decoration: none;
+      & a {
+        @include link();
       }
     }
 

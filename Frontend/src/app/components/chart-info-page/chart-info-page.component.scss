@@ -1,0 +1,65 @@
+@import '../../../styles.scss';
+
+.page-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 48px;
+  margin-bottom: 60px;
+}
+
+.link {
+  & > a {
+    @include link();
+  }
+}
+
+.header-wrap {
+  text-align: left;
+  width: 940px;
+  margin-bottom: 34px;
+  padding-left: 34px;
+
+  .link {
+    margin-bottom: 34px;
+  }
+
+  .chart-wrap {
+    width: 380px;
+  }
+}
+
+.graph-wrap {
+  width: 940px;
+}
+
+@media screen and (max-width: 940px) {
+  .header-wrap {
+    width: 380px;
+  }
+  
+  .graph-wrap {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .header-wrap {
+    text-align: center;
+    width: 320px;
+    padding-left: 0px;
+
+    .link {
+      text-align: center;
+    }
+
+    .chart-wrap {
+      width: 320px;
+    }
+  }
+  
+  .graph-wrap {
+    width: 320px;
+  }
+}

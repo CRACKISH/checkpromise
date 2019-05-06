@@ -1,9 +1,10 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
-import { share } from 'rxjs/operators';
+import { Observable, pipe } from 'rxjs';
+import { share, map } from 'rxjs/operators';
 
 import { Data } from '../models/data.model';
+import { ChartData } from '../models/chart-data.model';
 
 @Injectable({
   providedIn: 'root'
@@ -21,6 +22,12 @@ export class DataService {
       );
     }
     return this.dataResponse$;
+  }
+
+  public getChartData(id: number): Observable<ChartData> {
+    return this.get().pipe(
+      map(data => data.chartData.find(item => item.id === id))
+    );
   }
 
 }

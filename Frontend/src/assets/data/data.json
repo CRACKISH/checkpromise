@@ -1,5 +1,6 @@
 {
   "chartData": [{
+    "id": 1,
     "label": "Курс долара (₴ за 1 $)",
     "invertArrow": false,
     "measure": "₴",

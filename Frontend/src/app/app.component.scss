@@ -1,11 +1,4 @@
-@mixin link() {
-  color: #0078b4;
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 16px;
-  text-decoration: none;
-  cursor: pointer;
-}
+@import '../styles.scss';
 
 .header-wrap {
     font-size: 24px;
@@ -56,62 +49,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.charts-wrap {
-    margin-bottom: 48px;
-    width: 940px;
-
-    .chart-line-wrap {
-      display: flex;
-      padding: 48px 0px;
-  
-      & > * {
-        width: 380px;
-        min-width: 320px;
-
-        &:first-child {
-          margin-right: 180px;
-        }
-      }
-    }
-}
-
-.promises-wrap {
-    margin-bottom: 60px;
-    width: 940px;
-
-    .promises-header {
-      text-align: center;
-      font-size: 24px;
-      line-height: 36px;
-      margin-bottom: 40px;
-
-      .promises-source {
-        font-family: Roboto;
-        margin-top: 8px;
-
-        & > a {
-          @include link()
-        }
-      }
-    }
-
-    .promise-content {
-      overflow: hidden;
-      display: grid;
-      grid-template-columns: 560px 380px;
-
-      & > * {
-        width: 380px;
-        min-width: 320px;
-        margin-bottom: 32px;
-
-        &:nth-child(odd) {
-          margin-right: 180px;
-        }
-      }
-    }
 }
 
 .footer-wrap {
@@ -190,77 +127,12 @@
       }
     }
   }
-  
-  .charts-wrap {
-    width: 380px;
-
-    .chart-line-wrap {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-
-      &:first-child {
-        padding-top: 32px;
-      }
-
-      & > * {
-        &:first-child {
-          margin-bottom: 32px;
-          margin-right: 0px;
-        }
-      }
-    }
-  }
-
-  .promises-wrap {
-    width: 380px;
-
-    .promise-content {
-      grid-template-columns: 380px;
-
-      & > * {
-        &:nth-child(odd) {
-          margin-right: 0px;
-        }
-      }
-    }
-  }
 }
 
 @media screen and (max-width: 380px) {
   .header-wrap {
     .header-inner {
       max-width: 320px;
-    }
-  }
-  
-  .charts-wrap {
-    max-width: 320px;
-
-    .chart-line-wrap {
-      & > * {
-        width: 320px;
-
-        &:first-child {
-          margin-right: 0px;
-        }
-      }
-    }
-  }
-
-  .promises-wrap {
-    max-width: 320px;
-
-    .promise-content {
-      grid-template-columns: 320px;
-
-      & > * {
-        width: 320px;
-
-        &:nth-child(odd) {
-          margin-right: 0px;
-        }
-      }
     }
   }
 }
