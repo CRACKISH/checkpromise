@@ -5,7 +5,6 @@ import { Label } from 'ng2-charts';
 import { Subscription } from 'rxjs';
 
 import { DataService } from '../../services/data.service';
-import { formatDate } from '@angular/common';
 import { IndicatorData } from '../../models/indicator-data.model';
 import { ChangeCurrencyService } from '../../services/change-currency.service';
 
@@ -31,20 +30,17 @@ export class IndicatorInfoPageComponent implements OnInit, OnDestroy {
     }
   };
 
-  public graphLabels: Label[] = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
+  public graphLabels: Label[] = ['2014', '2015', '2016', '2017', '2018', '2019'];
 
   public graphData: ChartDataSets[] = [{
-    data: [65, 59, 80, 81, 56, 55, 40],
+    data: [],
     fill: false,
-    borderColor: 'rgb(245,105,105)',
     pointBackgroundColor: 'rgb(255,255,255)',
-    pointBorderColor: 'rgb(245,105,105)',
     pointBorderWidth: 1,
-    pointHoverRadius: 5,
+    pointHoverRadius: 3,
     pointHoverBackgroundColor: 'rgb(255,255,255)',
-    pointHoverBorderColor: 'rgb(245,105,105)',
     pointHoverBorderWidth: 1,
-    pointRadius: 5
+    pointRadius: 3
   }];
 
   constructor(
@@ -56,27 +52,46 @@ export class IndicatorInfoPageComponent implements OnInit, OnDestroy {
   }
 
   protected buildData() {
-    const startDate = new Date(2014, 5, 1);
-    const endDate = new Date(2019, 5, 1);
-    const dateArray: Date[] = [];
-    while (startDate <= endDate) {
-      dateArray.push(new Date(startDate));
-      startDate.setMonth(startDate.getMonth() + 1);
-    }
-
     const chartData = [];
     const chartLabels = [];
-    dateArray.forEach(date => {
-      chartLabels.push(formatDate(date, 'dd-mm-yyyy', 'en-us'));
-      chartData.push(Math.random());
+    let graphDatas = this.indicatorData.graphData;
+    graphDatas = graphDatas.sort((item1, item2) => {
+      const date1 = new Date(item1.date);
+      const date2 = new Date(item2.date);
+      if (date1 < date2) { return -1; }
+      if (date1 > date2) { return 1; }
+      return 0;
+    });
+    graphDatas.forEach(graphData => {
+      chartLabels.push(graphData.date);
+      chartData.push(graphData.value);
     });
     this.graphLabels = chartLabels;
     this.graphData[0].data = chartData;
   }
 
+  protected buildGraphConfig() {
+    const data = this.graphData[0];
+    const initialValue = this.indicatorData.initialData.value;
+    const currentValue = this.indicatorData.currentData.value;
+    const invert = this.indicatorData.invertArrow;
+    let graphColor = 'rgb(190,190,190)';
+    const redColor = 'rgb(245,105,105)';
+    const greenColor = 'rgb(0,178,89)';
+    if (currentValue > initialValue) {
+      graphColor = invert ? greenColor : redColor;
+    } else if (currentValue < initialValue) {
+      graphColor = invert ? redColor : greenColor;
+    }
+    data.borderColor = graphColor;
+    data.pointBorderColor = graphColor;
+    data.pointHoverBorderColor = graphColor;
+  }
+
   public ngOnInit() {
     this.dataService.getIndicatorData(this.id).subscribe(indicatorData => {
       this.indicatorData = indicatorData;
+      this.buildGraphConfig();
       this.buildData();
     });
     this.subscription = this.changeCurrencyService.changed()

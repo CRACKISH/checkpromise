@@ -4,6 +4,11 @@ export enum Measure {
   Percent = '%'
 }
 
+export class GraphData {
+  public date: string;
+  public value: number;
+}
+
 export class IndicatorDataValue {
   public date: string;
   public value: number;
@@ -20,6 +25,7 @@ export class IndicatorData {
   public initialData: IndicatorDataValue;
   public currentData: IndicatorDataValue;
   public source: string;
+  public graphData: GraphData[];
 
   constructor() {
     this.initialData = new IndicatorDataValue();
