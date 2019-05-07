@@ -16,9 +16,15 @@
 
         .header-label {
           max-width: 340px;
+          pointer-events: none;
+          cursor: default;
 
-          &:hover {
-            cursor: pointer;
+          &.clickable {
+            pointer-events: all;
+
+            &:hover {
+              cursor: pointer;
+            }
           }
         }
     }
@@ -56,6 +62,18 @@
         .quantity {
           font-size: 20px;
         }
+    }
+
+    .footer {
+      display: flex;
+
+      & > div {
+        display: block;
+      }
+      
+      .source {
+        width: 100%;
+      }
     }
 
     .link {
@@ -116,16 +134,28 @@
       justify-content: center;
 
       .left-content {
-        width: 50%;
+        width: auto;
       }
 
       .right-content {
-        width: 50%;
+        width: auto;
       }
 
       div:first-child {
         margin-bottom: 12px;
       }
+    }
+
+    .footer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      & > div {
+        margin-top: 14px;
+      }
+
     }
   }
 }

@@ -19,7 +19,7 @@
   text-align: left;
   width: 940px;
   margin-bottom: 34px;
-  padding-left: 34px;
+  //padding-left: 34px;
 
   .link {
     margin-bottom: 34px;
@@ -46,7 +46,6 @@
 
 @media screen and (max-width: 380px) {
   .header-wrap {
-    text-align: center;
     width: 320px;
     padding-left: 0px;
 
@@ -60,6 +59,6 @@
   }
   
   .graph-wrap {
-    width: 320px;
+    width: 300px;
   }
 }

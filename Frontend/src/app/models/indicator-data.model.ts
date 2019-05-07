@@ -20,4 +20,9 @@ export class IndicatorData {
   public initialData: IndicatorDataValue;
   public currentData: IndicatorDataValue;
   public source: string;
+
+  constructor() {
+    this.initialData = new IndicatorDataValue();
+    this.currentData = new IndicatorDataValue();
+  }
 }

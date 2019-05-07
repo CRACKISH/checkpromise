@@ -15,6 +15,9 @@ export class IndicatorComponent {
   @Input()
   public invertValue = false;
 
+  @Input()
+  public disableGraphLink = false;
+
   protected replaceOnNonWhiteSpace(value: string): string {
     return value.replace(/ /g, '\u00a0');
   }
@@ -48,6 +51,10 @@ export class IndicatorComponent {
       arrowClass = invert ? 'red-arrow-down-negative' : 'green-arrow-down-positive';
     }
     return arrowClass;
+  }
+
+  public getLabelClass(): string {
+    return this.disableGraphLink ? '' : 'clickable';
   }
 
 }

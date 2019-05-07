@@ -1,20 +1,22 @@
 <div class="indicator-wrap">
     <div class="header">
       <span class="icon" [ngClass]="getArrowClass()"></span>
-      <span class="header-label" routerLink="/{{data.id}}">{{data.label}}</span>
+      <span class="header-label" [ngClass]="getLabelClass()" routerLink="/{{data.id}}">{{data.label}}</span>
     </div>
     <div class="content">
       <div class="left-content">
           <div class="date">{{data.initialData.date}}</div>
           <div class="value">{{getInitialDataValue()}}</div>
           <div class="quantity">{{data.initialData.quantity}}</div>
-          <div class="link source"><a href="{{data.source}}" target="_blank">Джерело</a></div>
       </div>
       <div class="right-content">
           <div class="date">{{data.currentData.date}}</div>
           <div class="value">{{getCurrentDataValue()}}</div>
           <div class="quantity">{{data.currentData.quantity}}</div>
-          <div class="link dynamic-graph"><a routerLink="/{{data.id}}">Динаміка</a></div>
       </div>
+    </div>
+    <div class="footer">
+      <div class="link source"><a href="{{data.source}}" target="_blank">Джерело</a></div>
+      <div *ngIf="!disableGraphLink" class="link dynamic-graph"><a routerLink="/{{data.id}}">Динаміка</a></div>
     </div>
 </div>

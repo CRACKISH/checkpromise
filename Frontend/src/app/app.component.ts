@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog, MatSlideToggleChange, MatSnackBar } from '@angular/material';
+import { CookieService } from 'ngx-cookie-service';
 
 import { SubscribeSnackBarComponent } from './components/subscribe-snack-bar/subscribe-snack-bar.component';
 import { DonateDialogComponent } from './components/donate-dialog/donate-dialog.component';
+import { ChangeCurrencyService } from './services/change-currency.service';
 
 @Component({
   selector: 'app-root',
@@ -14,14 +16,23 @@ export class AppComponent implements OnInit {
   public isUSDChecked = false;
 
   constructor(
+    protected changeCurrencyService: ChangeCurrencyService,
+    protected cookieService: CookieService,
     protected dialog: MatDialog,
     protected snackBar: MatSnackBar
   ) {}
 
+  protected isNeedShowSubscribeSnackBar(): boolean {
+    const tgBotTag = 'utm_source=telegram_bot';
+    const isNotLinkFromTgBot = window.location.href.indexOf(tgBotTag) === -1;
+    const hasNotCookie = this.cookieService.get('IsTGSubscribe') !== 'true';
+    return isNotLinkFromTgBot && hasNotCookie;
+  }
+
   public ngOnInit() {
-    setTimeout(() => {
-      this.snackBar.openFromComponent(SubscribeSnackBarComponent, null);
-    }, 500);
+    if (this.isNeedShowSubscribeSnackBar()) {
+      setTimeout(() => this.snackBar.openFromComponent(SubscribeSnackBarComponent), 500);
+    }
   }
 
   public onChangeCurrency(event: MatSlideToggleChange | null) {
@@ -30,6 +41,7 @@ export class AppComponent implements OnInit {
       isUSDChecked = event.checked;
     }
     this.isUSDChecked = isUSDChecked;
+    this.changeCurrencyService.doChange(isUSDChecked);
   }
 
   public showDonateDialog() {
