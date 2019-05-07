@@ -96,7 +96,8 @@
       "quantity": "трлн",
       "value": "3,5"
     },
-    "source": "https://index.minfin.com.ua/ua/economy/gdp/"
+    "source": "https://index.minfin.com.ua/ua/economy/gdp/",
+    "graphData": [{ "date": "31.12.2014", "value": "1566728" }, { "date": "31.12.2015", "value": "1979458" }, { "date": "31.12.2016", "value": "2383182" }, { "date": "31.12.2017", "value": "2982920" }, { "date": "31.12.2018", "value": "3558706" }]
   }, {
     "id": 7,
     "label": "Мінімальна пенсія",
