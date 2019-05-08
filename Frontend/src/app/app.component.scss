@@ -1,5 +1,9 @@
 @import '../styles.scss';
 
+:host() {
+  min-height: 100%;
+}
+
 .header-wrap {
     font-size: 24px;
     line-height: 36px;
@@ -14,8 +18,13 @@
 
     .header-block {
       width: 33.333%;
+    }
 
-      & > a {
+    .header-back-link {
+      margin-top: 24px;
+      float: left;
+      
+      & > label {
         @include link();
       }
     }
@@ -61,6 +70,7 @@
     text-align: center;
     font-size: 14px;
     color: #ffffff;
+    width: 100%;
 
     .footer-text {
       margin-top: 20px;
@@ -118,6 +128,11 @@
         &.header-block-switcher {
           order: 1;
         }
+      }
+
+      .header-back-link {
+        float: none;
+        margin-top: 0px;
       }
 
       .header-currency-switcher {

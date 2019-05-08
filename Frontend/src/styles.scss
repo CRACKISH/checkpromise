@@ -11,11 +11,17 @@
     cursor: pointer;
 }
 
+html {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
     min-width: 320px;
     margin: 0;
     color: #333333;
+    height: 100%;
     
     .mat-slide-toggle {
 
