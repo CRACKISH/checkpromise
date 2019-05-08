@@ -32,10 +32,10 @@ export class IndicatorInfoPageComponent implements OnInit {
     data: [],
     fill: false,
     pointBackgroundColor: 'rgb(255,255,255)',
-    pointBorderWidth: 1,
+    pointBorderWidth: 2,
     pointHoverRadius: 3,
     pointHoverBackgroundColor: 'rgb(255,255,255)',
-    pointHoverBorderWidth: 1,
+    pointHoverBorderWidth: 2,
     pointRadius: 3
   }];
 
