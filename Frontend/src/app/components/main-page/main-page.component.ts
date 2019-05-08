@@ -31,6 +31,7 @@ export class MainPageComponent implements OnInit, OnDestroy {
       this.indicatorData = data.indicatorData;
       this.promiseData = data.promiseData;
     });
+    this.isUSDChecked = this.changeCurrencyService.isUSDChecked();
     this.subscription = this.changeCurrencyService.changed()
       .subscribe(isUSDChecked => this.isUSDChecked = isUSDChecked);
   }

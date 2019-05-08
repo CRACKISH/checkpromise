@@ -94,6 +94,7 @@ export class IndicatorInfoPageComponent implements OnInit, OnDestroy {
       this.buildGraphConfig();
       this.buildData();
     });
+    this.isUSDChecked = this.changeCurrencyService.isUSDChecked();
     this.subscription = this.changeCurrencyService.changed()
       .subscribe(isUSDChecked => this.isUSDChecked = isUSDChecked);
   }
