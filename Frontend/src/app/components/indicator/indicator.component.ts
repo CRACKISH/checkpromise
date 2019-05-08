@@ -23,21 +23,27 @@ export class IndicatorComponent {
   }
 
   protected getDataValue(data: IndicatorDataValue): number {
-    return this.invertValue && this.data.measure2 ? data.value2 : data.value;
+    const value = this.invertValue && this.data.measure2 ? data.value2 : data.value;
+    return Number(value);
   }
 
   protected getChartMeasure(): string {
     return this.invertValue && this.data.measure2 ? this.data.measure2 : this.data.measure;
   }
 
-  public getInitialDataValue(): string {
-    const value = this.getDataValue(this.data.initialData) + ' ' + this.getChartMeasure();
+  protected getDataValueString(data: IndicatorDataValue): string {
+    const numberValue: number = this.getDataValue(data);
+    let value = numberValue.toLocaleString();
+    value = value + ' ' + this.getChartMeasure();
     return this.replaceOnNonWhiteSpace(value);
   }
 
+  public getInitialDataValue(): string {
+    return this.getDataValueString(this.data.initialData);
+  }
+
   public getCurrentDataValue(): string {
-    const value = this.getDataValue(this.data.currentData) + ' ' + this.getChartMeasure();
-    return this.replaceOnNonWhiteSpace(value);
+    return this.getDataValueString(this.data.currentData);
   }
 
   public getArrowClass(): string {

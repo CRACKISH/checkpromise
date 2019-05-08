@@ -106,12 +106,12 @@
     "measure2": "$",
     "initialData": {
       "date": "21.04.2019",
-      "value": "1 497",
+      "value": "1497",
       "value2": "55.80"
     },
     "currentData": {
       "date": "01.05.2019",
-      "value": "1 497",
+      "value": "1497",
       "value2": "56.51"
     },
     "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html"
@@ -123,12 +123,12 @@
     "measure2": "$",
     "initialData": {
       "date": "21.04.2019",
-      "value": "4 173",
+      "value": "4173",
       "value2": "155.53"
     },
     "currentData": {
       "date": "01.05.2019",
-      "value": "4 173",
+      "value": "4173",
       "value2": "157.53"
     },
     "source": "https://index.minfin.com.ua/ua/labour/salary/min/"
