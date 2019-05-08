@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog, MatSlideToggleChange, MatSnackBar } from '@angular/material';
+import { Router } from '@angular/router';
 import { CookieService } from 'ngx-cookie-service';
 
 import { SubscribeSnackBarComponent } from './components/subscribe-snack-bar/subscribe-snack-bar.component';
@@ -19,6 +20,7 @@ export class AppComponent implements OnInit {
     protected changeCurrencyService: ChangeCurrencyService,
     protected cookieService: CookieService,
     protected dialog: MatDialog,
+    protected router: Router,
     protected snackBar: MatSnackBar
   ) {}
 
@@ -48,6 +50,10 @@ export class AppComponent implements OnInit {
     this.dialog.open(DonateDialogComponent, {
       autoFocus: false
     });
+  }
+
+  public getSwitchCurrencyVisible(): boolean {
+    return this.router.url === '/';
   }
 
 }
