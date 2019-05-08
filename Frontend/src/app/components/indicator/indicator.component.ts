@@ -10,7 +10,7 @@ import { IndicatorData, IndicatorDataValue } from '../../models/indicator-data.m
 export class IndicatorComponent {
 
   @Input()
-  public data: IndicatorData = new IndicatorData();
+  public data: IndicatorData;
 
   @Input()
   public invertValue = false;
@@ -61,6 +61,10 @@ export class IndicatorComponent {
 
   public getLabelClass(): string {
     return this.disableGraphLink ? '' : 'clickable';
+  }
+
+  public getVisible(): boolean {
+    return !!this.data;
   }
 
 }

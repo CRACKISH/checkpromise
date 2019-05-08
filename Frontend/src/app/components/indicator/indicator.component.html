@@ -1,4 +1,4 @@
-<div class="indicator-wrap">
+<div class="indicator-wrap" *ngIf="getVisible()">
     <div class="header">
       <span class="icon" [ngClass]="getArrowClass()"></span>
       <span class="header-label" [ngClass]="getLabelClass()" routerLink="/{{data.id}}">{{data.label}}</span>
