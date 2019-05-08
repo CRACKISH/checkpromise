@@ -2,6 +2,7 @@
   <div class="header-wrap">
     <div class="header-inner">
       <div class="header-block header-block-switcher">
+        <a *ngIf="!getSwitchCurrencyVisible()" routerLink="/">Назад на головну</a>
         <div class="header-currency-switcher" *ngIf="getSwitchCurrencyVisible()">
             <span (click)="onChangeCurrency(null)">₴</span><mat-slide-toggle [disableRipple]="true" [(checked)]="isUSDChecked" (change)="onChangeCurrency($event)">$</mat-slide-toggle>
         </div>
