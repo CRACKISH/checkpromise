@@ -56,4 +56,8 @@ export class AppComponent implements OnInit {
     return this.router.url === '/';
   }
 
+  public getFooterAdditionClass(): string {
+    return this.router.url === '/' ? '' : 'bottom-position';
+  }
+
 }

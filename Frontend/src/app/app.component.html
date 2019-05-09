@@ -24,7 +24,7 @@
   <div class="content-wrap">
     <router-outlet></router-outlet>
   </div>
-  <div class="footer-wrap">
+  <div class="footer-wrap" [ngClass]="getFooterAdditionClass()">
     <div class="footer-text">
       <label>Створено народом України 🇺🇦</label>
       <br>

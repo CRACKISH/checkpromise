@@ -23,7 +23,7 @@
     .header-back-link {
       margin-top: 24px;
       float: left;
-      
+
       & > label {
         @include link();
       }
@@ -156,8 +156,11 @@
   }
 }
 
-@media screen and (min-height: 940px) {
+@media screen and (min-height: 1000px) {
   .footer-wrap {
-    margin-top: 240px;
+    &.bottom-position {
+      position: absolute;
+      bottom: 0;
+    }
   }
 }
