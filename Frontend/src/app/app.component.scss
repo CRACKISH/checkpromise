@@ -9,8 +9,23 @@
     line-height: 36px;
     padding-top: 48px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 
+    .header-logo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 48px;
+
+      .logo {
+        width: 197px;
+        height: 118px;
+        background: url("./images/logo.svg");
+        background-repeat: no-repeat;
+      }
+    }
+    
     .header-inner {
       display: flex;
       width: 940px;
