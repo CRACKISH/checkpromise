@@ -20,12 +20,12 @@ export class SubscribeSnackBarComponent {
 
   public doSubscribe() {
     window.open('https://t.me/checkpromise_info_bot', '_blank');
-    this.setCookie(7);
+    this.setCookie(30);
     this.snackBar.dismiss();
   }
 
   public doCancel() {
-    this.setCookie();
+    this.setCookie(7);
     this.snackBar.dismiss();
   }
 
