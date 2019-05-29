@@ -1,4 +1,4 @@
-:host() {
+:host {
     max-width: 600px;
     max-height: 275px;
     display: block;
@@ -46,7 +46,7 @@ div {
 }
 
 @media screen and (max-width: 380px) {
-    :host() {
+    :host {
         max-height: none;
     }
 }

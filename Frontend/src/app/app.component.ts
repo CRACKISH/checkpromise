@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { MatDialog, MatSlideToggleChange, MatSnackBar } from '@angular/material';
+import { MatDialog } from '@angular/material/dialog';
+import { MatSlideToggleChange } from '@angular/material/slide-toggle';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { Router } from '@angular/router';
 import { CookieService } from 'ngx-cookie-service';
 
