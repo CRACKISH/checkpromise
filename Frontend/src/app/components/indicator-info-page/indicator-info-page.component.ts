@@ -91,6 +91,11 @@ export class IndicatorInfoPageComponent implements OnInit {
     });
   }
 
+  public getInfoMediaVisible() {
+    const mediaInfoData = this.indicatorData.mediaInfoData;
+    return mediaInfoData && mediaInfoData.length;
+  }
+
   public getMediaInfoCaption(mediaInfo: MediaInfo): string {
     return mediaInfo.date + ' - ' + mediaInfo.caption;
   }
