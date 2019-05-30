@@ -19,7 +19,6 @@
   text-align: left;
   width: 940px;
   margin-bottom: 34px;
-  //padding-left: 34px;
 
   .link {
     margin-bottom: 34px;
@@ -32,6 +31,27 @@
 
 .graph-wrap {
   width: 940px;
+  margin-bottom: 24px;
+}
+
+.mediaInfo-wrap {
+  width: 940px;
+
+  .mediaInfo-header {
+    line-height: 28px;
+    font-size: 24px;
+  }
+
+  .mediaInfo-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mediaInfo-link{
+    margin-top: 16px;
+    
+    @include link()
+  }
 }
 
 @media screen and (max-width: 940px) {
@@ -40,6 +60,10 @@
   }
   
   .graph-wrap {
+    width: 380px;
+  }
+
+  .mediaInfo-wrap {
     width: 380px;
   }
 }
@@ -60,5 +84,9 @@
   
   .graph-wrap {
     width: 300px;
+  }
+
+  .mediaInfo-wrap {
+    width: 320px;
   }
 }

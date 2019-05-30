@@ -12,4 +12,14 @@
       chartType="line">
     </canvas>
   </div>
+  <div *ngIf="indicatorData.mediaInfoData" class="mediaInfo-wrap">
+    <div class="mediaInfo-header">
+      <span>Інформація зі ЗМІ:</span>
+    </div>
+    <div class="mediaInfo-content">
+      <ng-container *ngFor="let mediaInfo of indicatorData.mediaInfoData;">
+        <a class="mediaInfo-link" href="{{mediaInfo.source}}" target="_blank">{{getMediaInfoCaption(mediaInfo)}}</a>
+      </ng-container>
+    </div>
+  </div>
 </div>

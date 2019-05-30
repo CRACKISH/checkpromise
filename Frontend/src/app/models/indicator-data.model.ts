@@ -9,6 +9,12 @@ export class GraphData {
   public value: number;
 }
 
+export class MediaInfo {
+  public date: string;
+  public caption: string;
+  public source: string;
+}
+
 export class IndicatorDataValue {
   public date: string;
   public value: number;
@@ -26,6 +32,7 @@ export class IndicatorData {
   public currentData: IndicatorDataValue;
   public source: string;
   public graphData: GraphData[];
+  public mediaInfoData: MediaInfo[];
 
   constructor() {
     this.initialData = new IndicatorDataValue();

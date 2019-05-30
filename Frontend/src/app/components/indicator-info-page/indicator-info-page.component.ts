@@ -4,7 +4,7 @@ import { ChartOptions, ChartDataSets } from 'chart.js';
 import { Label } from 'ng2-charts';
 
 import { DataService } from '../../services/data.service';
-import { IndicatorData } from '../../models/indicator-data.model';
+import { IndicatorData, MediaInfo } from '../../models/indicator-data.model';
 
 @Component({
   selector: 'app-indicator-info-page',
@@ -89,6 +89,10 @@ export class IndicatorInfoPageComponent implements OnInit {
       this.buildGraphConfig();
       this.buildData();
     });
+  }
+
+  public getMediaInfoCaption(mediaInfo: MediaInfo): string {
+    return mediaInfo.date + ' - ' + mediaInfo.caption;
   }
 
 }
