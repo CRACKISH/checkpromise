@@ -11,7 +11,7 @@
       },
       "currentData": {
         "date": "01.06.2019",
-        "value": "26.87"
+        "value": "26.85"
       },
       "source": "https://bank.gov.ua/control/uk/curmetal/detail/currency?period=daily",
       "graphData": [
@@ -269,18 +269,18 @@
         }
       ],
       "mediaInfoData": [
-      {
+        {
           "date": "30.05.2019",
           "caption": "Курс долара на міжбанку виріс до 27 грн, курс євро до 30 грн",
           "source": "https://www.rbc.ua/ukr/news/kurs-dollara-mezhbanke-vyros-27-grn-kurs-1559225254.html"
-      },
-      {
+        },
+        {
           "date": "29.05.2019",
           "caption": "Що буде з доларом в Україні: озвучено прогноз до кінця року",
           "source": "https://www.obozrevatel.com/ukr/economics/dolar-v-ukraini-viris-nazvani-prichini-i-prognoz.htm"
-      }
+        }
       ]
-      },
+    },
     {
       "id": 2,
       "label": "Газ для громадян (1 м³)",
@@ -551,20 +551,20 @@
           "date": "01.06.2019",
           "value": "8.64"
         }
-     ],
+      ],
       "mediaInfoData": [
-      {
+        {
           "date": "27.05.2019",
           "caption": "У липні ціни на газ для населення впадуть на 8% — Нафтогаз",
           "source": "https://hromadske.ua/posts/u-lipni-cini-na-gaz-dlya-naselennya-vpadut-na-8-naftogaz?fbclid=IwAR1m2XywsesZ-eyLPdfO9Dv_tb9t1Qa9rBOM8GmQrqiEag4xfKoYea9mBKM"
-      },
-      {
+        },
+        {
           "date": "14.05.2019",
           "caption": "Конечные цены на газ для населения в июне увеличатся на 4,5-4,9% вслед за ростом цены для промпотребителей",
           "source": "https://interfax.com.ua/news/economic/587144.html"
-      }
+        }
       ]
-      },
+    },
     {
       "id": 3,
       "label": "А-95 (1 л.)",
@@ -579,7 +579,7 @@
       "currentData": {
         "date": "01.06.2019",
         "value": "30.32",
-        "value2": "1.12"
+        "value2": "1.13"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -836,14 +836,14 @@
           "value": "30.32"
         }
       ],
-          "mediaInfoData": [
-      {
+      "mediaInfoData": [
+        {
           "date": "07.05.2019",
           "caption": "В Україні зросли ціни на пальне: що на це вплинул",
           "source": "https://24tv.ua/v_ukrayini_zrosli_tsini_na_palne_shho_na_tse_vplinulo_n1150378"
-      }
+        }
       ]
-      },
+    },
     {
       "id": 4,
       "label": "Дизельне паливо (1 л.)",
@@ -857,7 +857,7 @@
       },
       "currentData": {
         "date": "01.06.2019",
-        "value": "29.86",
+        "value": "29.83",
         "value2": "1.11"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
@@ -1108,8 +1108,8 @@
         },
         {
           "date": "01.06.2019",
-          "value": "29.86"
-        }          
+          "value": "29.83"
+        }
       ]
     },
     {
@@ -1126,7 +1126,7 @@
       "currentData": {
         "date": "01.06.2019",
         "value": "4173",
-        "value2": "155.30"
+        "value2": "155.3"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/min/",
       "graphData": [
@@ -1658,15 +1658,15 @@
           "date": "01.04.2019",
           "value": "10237"
         }
-    ],
+      ],
       "mediaInfoData": [
-      {
+        {
           "date": "03.05.2019",
           "caption": "В березні середня зарплата зросла на 8,6%",
           "source": "https://www.poglyad.tv/v-berezni-serednya-zarplata-zrosla-na-8-6/"
-      }
+        }
       ]
-      },
+    },
     {
       "id": 7,
       "label": "Мінімальна пенсія",
@@ -1985,14 +1985,14 @@
       "initialData": {
         "date": "30.04.2019",
         "quantity": "млн",
-        "value": "1337319.4",
-        "value2": "50238.7"
+        "value": "1337319",
+        "value2": "50238"
       },
       "currentData": {
         "date": "30.04.2019",
         "quantity": "млн",
-        "value": "1337319.4",
-        "value2": "50238.7"
+        "value": "1337319",
+        "value2": "50238"
       },
       "source": "https://index.minfin.com.ua/ua/finance/debtgov/",
       "graphData": [
@@ -2024,15 +2024,15 @@
           "date": "30.04.2019",
           "value": "1337319.4"
         }
-     ],
-          "mediaInfoData": [
-      {
+      ],
+      "mediaInfoData": [
+        {
           "date": "27.05.2019",
           "caption": "У квітні держбог України скоротився та складає майже 80 млрд доларів - Мінфін",
           "source": "https://prm.ua/u-kvitni-derzhborg-ukrayini-skorotivsya-ta-skladaye-mayzhe-80-mlrd-dolariv-minfin/"
-      }
+        }
       ]
-      },
+    },
     {
       "id": 9,
       "label": "Золотовалютний резерв",
@@ -2735,14 +2735,14 @@
       "measure": "₴",
       "measure2": "$",
       "initialData": {
-        "date": "21.04.2019",
-        "value": "17.33",
+        "date": "20.05.2019",
+        "value": "16.88",
         "value2": "0.64"
       },
       "currentData": {
         "date": "20.05.2019",
-        "value": "16.88",
-        "value2": "0.64"
+        "value": "16.63",
+        "value2": "0.62"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
       "graphData": [
@@ -2864,12 +2864,12 @@
       "measure2": "$",
       "initialData": {
         "date": "30.05.2019",
-        "value": "13.48",
+        "value": "13.49",
         "value2": "0.5"
       },
       "currentData": {
         "date": "30.05.2019",
-        "value": "13.48",
+        "value": "13.49",
         "value2": "0.5"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=хлебо-булочные&g=хлеб&w=батон",
@@ -2980,7 +2980,7 @@
         },
         {
           "date": "20.05.2019",
-          "value": "13.48"
+          "value": "13.49"
         }
       ]
     },
@@ -2991,9 +2991,9 @@
       "measure": "₴",
       "measure2": "$",
       "initialData": {
-        "date": "21.04.2019",
-        "value": "12.43",
-        "value2": "0.46"
+        "date": "20.05.2019",
+        "value": "20.94",
+        "value2": "0.77"
       },
       "currentData": {
         "date": "20.05.2019",
@@ -3115,9 +3115,9 @@
       "measure": "₴",
       "measure2": "$",
       "initialData": {
-        "date": "21.04.2019",
-        "value": "189.00",
-        "value2": "7.2"
+        "date": "20.05.2019",
+        "value": "142.33",
+        "value2": "5.29"
       },
       "currentData": {
         "date": "20.05.2019",
