@@ -2652,9 +2652,9 @@
         "value": "14862.8"
       },
       "currentData": {
-        "date": "01.05.2019",
+        "date": "01.06.2019",
         "quantity": "млн",
-        "value": "36850.3"
+        "value": "29538.9"
       },
       "source": "https://index.minfin.com.ua/ua/finance/ekr/",
       "graphData": [
@@ -2725,6 +2725,10 @@
         {
           "date": "01.05.2019",
           "value": "36850.3"
+        },
+        {
+          "date": "01.06.2019",
+          "value": "29538.9"
         }
       ]
     },
@@ -3110,7 +3114,7 @@
     },
     {
       "id": 18,
-      "label": "Вартість 1кг цибулі",
+      "label": "Вартість 1кг цибулі (зелена)",
       "invertArrow": false,
       "measure": "₴",
       "measure2": "$",
@@ -3173,7 +3177,17 @@
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
-      "description": "Подати законопроекти \"Про зняття недоторканності з Президента України, народних депутатів і суддів\"; \"Про імпічмент Президента України\"; \"Про відкликання народного депутата України\".",
+      "description": "Подати законопроект \"Про зняття недоторканності з Президента України, народних депутатів і суддів\".",
+      "completed": false,
+      "source": "https://program.ze2019.com/?prefer_lang=ukr"
+    },
+    {
+      "description": "Подати законопроект \"Про імпічмент Президента України\".",
+      "completed": true,
+      "source": "https://program.ze2019.com/?prefer_lang=ukr"
+    },
+    {
+      "description": "Подати законопроект \"Про відкликання народного депутата України\".",
       "completed": false,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
@@ -3214,8 +3228,9 @@
     },
     {
       "description": "СБУ не буде займатись економічними злочинами.",
-      "completed": false
-    },
+      "completed": false,
+      "source": "https://program.ze2019.com/?prefer_lang=ukr"
+  },
     {
       "description": "Замінити податок на прибуток податком на виведений капітал.",
       "completed": false,
