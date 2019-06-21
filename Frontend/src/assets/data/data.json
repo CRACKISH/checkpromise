@@ -10,8 +10,8 @@
         "value": "26.20"
       },
       "currentData": {
-        "date": "01.06.2019",
-        "value": "26.85"
+        "date": "14.06.2019",
+        "value": "26.42"
       },
       "source": "https://bank.gov.ua/control/uk/curmetal/detail/currency?period=daily",
       "graphData": [
@@ -293,9 +293,9 @@
         "value2": "0.311"
       },
       "currentData": {
-        "date": "01.06.2019",
+        "date": "14.06.2019",
         "value": "8.64",
-        "value2": "0.32"
+        "value2": "0.33"
       },
       "source": "https://index.minfin.com.ua/ua/tariff/gas/",
       "graphData": [
@@ -574,12 +574,12 @@
       "initialData": {
         "date": "20.05.2019",
         "value": "30.34",
-        "value2": "1.15"
+        "value2": "1.16"
       },
       "currentData": {
-        "date": "01.06.2019",
-        "value": "30.32",
-        "value2": "1.13"
+        "date": "14.06.2019",
+        "value": "30.27",
+        "value2": "1.15"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -856,9 +856,9 @@
         "value2": "1.14"
       },
       "currentData": {
-        "date": "01.06.2019",
-        "value": "29.83",
-        "value2": "1.11"
+        "date": "14.06.2019",
+        "value": "29.76",
+        "value2": "1.13"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -1124,9 +1124,9 @@
         "value2": "159.27"
       },
       "currentData": {
-        "date": "01.06.2019",
+        "date": "14.06.2019",
         "value": "4173",
-        "value2": "155.3"
+        "value2": "157.95"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/min/",
       "graphData": [
@@ -1391,14 +1391,14 @@
       "measure": "₴",
       "measure2": "$",
       "initialData": {
-        "date": "20.05.2019",
+        "date": "01.04.2019",
         "value": "10237",
-        "value2": "390.7"
+        "value2": "376.5"
       },
       "currentData": {
-        "date": "01.06.2019",
-        "value": "10237",
-        "value2": "381.3"
+        "date": "30.04.2019",
+        "value": "10269",
+        "value2": "387.7"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/average/",
       "graphData": [
@@ -1679,9 +1679,9 @@
         "value2": "57.13"
       },
       "currentData": {
-        "date": "01.06.2019",
+        "date": "14.06.2019",
         "value": "1497",
-        "value2": "55.71"
+        "value2": "56.66"
       },
       "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html",
       "graphData": [
@@ -2656,7 +2656,7 @@
         "value": "14862.8"
       },
       "currentData": {
-        "date": "01.06.2019",
+        "date": "14.06.2019",
         "quantity": "млн",
         "value": "29538.9"
       },
@@ -2748,9 +2748,9 @@
         "value2": "0.64"
       },
       "currentData": {
-        "date": "01.06.2019",
-        "value": "16.41",
-        "value2": "0.6"
+        "date": "14.06.2019",
+        "value": "16.63",
+        "value2": "0.63"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
       "graphData": [
@@ -2880,9 +2880,9 @@
         "value2": "0.5"
       },
       "currentData": {
-        "date": "01.06.2019",
+        "date": "14.06.2019",
         "value": "13.65",
-        "value2": "0.5"
+        "value2": "0.52"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=хлебо-булочные&g=хлеб&w=батон",
       "graphData": [
@@ -3008,9 +3008,9 @@
         "value2": "0.77"
       },
       "currentData": {
-        "date": "01.06.2019",
-        "value": "15.90",
-        "value2": "0.59"
+        "date": "14.06.2019",
+        "value": "19.90",
+        "value2": "0.75"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
       "graphData": [
@@ -3136,9 +3136,9 @@
         "value2": "5.29"
       },
       "currentData": {
-        "date": "01.06.2019",
+        "date": "14.06.2019",
         "value": "143.58",
-        "value2": "5.34"
+        "value2": "5.43"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=зелень&w=лук",
       "graphData": [
