@@ -1,4 +1,4 @@
-<div class="header-wrap">
+<header class="header-wrap">
   <div class="header-logo">
     <div class="logo"></div>
   </div>
@@ -23,11 +23,11 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="content-wrap">
+  </header>
+  <section class="content-wrap">
     <router-outlet></router-outlet>
-  </div>
-  <div class="footer-wrap" [ngClass]="getFooterAdditionClass()">
+  </section>
+  <footer class="footer-wrap" [ngClass]="getFooterAdditionClass()">
     <div class="footer-text">
       <label>Створено народом України 🇺🇦</label>
       <br>
@@ -38,4 +38,4 @@
       <a class="share-icon facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.checkpromise.info%2F&amp;src=sdkpreparse"></a>
       <a class="share-icon telegram" target="_blank" href="https://t.me/checkpromise_info_bot"></a>
     </div>
-  </div>
+  </footer>
