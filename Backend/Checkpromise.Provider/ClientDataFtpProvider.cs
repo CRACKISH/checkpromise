@@ -1,4 +1,6 @@
-﻿using System.Net;
+﻿using CheckPromise.DTO;
+using Newtonsoft.Json;
+using System.Net;
 using System.Text;
 
 namespace Checkpromise.Provider
@@ -14,11 +16,11 @@ namespace Checkpromise.Provider
 			return webClient;
 		}
 
-		public void Push()
+		public void Push(ClientData clientData)
 		{
 			using (WebClient webClient = GetWebClient()) {
 				var ftpPath = $"ftp://{ftpServer}/assets/data/data.json";
-				webClient.UploadData(ftpPath, WebRequestMethods.Ftp.UploadFile, Encoding.UTF8.GetBytes(""));
+				webClient.UploadData(ftpPath, WebRequestMethods.Ftp.UploadFile, Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(clientData)));
 			}
 		}
 	}

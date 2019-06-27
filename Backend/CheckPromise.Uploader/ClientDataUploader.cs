@@ -1,4 +1,6 @@
-﻿using Checkpromise.Provider;
+﻿using CheckPromise.DTO;
+using Checkpromise.Provider;
+using CheckPromise.Data.DataContext;
 
 namespace CheckPromise.Uploader
 {
@@ -7,12 +9,22 @@ namespace CheckPromise.Uploader
 
 		private readonly IClientDataProvider dataProvider;
 
-		public ClientDataUploader(IClientDataProvider clientDataProvider) {
+		private readonly CheckPromiseContext dbContext;
+
+		public ClientDataUploader(IClientDataProvider clientDataProvider, CheckPromiseContext checkPromiseContext) {
 			dataProvider = clientDataProvider;
+			dbContext = checkPromiseContext;
 		}
 
-		public void UploadData() {
-			dataProvider.Push();
+		private ClientData BuildClientData() {
+			ClientData clientData = new ClientData();
+			//clientData.IndicatorData = dbContext.Indicator;
+			//clientData.PromiseData = dbContext.Promise;
+			return clientData;
+		}
+
+		public void UploadData() {			
+			dataProvider.Push(BuildClientData());
 		}
 	}
 }
