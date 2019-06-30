@@ -10,8 +10,8 @@
         "value": "26.20"
       },
       "currentData": {
-        "date": "14.06.2019",
-        "value": "26.42"
+        "date": "01.07.2019",
+        "value": "26.17"
       },
       "source": "https://bank.gov.ua/control/uk/curmetal/detail/currency?period=daily",
       "graphData": [
@@ -293,8 +293,8 @@
         "value2": "0.311"
       },
       "currentData": {
-        "date": "14.06.2019",
-        "value": "8.64",
+        "date": "01.07.2019",
+        "value": "7.70",
         "value2": "0.33"
       },
       "source": "https://index.minfin.com.ua/ua/tariff/gas/",
@@ -577,8 +577,8 @@
         "value2": "1.16"
       },
       "currentData": {
-        "date": "14.06.2019",
-        "value": "30.27",
+        "date": "01.07.2019",
+        "value": "30.22",
         "value2": "1.15"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
@@ -856,8 +856,8 @@
         "value2": "1.14"
       },
       "currentData": {
-        "date": "14.06.2019",
-        "value": "29.76",
+        "date": "01.07.2019",
+        "value": "29.69",
         "value2": "1.13"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
@@ -1124,7 +1124,7 @@
         "value2": "159.27"
       },
       "currentData": {
-        "date": "14.06.2019",
+        "date": "01.07.2019",
         "value": "4173",
         "value2": "157.95"
       },
@@ -1391,14 +1391,14 @@
       "measure": "₴",
       "measure2": "$",
       "initialData": {
-        "date": "01.04.2019",
-        "value": "10237",
-        "value2": "376.5"
+        "date": "20.05.2019",
+        "value": "10269",
+        "value2": ""
       },
       "currentData": {
-        "date": "30.04.2019",
-        "value": "10269",
-        "value2": "387.7"
+        "date": "01.06.2019",
+        "value": "10239",
+        "value2": ""
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/average/",
       "graphData": [
@@ -1657,6 +1657,14 @@
         {
           "date": "01.04.2019",
           "value": "10237"
+        },
+        {
+          "date": "01.05.2019",
+          "value": "10269"
+        },
+        {
+          "date": "01.06.2019",
+          "value": "10239"
         }
       ],
       "mediaInfoData": [
@@ -1679,8 +1687,8 @@
         "value2": "57.13"
       },
       "currentData": {
-        "date": "14.06.2019",
-        "value": "1497",
+        "date": "01.07.2019",
+        "value": "1564",
         "value2": "56.66"
       },
       "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html",
@@ -1949,8 +1957,8 @@
         "value": "9.1"
       },
       "currentData": {
-        "date": "2018",
-        "value": "9.1"
+        "date": "2019",
+        "value": "9.6"
       },
       "source": "https://index.minfin.com.ua/ua/labour/unemploy/",
       "graphData": [
@@ -1973,6 +1981,10 @@
         {
           "value": "9.1",
           "date": "2018"
+        },
+        {
+          "value": "9.6",
+          "date": "2019"
         }
       ]
     },
@@ -1989,10 +2001,10 @@
         "value2": "50238"
       },
       "currentData": {
-        "date": "30.04.2019",
+        "date": "31.05.2019",
         "quantity": "млн",
-        "value": "1337319",
-        "value2": "50238"
+        "value": "1308922",
+        "value2": ""
       },
       "source": "https://index.minfin.com.ua/ua/finance/debtgov/",
       "graphData": [
@@ -2023,6 +2035,10 @@
         {
           "date": "30.04.2019",
           "value": "1337319.4"
+        },
+        {
+          "date": "31.05.2019",
+          "value": "1308921.5"
         }
       ],
       "mediaInfoData": [
@@ -2044,9 +2060,9 @@
         "value": "20524.72"
       },
       "currentData": {
-        "date": "30.04.2019",
+        "date": "31.05.2019",
         "quantity": "млн",
-        "value": "20524.72"
+        "value": "19402.08"
       },
       "source": "https://index.minfin.com.ua/ua/finance/assets/",
       "graphData": [
@@ -2287,8 +2303,12 @@
           "value": "20639.87"
         },
         {
-          "date": "20.04.2019",
+          "date": "21.04.2019",
           "value": "20524.72"
+        },
+        {
+          "date": "20.05.2019",
+          "value": "19402.08"
         }
       ]
     },
@@ -2748,8 +2768,8 @@
         "value2": "0.64"
       },
       "currentData": {
-        "date": "14.06.2019",
-        "value": "16.63",
+        "date": "01.07.2019",
+        "value": "17.16",
         "value2": "0.63"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
@@ -2880,7 +2900,7 @@
         "value2": "0.5"
       },
       "currentData": {
-        "date": "14.06.2019",
+        "date": "01.07.2019",
         "value": "13.65",
         "value2": "0.52"
       },
@@ -3008,8 +3028,8 @@
         "value2": "0.77"
       },
       "currentData": {
-        "date": "14.06.2019",
-        "value": "19.90",
+        "date": "01.07.2019",
+        "value": "18.93",
         "value2": "0.75"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
@@ -3136,8 +3156,8 @@
         "value2": "5.29"
       },
       "currentData": {
-        "date": "14.06.2019",
-        "value": "143.58",
+        "date": "01.07.2019",
+        "value": "254",
         "value2": "5.43"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=зелень&w=лук",
