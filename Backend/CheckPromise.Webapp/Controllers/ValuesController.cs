@@ -21,7 +21,7 @@ namespace CheckPromise.Webapp.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Promise>> Get()
         {
-            return Context.Promises.ToList();
+            return Context.Promise.ToList();
             
         }
 
