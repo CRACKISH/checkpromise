@@ -1946,12 +1946,12 @@
       "initialData": {
         "date": "20.05.2019",
         "value": "1853",
-        "value2": ""
+        "value2": "70.73"
       },
       "currentData": {
         "date": "01.07.2019",
         "value": "1936",
-        "value2": ""
+        "value2": "73.98"
       },
       "source": "https://index.minfin.com.ua/ua/labour/wagemin/",
       "graphData": [
