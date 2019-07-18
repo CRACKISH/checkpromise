@@ -1,6 +1,7 @@
 ﻿using CheckPromise.DTO;
 using Checkpromise.Provider;
 using CheckPromise.Data.DataContext;
+using System.Linq;
 
 namespace CheckPromise.Uploader
 {
@@ -18,8 +19,8 @@ namespace CheckPromise.Uploader
 
 		private ClientData BuildClientData() {
 			ClientData clientData = new ClientData();
-			//clientData.IndicatorData = dbContext.Indicator;
-			//clientData.PromiseData = dbContext.Promise;
+			clientData.IndicatorData = dbContext.Indicator.Select(i => new Indicator(i)).ToList();
+			clientData.PromiseData = dbContext.Promise.Select(p => new Promise(p)).ToList();
 			return clientData;
 		}
 
