@@ -35,11 +35,21 @@ namespace CheckPromise.Uploader
 			return serviceCollection.BuildServiceProvider();
 		}
 
+		private static void InitializeDb(ServiceProvider serviceProvider)
+		{
+			CheckPromiseContext context = serviceProvider.GetRequiredService<CheckPromiseContext>();
+			if (!context.Database.EnsureCreated()) {
+				context.Database.Migrate();
+			}
+		}
+
 		static void Main(string[] args)
 		{
 			BuildConfiguration();
 
 			using (var serviceProvider = BuildServiceProvider()) {
+				InitializeDb(serviceProvider);
+
 				var clientDataUploader = serviceProvider.GetService<ClientDataUploader>();
 				clientDataUploader.UploadData();
 			}
