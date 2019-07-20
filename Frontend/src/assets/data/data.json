@@ -1522,14 +1522,14 @@
       "invertArrow": true,
       "measure": "$",
       "initialData": {
-        "date": "30.04.2019",
-        "quantity": "млн",
-        "value": "20524.72"
-      },
-      "currentData": {
-        "date": "31.05.2019",
+        "date": "20.05.2019",
         "quantity": "млн",
         "value": "19402.08"
+      },
+      "currentData": {
+        "date": "01.07.2019",
+        "quantity": "млн",
+        "value": "20638.97"
       },
       "source": "https://index.minfin.com.ua/ua/finance/assets/",
       "graphData": [
@@ -1774,8 +1774,12 @@
           "value": "20524.72"
         },
         {
-          "date": "20.05.2019",
+          "date": "01.06.2019",
           "value": "19402.08"
+        },
+        {
+          "date": "01.07.2019",
+          "value": "20638.97"
         }
       ]
     },
