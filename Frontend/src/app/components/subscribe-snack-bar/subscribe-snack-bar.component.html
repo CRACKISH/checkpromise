@@ -1,9 +1,10 @@
 <div class="wrap">
   <div class="text">
-    <span>Підписатися на оновлення в Telegram?</span>
+    <span>Підписатися на оновлення?</span>
   </div>
   <div class="button">
-    <button mat-button (click)="doSubscribe()">Так</button>  
-    <button mat-button (click)="doCancel()">Ні</button>
+    <button mat-button (click)="doTGSubscribe()"><span class="icon telegram"></span>Telegram</button>
+    <button mat-button (click)="doViberSubscribe()"><span class="icon viber"></span>Viber</button>
+    <button mat-button (click)="doCancel()"><span class="icon cancel"></span>Ні</button>
   </div>
 </div>

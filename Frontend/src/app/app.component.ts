@@ -28,9 +28,12 @@ export class AppComponent implements OnInit {
 
   protected isNeedShowSubscribeSnackBar(): boolean {
     const tgBotTag = 'utm_source=telegram_bot';
-    const isNotLinkFromTgBot = window.location.href.indexOf(tgBotTag) === -1;
-    const hasNotCookie = this.cookieService.get('IsTGSubscribe') !== 'true';
-    return isNotLinkFromTgBot && hasNotCookie;
+    const viberBotTag = 'utm_source=viber_bot';
+    const href = window.location.href;
+    const isNotLinkFromTgBot = href.indexOf(tgBotTag) === -1;
+    const isNotLinkFromViberBot = href.indexOf(viberBotTag) === -1;
+    const hasNotCookie = this.cookieService.get('IsSubscribed') !== 'true';
+    return isNotLinkFromViberBot && isNotLinkFromTgBot && hasNotCookie;
   }
 
   public ngOnInit() {

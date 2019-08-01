@@ -7,9 +7,41 @@
     line-height: 20px;
     opacity: 1;
     pointer-events: auto;
+    background-color: #323232;
 }
 
 .text {
     line-height: 20px;
     pointer-events: auto;
+    color: #c2c2c2;
+}
+
+.button {
+    color: white;
+
+    .mat-button {
+        
+    }
+
+    .icon {
+        height: 12px;
+        width: 12px;
+        display: inline-block;
+        margin-right: 8px;
+
+        &.telegram {
+            background: url("./images/telegram_subscribe.svg");
+            background-repeat: no-repeat;
+        }
+  
+        &.viber {
+            background: url("./images/viber_subscribe.svg");
+            background-repeat: no-repeat;
+        }
+
+        &.cancel {
+            background: url("./images/cancel_subscribe.svg");
+            background-repeat: no-repeat;
+        }
+    }
 }

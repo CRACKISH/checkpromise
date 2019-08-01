@@ -4,6 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatIconModule } from '@angular/material/icon';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { ChartsModule } from 'ng2-charts';
@@ -41,6 +42,7 @@ import { MainPageComponent } from './components/main-page/main-page.component';
     MatButtonModule,
     MatDialogModule,
     MatDividerModule,
+    MatIconModule,
     MatSlideToggleModule,
     MatSnackBarModule,
   ],

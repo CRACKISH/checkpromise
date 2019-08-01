@@ -15,13 +15,21 @@ export class SubscribeSnackBarComponent {
   ) { }
 
   protected setCookie(expires?: number) {
-    this.cookieService.set('IsTGSubscribe', 'true', expires);
+    this.cookieService.set('IsSubscribed', 'true', expires);
   }
 
-  public doSubscribe() {
-    window.open('https://t.me/checkpromise_info_bot', '_blank');
+  protected doSubscribe(url: string) {
+    window.open(url, '_blank');
     this.setCookie(30);
     this.snackBar.dismiss();
+  }
+
+  public doTGSubscribe() {
+    this.doSubscribe('https://t.me/checkpromise_info_bot');
+  }
+
+  public doViberSubscribe() {
+    this.doSubscribe('viber://pa?chatURI=checkpromise_info');
   }
 
   public doCancel() {
