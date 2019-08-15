@@ -593,7 +593,7 @@
       "currentData": {
         "date": "15.08.2019",
         "value": "4173",
-        "value2": "166.79"
+        "value2": "165.33"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/min/",
       "graphData": [
@@ -1168,7 +1168,7 @@
       "currentData": {
         "date": "15.08.2019",
         "value": "1564",
-        "value2": "62.51"
+        "value2": "61.97"
       },
       "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html",
       "graphData": [
@@ -2280,7 +2280,7 @@
       "currentData": {
         "date": "15.08.2019",
         "value": "6.60",
-        "value2": "0.307"
+        "value2": "0.26"
       },
       "source": "https://index.minfin.com.ua/ua/tariff/gas/",
       "graphData": [
@@ -2572,7 +2572,7 @@
       "currentData": {
         "date": "15.08.2019",
         "value": "28.86",
-        "value2": "1.15"
+        "value2": "1.14"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -2859,7 +2859,7 @@
       "currentData": {
         "date": "15.08.2019",
         "value": "28.28",
-        "value2": "1.13"
+        "value2": "1.12"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3135,7 +3135,7 @@
       "currentData": {
         "date": "15.08.2019",
         "value": "17.37",
-        "value2": "0.67"
+        "value2": "0.69"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
       "graphData": [
@@ -3275,7 +3275,7 @@
       "currentData": {
         "date": "15.08.2019",
         "value": "13.65",
-        "value2": "0.55"
+        "value2": "0.54"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=хлебо-булочные&g=хлеб&w=батон",
       "graphData": [
@@ -3411,7 +3411,7 @@
       "currentData": {
         "date": "15.08.2019",
         "value": "17.02",
-        "value2": "0.75"
+        "value2": "0.67"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
       "graphData": [
