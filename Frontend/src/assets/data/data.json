@@ -10,8 +10,8 @@
         "value": "26.20"
       },
       "currentData": {
-        "date": "01.08.2019",
-        "value": "25.02"
+        "date": "15.08.2019",
+        "value": "25.24"
       },
       "source": "https://bank.gov.ua/control/uk/curmetal/detail/currency?period=daily",
       "graphData": [
@@ -304,8 +304,8 @@
         "value": "100.7"
       },
       "currentData": {
-        "date": "01.07.2019",
-        "value": "99.5"
+        "date": "01.08.2019",
+        "value": "99.4"
       },
       "source": "https://index.minfin.com.ua/ua/economy/index/inflation/",
       "graphData": [
@@ -572,6 +572,10 @@
         {
           "date": "01.07.2019",
           "value": "99.5"
+        },
+        {
+          "date": "01.08.2019",
+          "value": "99.4"
         }
       ]
     },
@@ -587,7 +591,7 @@
         "value2": "159.27"
       },
       "currentData": {
-        "date": "01.08.2019",
+        "date": "15.08.2019",
         "value": "4173",
         "value2": "166.79"
       },
@@ -1162,7 +1166,7 @@
         "value2": "57.13"
       },
       "currentData": {
-        "date": "01.08.2019",
+        "date": "15.08.2019",
         "value": "1564",
         "value2": "62.51"
       },
@@ -2274,8 +2278,8 @@
         "value2": "0.311"
       },
       "currentData": {
-        "date": "01.08.2019",
-        "value": "7.70",
+        "date": "15.08.2019",
+        "value": "6.60",
         "value2": "0.307"
       },
       "source": "https://index.minfin.com.ua/ua/tariff/gas/",
@@ -2566,8 +2570,8 @@
         "value2": "1.16"
       },
       "currentData": {
-        "date": "01.08.2019",
-        "value": "28.87",
+        "date": "15.08.2019",
+        "value": "28.86",
         "value2": "1.15"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
@@ -2853,8 +2857,8 @@
         "value2": "1.14"
       },
       "currentData": {
-        "date": "01.08.2019",
-        "value": "28.31",
+        "date": "15.08.2019",
+        "value": "28.28",
         "value2": "1.13"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
@@ -3129,8 +3133,8 @@
         "value2": "0.64"
       },
       "currentData": {
-        "date": "01.08.2019",
-        "value": "16.78",
+        "date": "15.08.2019",
+        "value": "17.37",
         "value2": "0.67"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
@@ -3269,7 +3273,7 @@
         "value2": "0.5"
       },
       "currentData": {
-        "date": "01.08.2019",
+        "date": "15.08.2019",
         "value": "13.65",
         "value2": "0.55"
       },
@@ -3405,8 +3409,8 @@
         "value2": "0.77"
       },
       "currentData": {
-        "date": "01.08.2019",
-        "value": "18.67",
+        "date": "15.08.2019",
+        "value": "17.02",
         "value2": "0.75"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
