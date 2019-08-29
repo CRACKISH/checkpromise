@@ -2,12 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { MatSlideToggleChange } from '@angular/material/slide-toggle';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { Router } from '@angular/router';
+import { Router, NavigationStart, NavigationEnd } from '@angular/router';
 import { CookieService } from 'ngx-cookie-service';
 
 import { SubscribeSnackBarComponent } from './components/subscribe-snack-bar/subscribe-snack-bar.component';
 import { DonateDialogComponent } from './components/donate-dialog/donate-dialog.component';
 import { ChangeCurrencyService } from './services/change-currency.service';
+import { delay } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
@@ -18,13 +19,25 @@ export class AppComponent implements OnInit {
 
   public isUSDChecked = false;
 
+  public isReady = false;
+
   constructor(
     protected changeCurrencyService: ChangeCurrencyService,
     protected cookieService: CookieService,
     protected dialog: MatDialog,
     protected router: Router,
     protected snackBar: MatSnackBar
-  ) {}
+  ) {
+    this.router.events
+      .subscribe(event => {
+        console.log(event);
+        if (event instanceof NavigationStart) {
+          setTimeout(() => this.isReady = false, 0);
+        } else if (event instanceof NavigationEnd) {
+          setTimeout(() => this.isReady = true, 500);
+        }
+      });
+  }
 
   protected isNeedShowSubscribeSnackBar(): boolean {
     const tgBotTag = 'utm_source=telegram_bot';

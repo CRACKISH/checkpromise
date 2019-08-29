@@ -25,7 +25,8 @@
             "assets": [
               "src/favicon.ico",
               "src/og_tag_image.jpg",
-              "src/assets"
+              "src/assets",
+              "src/privacy.html"
             ],
             "styles": [
               "src/styles.scss"
