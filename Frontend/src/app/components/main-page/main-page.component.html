@@ -1,3 +1,4 @@
+<app-mask [visible]="isLoading"></app-mask>
 <div class="indicators-wrap">
     <ng-container *ngFor="let indicator of indicatorData; let i = index; let even = even;">
       <div class="indicator-line-wrap" *ngIf="even">

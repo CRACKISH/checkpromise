@@ -18,6 +18,7 @@ import { DonateDialogComponent } from './components/donate-dialog/donate-dialog.
 import { IndicatorInfoPageComponent } from './components/indicator-info-page/indicator-info-page.component';
 import { SubscribeSnackBarComponent } from './components/subscribe-snack-bar/subscribe-snack-bar.component';
 import { MainPageComponent } from './components/main-page/main-page.component';
+import { MaskComponent } from './components/mask/mask.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { MainPageComponent } from './components/main-page/main-page.component';
     DonateDialogComponent,
     IndicatorInfoPageComponent,
     SubscribeSnackBarComponent,
-    MainPageComponent
+    MainPageComponent,
+    MaskComponent
   ],
   entryComponents: [
     DonateDialogComponent,

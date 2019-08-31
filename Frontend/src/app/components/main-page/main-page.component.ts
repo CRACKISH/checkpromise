@@ -17,6 +17,8 @@ export class MainPageComponent implements OnInit, OnDestroy {
 
   public isUSDChecked = false;
 
+  public isLoading = false;
+
   public indicatorData: IndicatorData[];
 
   public promiseData: PromiseData[];
@@ -27,9 +29,11 @@ export class MainPageComponent implements OnInit, OnDestroy {
   ) {}
 
   public ngOnInit() {
+    this.isLoading = true;
     this.dataService.get().subscribe(data => {
       this.indicatorData = data.indicatorData;
       this.promiseData = data.promiseData;
+      this.isLoading = false;
     });
     this.isUSDChecked = this.changeCurrencyService.isUSDChecked();
     this.subscription = this.changeCurrencyService.changed()

@@ -17,6 +17,8 @@ export class IndicatorInfoPageComponent implements OnInit {
 
   public isUSDChecked = false;
 
+  public isLoading = false;
+
   public indicatorData = new IndicatorData();
 
   public graphOptions: ChartOptions = {
@@ -84,10 +86,12 @@ export class IndicatorInfoPageComponent implements OnInit {
   }
 
   public ngOnInit() {
+    this.isLoading = true;
     this.dataService.getIndicatorData(this.id).subscribe(indicatorData => {
       this.indicatorData = indicatorData;
       this.buildGraphConfig();
       this.buildData();
+      this.isLoading = false;
     });
   }
 
