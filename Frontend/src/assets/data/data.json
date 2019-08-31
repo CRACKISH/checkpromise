@@ -10,8 +10,8 @@
         "value": "26.20"
       },
       "currentData": {
-        "date": "15.08.2019",
-        "value": "25.24"
+        "date": "01.09.2019",
+        "value": "25.14"
       },
       "source": "https://bank.gov.ua/control/uk/curmetal/detail/currency?period=daily",
       "graphData": [
@@ -591,7 +591,7 @@
         "value2": "159.27"
       },
       "currentData": {
-        "date": "15.08.2019",
+        "date": "01.09.2019",
         "value": "4173",
         "value2": "165.33"
       },
@@ -871,9 +871,9 @@
         "value2": "389.41"
       },
       "currentData": {
-        "date": "01.07.2019",
-        "value": "10783",
-        "value2": "412.03"
+        "date": "01.08.2019",
+        "value": "10971",
+        "value2": "436.40"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/average/",
       "graphData": [
@@ -1144,6 +1144,10 @@
         {
           "date": "01.07.2019",
           "value": "10783"
+        },
+        {
+          "date": "01.08.2019",
+          "value": "10971"
         }
       ],
       "mediaInfoData": [
@@ -1166,7 +1170,7 @@
         "value2": "57.13"
       },
       "currentData": {
-        "date": "15.08.2019",
+        "date": "01.09.2019",
         "value": "1564",
         "value2": "61.97"
       },
@@ -1551,9 +1555,9 @@
         "value": "19402.08"
       },
       "currentData": {
-        "date": "01.07.2019",
+        "date": "01.08.2019",
         "quantity": "млн",
-        "value": "20638.97"
+        "value": "21840.17"
       },
       "source": "https://index.minfin.com.ua/ua/finance/assets/",
       "graphData": [
@@ -1804,6 +1808,10 @@
         {
           "date": "01.07.2019",
           "value": "20638.97"
+        },
+        {
+          "date": "01.08.2019",
+          "value": "21840.17"
         }
       ]
     },
@@ -2002,7 +2010,7 @@
         "value2": "70.73"
       },
       "currentData": {
-        "date": "01.08.2019",
+        "date": "01.09.2019",
         "value": "1936",
         "value2": "77.38"
       },
@@ -2263,6 +2271,10 @@
         {
           "date": "01.08.2019",
           "value": "1936"
+        },
+        {
+          "date": "01.09.2019",
+          "value": "1936"
         }
       ]
     },
@@ -2278,7 +2290,7 @@
         "value2": "0.311"
       },
       "currentData": {
-        "date": "15.08.2019",
+        "date": "01.09.2019",
         "value": "6.60",
         "value2": "0.26"
       },
@@ -2570,8 +2582,8 @@
         "value2": "1.16"
       },
       "currentData": {
-        "date": "15.08.2019",
-        "value": "28.86",
+        "date": "01.09.2019",
+        "value": "28.76",
         "value2": "1.14"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
@@ -2857,8 +2869,8 @@
         "value2": "1.14"
       },
       "currentData": {
-        "date": "15.08.2019",
-        "value": "28.28",
+        "date": "01.09.2019",
+        "value": "28.19",
         "value2": "1.12"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
@@ -3133,8 +3145,8 @@
         "value2": "0.64"
       },
       "currentData": {
-        "date": "15.08.2019",
-        "value": "17.37",
+        "date": "01.09.2019",
+        "value": "20.15",
         "value2": "0.69"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
@@ -3273,7 +3285,7 @@
         "value2": "0.5"
       },
       "currentData": {
-        "date": "15.08.2019",
+        "date": "01.09.2019",
         "value": "13.65",
         "value2": "0.54"
       },
@@ -3409,8 +3421,8 @@
         "value2": "0.77"
       },
       "currentData": {
-        "date": "15.08.2019",
-        "value": "17.02",
+        "date": "01.09.2019",
+        "value": "16.02",
         "value2": "0.67"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
@@ -3546,7 +3558,12 @@
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
-      "description": "Подати законопроект \"Про зняття недоторканності з Президента України, народних депутатів і суддів\".",
+      "description": "Подати законопроект \"Про зняття недоторканності з народних депутатів\".",
+      "completed": false,
+      "source": "https://program.ze2019.com/?prefer_lang=ukr"
+    },
+    {
+      "description": "Подати законопроект \"Про зняття недоторканності з Президента України і суддів\".",
       "completed": false,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
@@ -3576,7 +3593,12 @@
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
-      "description": "Вибори в Раду відбуватимуться за відкритими списками, а кнопкодавство та депутатські прогули будуть автоматичною підставою для позбавлення депутатського мандату.",
+      "description": "Вибори в Раду відбуватимуться за відкритими списками.",
+      "completed": false,
+      "source": "https://program.ze2019.com/?prefer_lang=ukr"
+    },
+    {
+      "description": "Кнопкодавство та депутатські прогули будуть автоматичною підставою для позбавлення депутатського мандату.",
       "completed": false,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
