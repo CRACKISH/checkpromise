@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { PromiseStatus } from '../../models/promise-data.model';
 
 @Component({
   selector: 'app-checkbox',
@@ -8,6 +9,22 @@ import { Component, Input } from '@angular/core';
 export class CheckboxComponent {
 
   @Input()
-  public checked: boolean;
+  public status: PromiseStatus;
+
+  public getStyleClass(): string {
+    let result = '';
+    switch (this.status) {
+      case PromiseStatus.Done:
+        result = 'checked';
+        break;
+      case PromiseStatus.NotPerformed:
+        result = 'crossed';
+        break;
+      case PromiseStatus.Nothing:
+      default:
+        result = '';
+    }
+    return result;
+  }
 
 }

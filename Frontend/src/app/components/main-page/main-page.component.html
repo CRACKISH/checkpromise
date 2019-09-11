@@ -15,7 +15,7 @@
   <div class="promise-content">
     <ng-container *ngFor="let promise of promiseData;">
       <div class="promise-wrap">
-        <app-checkbox [checked]="promise.completed">{{promise.description}}</app-checkbox>
+        <app-checkbox [status]="promise.status">{{promise.description}}</app-checkbox>
         <div class="promises-source"><a href="{{promise.source}}" target="_blank">Джерело</a></div>
       </div>
     </ng-container>

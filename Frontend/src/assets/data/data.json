@@ -3590,192 +3590,192 @@
   "promiseData": [
     {
       "description": "Подати перший законопроект \"Про народовладдя\" та закріпити у ньому механізм, за яким тільки Народ України буде формувати основні завдання для влади через референдуми та інші форми прямої демократії.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Ставити питання підтримки України у прагненні завершити війну, повернути тимчасово окуповані території і змусити агресора відшкодувати завдані збитки перед гарантами за Будапештським меморандумом і партнерами з ЄС.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Подати законопроект \"Про зняття недоторканності з народних депутатів\".",
-      "completed": true,
+      "status": 1,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Подати законопроект \"Про зняття недоторканності з Президента України і суддів\".",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Подати законопроект \"Про імпічмент Президента України\".",
-      "completed": true,
+      "status": 1,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Подати законопроект \"Про відкликання народного депутата України\".",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Рішення у простих (судових) спорах прийматимуть мирові судді, яких обиратиме народ. За кримінальні злочини вирок буде виносити ефективний суд присяжних, який складається з народу.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Президент обіцяє залишитися лише на один термін.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Довгострокове недороге кредитування.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Вибори в Раду відбуватимуться за відкритими списками.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Кнопкодавство та депутатські прогули будуть автоматичною підставою для позбавлення депутатського мандату.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Україна повинна перейти на забезпечення своїх потреб коштом власних енергетичних ресурсів, ставши згодом їхнім експортером на європейський ринок.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Створити профейсійну армію. Зарплата військовослужбовців була на рівні натівських стандартів.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Введення європейських стандартів промислового і продовольчого виробництва.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "СБУ не буде займатись економічними злочинами.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Замінити податок на прибуток податком на виведений капітал.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Підозрюваний у корупції не вийде під заставу. Засуджений за корупцію отримає конфіскацію майна й довічну заборону обіймати державні посади.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Запровадити одноразову \"нульову декларацію\" для бізнесу. Кожен бізнесмен за 5% зможе задекларувати та легалізувати свої доходи.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Лікарні і школи отримають сучасне обладнання, оновлять свою інфраструктуру. Скоротити адміністративну надбудову системи охорони здоров’я та освіти.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Освітні ваучери, які шкільні генії зможуть витратити на навчання у будь-якому обраному ними закладі освіти. Підтримка і розвиток приватної освіти в Україні.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Перехід до страхової медицини. Базовий рівень страхування для малозабезпечених верств населення забезпечуватиме держава.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Сортування та переробка сміття, відмова від пластику, контроль за вирубкою лісів, забрудненням річок, виснаженням чорноземів.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Ліки, які пройшли реєстрацію у країнах ЄС та США, не будуть отримувати додаткових дозволів в Україні.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Будівництво доріг за європейськими стандартами, автоматичний контроль ваги та швидкості автомобілів.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Сучасне обладнання в лікарнях і школах.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Відновлення аеропортів у кожному обласному центрі.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Підписання угоди «Відкрите небо» з ЄС.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Рік пільгового оподаткування для молодих підприємців.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Публічні процеси будуть автоматизовані, адже комп’ютер хабара не бере. Послуги, які можуть надаватися електронно, будуть впроваджені першочергово.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Громадяни України отримають можливість долучатися до прийняття важливих рішень влади через мережу Інтернет, зокрема й до голосування на виборах і референдумах.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Держава забезпечить всіх мешканців доступом до швидкого інтернету.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Уся інформація про формування та використання бюджетів, проведення тендерів, закупівель, аукціонів буде в загальному доступі.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Перехід від солідарної до накопичувальної пенсійної системи. Усі страхові накопичення, зроблені людиною за життя, не будуть пропадати у фондах, а переходитимуть у спадщину.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Впровадити економічний паспорт українця. Кожна дитина матиме право накопичувати на своєму рахунку частину від реалізації державою природніх благ (надра, землі тощо). Після досягнення повноліття дитина отримає ці накопичення як власний стартовий капітал.",
-      "completed": false,
+      "status": 0,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
       "description": "Кандидат в президенти Володимир Зеленський пообіцяв зустрітися з представниками великого бізнесу та обговорити «амністію капіталів».",
-      "completed": false,
+      "status": 0,
       "source": "https://www.youtube.com/watch?v=CwxYGHHjq_I&feature=youtu.be&t=2707"
     },
     {
       "description": "Кандидат в президенти України Володимир Зеленський пообіцяв, що взагалі не буде брати участі у шоу студії \"Квартал 95\".",
-      "completed": false,
+      "status": 0,
       "source": "https://www.youtube.com/watch?v=O8DZzijX3U4"
     },
     {
       "description": "Кандидат в президенти України Володимир Зеленський обіцяв піти у відставку, якщо його оточення вдаватиметься до корупційних дій в оборонній сфері.",
-      "completed": false,
+      "status": 0,
       "source": "https://www.rbc.ua/ukr/news/vladimir-zelenskiy-nam-vygodno-raspustit-1555546435.html"
     },
     {
       "description": "Кандидат в президенти України Володимир Зеленський пообіцяв, що першими кадровими рішеннями Президента буде призначення «нових людей»",
-      "completed": false,
+      "status": 0,
       "source": "https://youtu.be/O8DZzijX3U4?t=166"
     }
   ],
