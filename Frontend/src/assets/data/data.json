@@ -10,8 +10,8 @@
         "value": "26.20"
       },
       "currentData": {
-        "date": "01.09.2019",
-        "value": "25.14"
+        "date": "15.09.2019",
+        "value": "24.83"
       },
       "source": "https://bank.gov.ua/control/uk/curmetal/detail/currency?period=daily",
       "graphData": [
@@ -308,8 +308,8 @@
         "value": "100.7"
       },
       "currentData": {
-        "date": "01.08.2019",
-        "value": "99.4"
+        "date": "01.09.2019",
+        "value": "99.7"
       },
       "source": "https://index.minfin.com.ua/ua/economy/index/inflation/",
       "graphData": [
@@ -580,6 +580,10 @@
         {
           "date": "01.08.2019",
           "value": "99.4"
+        },
+        {
+          "date": "01.09.2019",
+          "value": "99.7"
         }
       ]
     },
@@ -595,9 +599,9 @@
         "value2": "159.27"
       },
       "currentData": {
-        "date": "01.09.2019",
+        "date": "15.09.2019",
         "value": "4173",
-        "value2": "165.99"
+        "value2": "168.06"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/min/",
       "graphData": [
@@ -1178,9 +1182,9 @@
         "value2": "57.13"
       },
       "currentData": {
-        "date": "01.09.2019",
+        "date": "15.09.2019",
         "value": "1564",
-        "value2": "62.21"
+        "value2": "62.99"
       },
       "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html",
       "graphData": [
@@ -1504,10 +1508,10 @@
         "value2": "49959"
       },
       "currentData": {
-        "date": "30.06.2019",
+        "date": "31.07.2019",
         "quantity": "млн",
-        "value": "1309334",
-        "value2": "50032"
+        "value": "1246005",
+        "value2": "49800"
       },
       "source": "https://index.minfin.com.ua/ua/finance/debtgov/",
       "graphData": [
@@ -1546,6 +1550,10 @@
         {
           "date": "30.06.2019",
           "value": "1309334"
+        },
+        {
+          "date": "31.07.2019",
+          "value": "1246005"
         }
       ],
       "mediaInfoData": [
@@ -2027,9 +2035,9 @@
         "value2": "70.73"
       },
       "currentData": {
-        "date": "01.09.2019",
+        "date": "15.09.2019",
         "value": "1936",
-        "value2": "77.01"
+        "value2": "77.97"
       },
       "source": "https://index.minfin.com.ua/ua/labour/wagemin/",
       "graphData": [
@@ -2307,9 +2315,9 @@
         "value2": "0.311"
       },
       "currentData": {
-        "date": "01.09.2019",
+        "date": "15.09.2019",
         "value": "6.60",
-        "value2": "0.26"
+        "value2": "0.27"
       },
       "source": "https://index.minfin.com.ua/ua/tariff/gas/",
       "graphData": [
@@ -2603,9 +2611,9 @@
         "value2": "1.16"
       },
       "currentData": {
-        "date": "01.09.2019",
-        "value": "28.76",
-        "value2": "1.14"
+        "date": "15.09.2019",
+        "value": "28.75",
+        "value2": "1.16"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -2894,9 +2902,9 @@
         "value2": "1.14"
       },
       "currentData": {
-        "date": "01.09.2019",
+        "date": "15.09.2019",
         "value": "28.19",
-        "value2": "1.12"
+        "value2": "1.14"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3174,9 +3182,9 @@
         "value2": "0.64"
       },
       "currentData": {
-        "date": "01.09.2019",
-        "value": "20.15",
-        "value2": "0.8"
+        "date": "15.09.2019",
+        "value": "20.60",
+        "value2": "0.83"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
       "graphData": [
@@ -3318,9 +3326,9 @@
         "value2": "0.5"
       },
       "currentData": {
-        "date": "01.09.2019",
-        "value": "13.65",
-        "value2": "0.54"
+        "date": "15.09.2019",
+        "value": "14.92",
+        "value2": "0.6"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=хлебо-булочные&g=хлеб&w=батон",
       "graphData": [
