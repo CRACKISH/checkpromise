@@ -10,8 +10,8 @@
         "value": "26.20"
       },
       "currentData": {
-        "date": "01.10.2019",
-        "value": "24.19"
+        "date": "15.10.2019",
+        "value": "24.54"
       },
       "source": "https://bank.gov.ua/control/uk/curmetal/detail/currency?period=daily",
       "graphData": [
@@ -312,8 +312,8 @@
         "value": "100.7"
       },
       "currentData": {
-        "date": "01.09.2019",
-        "value": "99.7"
+        "date": "01.10.2019",
+        "value": "100.7"
       },
       "source": "https://index.minfin.com.ua/ua/economy/index/inflation/",
       "graphData": [
@@ -588,6 +588,10 @@
         {
           "date": "01.09.2019",
           "value": "99.7"
+        },
+        {
+          "date": "01.10.2019",
+          "value": "100.7"
         }
       ]
     },
@@ -603,7 +607,7 @@
         "value2": "159.27"
       },
       "currentData": {
-        "date": "01.10.2019",
+        "date": "15.10.2019",
         "value": "4173",
         "value2": "172.5"
       },
@@ -1194,7 +1198,7 @@
         "value2": "57.13"
       },
       "currentData": {
-        "date": "01.10.2019",
+        "date": "15.10.2019",
         "value": "1564",
         "value2": "64.65"
       },
@@ -1954,9 +1958,9 @@
         "value": "29538.9"
       },
       "currentData": {
-        "date": "01.09.2019",
+        "date": "01.10.2019",
         "quantity": "млн",
-        "value": "61829.5"
+        "value": "61617.9"
       },
       "source": "https://index.minfin.com.ua/ua/finance/ekr/",
       "graphData": [
@@ -2042,8 +2046,11 @@
         },
         {
           "date": "01.09.2019",
-          "quantity": "млн",
           "value": "61829.5"
+        },
+        {
+          "date": "01.10.2019",
+          "value": "61617.9"
         }
       ]
     },
@@ -2059,7 +2066,7 @@
         "value2": "70.73"
       },
       "currentData": {
-        "date": "01.10.2019",
+        "date": "15.10.2019",
         "value": "1936",
         "value2": "80.03"
       },
@@ -2343,8 +2350,8 @@
         "value2": "0.311"
       },
       "currentData": {
-        "date": "01.10.2019",
-        "value": "6.60",
+        "date": "15.10.2019",
+        "value": "6.40",
         "value2": "0.27"
       },
       "source": "https://index.minfin.com.ua/ua/tariff/gas/",
@@ -2615,7 +2622,7 @@
         },
         {
           "date": "01.10.2019",
-          "value": "6.60"
+          "value": "6.40"
         }
       ],
       "mediaInfoData": [
@@ -2643,8 +2650,8 @@
         "value2": "1.16"
       },
       "currentData": {
-        "date": "01.10.2019",
-        "value": "28.76",
+        "date": "15.10.2019",
+        "value": "28.75",
         "value2": "1.18"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
@@ -2938,8 +2945,8 @@
         "value2": "1.14"
       },
       "currentData": {
-        "date": "01.10.2019",
-        "value": "28.25",
+        "date": "15.10.2019",
+        "value": "28.20",
         "value2": "1.16"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
@@ -3222,8 +3229,8 @@
         "value2": "0.64"
       },
       "currentData": {
-        "date": "01.10.2019",
-        "value": "17.62",
+        "date": "15.10.2019",
+        "value": "24.21",
         "value2": "0.72"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
@@ -3370,8 +3377,8 @@
         "value2": "0.5"
       },
       "currentData": {
-        "date": "01.10.2019",
-        "value": "14.30",
+        "date": "15.10.2019",
+        "value": "13.58",
         "value2": "0.59"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=хлебо-булочные&g=хлеб&w=батон",
@@ -3514,8 +3521,8 @@
         "value2": "0.77"
       },
       "currentData": {
-        "date": "01.10.2019",
-        "value": "14.82",
+        "date": "15.10.2019",
+        "value": "15.65",
         "value2": "0.61"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
@@ -3650,7 +3657,7 @@
   "promiseData": [
     {
       "description": "Подати перший законопроект \"Про народовладдя\" та закріпити у ньому механізм, за яким тільки Народ України буде формувати основні завдання для влади через референдуми та інші форми прямої демократії.",
-      "status": 0,
+      "status": 2,
       "source": "https://program.ze2019.com/?prefer_lang=ukr"
     },
     {
@@ -3835,7 +3842,7 @@
     },
     {
       "description": "Кандидат в президенти України Володимир Зеленський пообіцяв, що першими кадровими рішеннями Президента буде призначення «нових людей»",
-      "status": 0,
+      "status": 2,
       "source": "https://youtu.be/O8DZzijX3U4?t=166"
     }
   ],
