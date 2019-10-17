@@ -22,8 +22,8 @@ namespace CheckPromise.Data.DataContext
             modelBuilder.Entity<Promise>()
                 .Property(p => p.Value).IsRequired();
             modelBuilder.Entity<Promise>()
-                .Property(p => p.IsCompleted)
-                .HasDefaultValue(false);
+                .Property(p => p.Status)
+                .HasDefaultValue(PromiseStatus.Nothing);
 			modelBuilder.Entity<Promise>().ToTable("Promise");
 
 			modelBuilder.Entity<Indicator>()

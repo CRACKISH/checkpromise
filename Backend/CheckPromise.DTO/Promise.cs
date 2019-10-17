@@ -7,14 +7,14 @@ namespace CheckPromise.DTO
     {
 		[DataMember(Name = "value")]
 		public string Value { get; set; }
-		[DataMember(Name = "isCompleted")]
-		public bool IsCompleted { get; set; }
+		[DataMember(Name = "status")]
+		public Data.Models.PromiseStatus Status { get; set; }
 		[DataMember(Name = "source")]
 		public string Source { get; set; }
 
 		public Promise(Data.Models.Promise promise) {
 			Value = promise.Value;
-			IsCompleted = promise.IsCompleted;
+			Status = promise.Status;
 			Source = promise.Source;
 		}
 	}

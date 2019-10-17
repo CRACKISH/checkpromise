@@ -13,6 +13,8 @@ namespace CheckPromise.DTO
 		public string Label { get; set; }
 		[DataMember(Name = "invertArrow")]
 		public bool InvertArrow { get; set; }
+		[DataMember(Name = "source")]
+		public string Source { get; set; }
 		[DataMember(Name = "graphData")]
 		public IEnumerable<GraphData> GraphData { get; set; }
 		[DataMember(Name = "mediaInfoData")]
@@ -22,6 +24,7 @@ namespace CheckPromise.DTO
 			Id = indicator.Id;
 			Label = indicator.Label;
 			InvertArrow = indicator.InvertArrow;
+			Source = indicator.Source;
 			GraphData = indicator.GraphData?.Select(gd => new GraphData(gd)).ToList();
 			MediaInfoData = indicator.MediaInfoData?.Select(mi => new MediaInfo(mi)).ToList();
 		}
