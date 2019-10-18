@@ -72,11 +72,11 @@ namespace CheckPromise.Data.DataContext
 				.Property(mi => mi.Caption).IsRequired();
 			modelBuilder.Entity<MediaInfo>()
 				.Property(mi => mi.Source).IsRequired();
-			modelBuilder.Entity<MediaInfo>()
+			/*modelBuilder.Entity<MediaInfo>()
 				.HasOne(mi => mi.Indicator)
 				.WithMany(i => i.MediaInfoData);
 				//.HasForeignKey(mi => mi.Indicator)
-				//.HasConstraintName("ForeignKey_MediaInfo_Indicator");
+				//.HasConstraintName("ForeignKey_MediaInfo_Indicator");*/
 			modelBuilder.Entity<MediaInfo>().ToTable("MediaInfo");
 
 			/*modelBuilder.Entity<Currency>()

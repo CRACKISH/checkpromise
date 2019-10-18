@@ -19,6 +19,10 @@ namespace CheckPromise.DTO
 		public IEnumerable<GraphData> GraphData { get; set; }
 		[DataMember(Name = "mediaInfoData")]
 		public IEnumerable<MediaInfo> MediaInfoData { get; set; }
+		[DataMember(Name = "initialData")]
+		public IndicatorValue InitialData { get; set; }
+		[DataMember(Name = "currentData")]
+		public IndicatorValue CurrentData { get; set; }
 
 		public Indicator(Data.Models.Indicator indicator) {
 			Id = indicator.Id;
@@ -27,6 +31,10 @@ namespace CheckPromise.DTO
 			Source = indicator.Source;
 			GraphData = indicator.GraphData?.Select(gd => new GraphData(gd)).ToList();
 			MediaInfoData = indicator.MediaInfoData?.Select(mi => new MediaInfo(mi)).ToList();
+			if (indicator.Values != null && indicator.Values.Count() > 1) {
+				InitialData = new IndicatorValue(indicator.Values.First());
+				CurrentData = new IndicatorValue(indicator.Values.Last());
+			}
 		}
 	}
 }

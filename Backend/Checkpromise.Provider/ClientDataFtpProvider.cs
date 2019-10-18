@@ -19,7 +19,7 @@ namespace Checkpromise.Provider
 		public void Push(ClientData clientData)
 		{
 			using (WebClient webClient = GetWebClient()) {
-				var ftpPath = $"ftp://{ftpServer}/assets/data/data.json";
+				var ftpPath = $"ftp://{ftpServer}/assets/data/data2.json";
 				webClient.UploadData(ftpPath, WebRequestMethods.Ftp.UploadFile, Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(clientData)));
 			}
 		}
