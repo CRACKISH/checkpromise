@@ -282,6 +282,10 @@
         {
           "date": "01.10.2019",
           "value": "24.19"
+        },
+        {
+          "date": "01.11.2019",
+          "value": "24.82"
         }
       ],
       "mediaInfoData": [
@@ -609,7 +613,7 @@
       "currentData": {
         "date": "01.11.2019",
         "value": "4173",
-        "value2": "170.05"
+        "value2": "168.13"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/min/",
       "graphData": [
@@ -879,6 +883,10 @@
         },
         {
           "date": "01.10.2019",
+          "value": "4173"
+        },
+        {
+          "date": "01.11.2019",
           "value": "4173"
         }
       ]
@@ -1176,6 +1184,10 @@
         {
           "date": "01.09.2019",
           "value": "10537"
+        },
+        {
+          "date": "01.10.2019",
+          "value": "10687"
         }
       ],
       "mediaInfoData": [
@@ -1200,7 +1212,7 @@
       "currentData": {
         "date": "01.11.2019",
         "value": "1564",
-        "value2": "63.73"
+        "value2": "63.01"
       },
       "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html",
       "graphData": [
@@ -1471,6 +1483,10 @@
         {
           "date": "01.10.2019",
           "value": "1564"
+        },
+        {
+          "date": "01.11.2019",
+          "value": "1564"
         }
       ]
     },
@@ -1578,6 +1594,10 @@
         {
           "date": "31.08.2019",
           "value": "1250869"
+        },
+        {
+          "date": "30.09.2019",
+          "value": "1159842"
         }
       ],
       "mediaInfoData": [
@@ -1860,6 +1880,10 @@
         {
           "date": "01.09.2019",
           "value": "22015.18"
+        },
+        {
+          "date": "01.10.2019",
+          "value": "21437.81"
         }
       ]
     },
@@ -2051,6 +2075,10 @@
         {
           "date": "01.10.2019",
           "value": "61617.9"
+        },
+        {
+          "date": "01.11.2019",
+          "value": "53085.8"
         }
       ]
     },
@@ -2068,7 +2096,7 @@
       "currentData": {
         "date": "01.11.2019",
         "value": "1936",
-        "value2": "78.89"
+        "value2": "78"
       },
       "source": "https://index.minfin.com.ua/ua/labour/wagemin/",
       "graphData": [
@@ -2334,6 +2362,10 @@
         },
         {
           "date": "01.10.2019",
+          "value": "1936"
+        },
+        {
+          "date": "01.11.2019",
           "value": "1936"
         }
       ]
@@ -2623,6 +2655,10 @@
         {
           "date": "01.10.2019",
           "value": "6.40"
+        },
+        {
+          "date": "01.11.2019",
+          "value": "6.40"
         }
       ],
       "mediaInfoData": [
@@ -2652,7 +2688,7 @@
       "currentData": {
         "date": "01.11.2019",
         "value": "28.74",
-        "value2": "1.17"
+        "value2": "1.16"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -2923,6 +2959,10 @@
         {
           "date": "01.10.2019",
           "value": "28.76"
+        },
+        {
+          "date": "01.11.2019",
+          "value": "28.74"
         }
       ],
       "mediaInfoData": [
@@ -2947,7 +2987,7 @@
       "currentData": {
         "date": "01.11.2019",
         "value": "28.18",
-        "value2": "1.15"
+        "value2": "1.14"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3214,6 +3254,10 @@
         {
           "date": "01.10.2019",
           "value": "28.25"
+        },
+        {
+          "date": "01.11.2019",
+          "value": "28.18"
         }
       ]
     },
@@ -3231,7 +3275,7 @@
       "currentData": {
         "date": "01.11.2019",
         "value": "28.61",
-        "value2": "0.99"
+        "value2": "1.15"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
       "graphData": [
@@ -3362,6 +3406,10 @@
         {
           "date": "01.10.2019",
           "value": "17.62"
+        },
+        {
+          "date": "01.11.2019",
+          "value": "28.61"
         }
       ]
     },
@@ -3379,7 +3427,7 @@
       "currentData": {
         "date": "01.11.2019",
         "value": "14.60",
-        "value2": "0.55"
+        "value2": "0.59"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=хлебо-булочные&g=хлеб&w=батон",
       "graphData": [
@@ -3506,6 +3554,10 @@
         {
           "date": "01.10.2019",
           "value": "14.30"
+        },
+        {
+          "date": "01.11.2019",
+          "value": "14.60"
         }
       ]
     },
@@ -3523,7 +3575,7 @@
       "currentData": {
         "date": "01.11.2019",
         "value": "14.43",
-        "value2": "0.64"
+        "value2": "0.58"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
       "graphData": [
@@ -3650,6 +3702,10 @@
         {
           "date": "01.10.2019",
           "value": "14.82"
+        },
+        {
+          "date": "01.11.2019",
+          "value": "14.43"
         }
       ]
     }
