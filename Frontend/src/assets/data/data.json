@@ -10,8 +10,8 @@
         "value": "26.20"
       },
       "currentData": {
-        "date": "15.10.2019",
-        "value": "24.54"
+        "date": "01.11.2019",
+        "value": "24.82"
       },
       "source": "https://bank.gov.ua/control/uk/curmetal/detail/currency?period=daily",
       "graphData": [
@@ -607,7 +607,7 @@
         "value2": "159.27"
       },
       "currentData": {
-        "date": "15.10.2019",
+        "date": "01.11.2019",
         "value": "4173",
         "value2": "170.05"
       },
@@ -895,8 +895,8 @@
         "value2": "389.41"
       },
       "currentData": {
-        "date": "01.09.2019",
-        "value": "10537",
+        "date": "01.10.2019",
+        "value": "10687",
         "value2": "435.59"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/average/",
@@ -1198,7 +1198,7 @@
         "value2": "57.13"
       },
       "currentData": {
-        "date": "15.10.2019",
+        "date": "01.11.2019",
         "value": "1564",
         "value2": "63.73"
       },
@@ -1528,9 +1528,9 @@
         "value2": "49959"
       },
       "currentData": {
-        "date": "31.08.2019",
+        "date": "30.09.2019",
         "quantity": "млн",
-        "value": "1250869",
+        "value": "1159842",
         "value2": "49800"
       },
       "source": "https://index.minfin.com.ua/ua/finance/debtgov/",
@@ -1599,9 +1599,9 @@
         "value": "19402.08"
       },
       "currentData": {
-        "date": "01.09.2019",
+        "date": "01.10.2019",
         "quantity": "млн",
-        "value": "22015.18"
+        "value": "21437.81"
       },
       "source": "https://index.minfin.com.ua/ua/finance/assets/",
       "graphData": [
@@ -1958,9 +1958,9 @@
         "value": "29538.9"
       },
       "currentData": {
-        "date": "01.10.2019",
+        "date": "01.11.2019",
         "quantity": "млн",
-        "value": "61617.9"
+        "value": "53085.8"
       },
       "source": "https://index.minfin.com.ua/ua/finance/ekr/",
       "graphData": [
@@ -2066,7 +2066,7 @@
         "value2": "70.73"
       },
       "currentData": {
-        "date": "15.10.2019",
+        "date": "01.11.2019",
         "value": "1936",
         "value2": "78.89"
       },
@@ -2350,7 +2350,7 @@
         "value2": "0.311"
       },
       "currentData": {
-        "date": "15.10.2019",
+        "date": "01.11.2019",
         "value": "6.40",
         "value2": "0.26"
       },
@@ -2650,8 +2650,8 @@
         "value2": "1.16"
       },
       "currentData": {
-        "date": "15.10.2019",
-        "value": "28.75",
+        "date": "01.11.2019",
+        "value": "28.74",
         "value2": "1.17"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
@@ -2945,8 +2945,8 @@
         "value2": "1.14"
       },
       "currentData": {
-        "date": "15.10.2019",
-        "value": "28.20",
+        "date": "01.11.2019",
+        "value": "28.18",
         "value2": "1.15"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
@@ -3229,8 +3229,8 @@
         "value2": "0.64"
       },
       "currentData": {
-        "date": "15.10.2019",
-        "value": "24.21",
+        "date": "01.11.2019",
+        "value": "28.61",
         "value2": "0.99"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
@@ -3377,8 +3377,8 @@
         "value2": "0.5"
       },
       "currentData": {
-        "date": "15.10.2019",
-        "value": "13.58",
+        "date": "01.11.2019",
+        "value": "14.60",
         "value2": "0.55"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=хлебо-булочные&g=хлеб&w=батон",
@@ -3521,8 +3521,8 @@
         "value2": "0.77"
       },
       "currentData": {
-        "date": "15.10.2019",
-        "value": "15.65",
+        "date": "01.11.2019",
+        "value": "14.43",
         "value2": "0.64"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
