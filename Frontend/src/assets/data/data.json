@@ -10,8 +10,8 @@
         "value": "26.20"
       },
       "currentData": {
-        "date": "01.11.2019",
-        "value": "24.82"
+        "date": "15.11.2019",
+        "value": "24.24"
       },
       "source": "https://bank.gov.ua/control/uk/curmetal/detail/currency?period=daily",
       "graphData": [
@@ -316,7 +316,7 @@
         "value": "100.7"
       },
       "currentData": {
-        "date": "01.10.2019",
+        "date": "01.11.2019",
         "value": "100.7"
       },
       "source": "https://index.minfin.com.ua/ua/economy/index/inflation/",
@@ -596,6 +596,10 @@
         {
           "date": "01.10.2019",
           "value": "100.7"
+        },
+        {
+          "date": "01.11.2019",
+          "value": "100.7"
         }
       ]
     },
@@ -611,7 +615,7 @@
         "value2": "159.27"
       },
       "currentData": {
-        "date": "01.11.2019",
+        "date": "15.11.2019",
         "value": "4173",
         "value2": "168.13"
       },
@@ -1210,7 +1214,7 @@
         "value2": "57.13"
       },
       "currentData": {
-        "date": "01.11.2019",
+        "date": "15.11.2019",
         "value": "1564",
         "value2": "63.01"
       },
@@ -2094,7 +2098,7 @@
         "value2": "70.73"
       },
       "currentData": {
-        "date": "01.11.2019",
+        "date": "15.11.2019",
         "value": "1936",
         "value2": "78"
       },
@@ -2382,8 +2386,8 @@
         "value2": "0.311"
       },
       "currentData": {
-        "date": "01.11.2019",
-        "value": "6.40",
+        "date": "15.11.2019",
+        "value": "6.90",
         "value2": "0.26"
       },
       "source": "https://index.minfin.com.ua/ua/tariff/gas/",
@@ -2686,7 +2690,7 @@
         "value2": "1.16"
       },
       "currentData": {
-        "date": "01.11.2019",
+        "date": "15.11.2019",
         "value": "28.74",
         "value2": "1.16"
       },
@@ -2985,8 +2989,8 @@
         "value2": "1.14"
       },
       "currentData": {
-        "date": "01.11.2019",
-        "value": "28.18",
+        "date": "15.11.2019",
+        "value": "28.16",
         "value2": "1.14"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
@@ -3273,8 +3277,8 @@
         "value2": "0.64"
       },
       "currentData": {
-        "date": "01.11.2019",
-        "value": "28.61",
+        "date": "15.11.2019",
+        "value": "28.34",
         "value2": "1.15"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
@@ -3425,8 +3429,8 @@
         "value2": "0.5"
       },
       "currentData": {
-        "date": "01.11.2019",
-        "value": "14.60",
+        "date": "15.11.2019",
+        "value": "14.40",
         "value2": "0.59"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=хлебо-булочные&g=хлеб&w=батон",
@@ -3573,8 +3577,8 @@
         "value2": "0.77"
       },
       "currentData": {
-        "date": "01.11.2019",
-        "value": "14.43",
+        "date": "15.11.2019",
+        "value": "12.39",
         "value2": "0.58"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
