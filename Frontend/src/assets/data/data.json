@@ -637,7 +637,7 @@
       "currentData": {
         "date": "01.02.2020",
         "value": "4723",
-        "value2": "196.63"
+        "value2": "189.53"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/min/",
       "graphData": [
@@ -919,6 +919,10 @@
         },
         {
           "date": "01.01.2020",
+          "value": "4723"
+        },
+        {
+          "date": "01.02.2020",
           "value": "4723"
         }
       ]
@@ -1228,6 +1232,10 @@
         {
           "date": "01.12.2019",
           "value": "10679"
+        },
+        {
+          "date": "01.01.2020",
+          "value": "12264"
         }
       ],
       "mediaInfoData": [
@@ -1252,7 +1260,7 @@
       "currentData": {
         "date": "01.02.2020",
         "value": "1638",
-        "value2": "68.19"
+        "value2": "65.73"
       },
       "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html",
       "graphData": [
@@ -1535,6 +1543,10 @@
         {
           "date": "01.01.2020",
           "value": "1638"
+        },
+        {
+          "date": "01.02.2020",
+          "value": "1638"
         }
       ]
     },
@@ -1654,6 +1666,10 @@
         {
           "date": "30.11.2019",
           "value": "1165251"
+        },
+        {
+          "date": "31.12.2019",
+          "value": "1159222"
         }
       ],
       "mediaInfoData": [
@@ -2168,7 +2184,7 @@
       "currentData": {
         "date": "01.02.2020",
         "value": "2027",
-        "value2": "84.39"
+        "value2": "81.34"
       },
       "source": "https://index.minfin.com.ua/ua/labour/wagemin/",
       "graphData": [
@@ -2447,6 +2463,10 @@
         {
           "date": "01.01.2020",
           "value": "2027"
+        },
+        {
+          "date": "01.02.2020",
+          "value": "2027"
         }
       ]
     },
@@ -2464,7 +2484,7 @@
       "currentData": {
         "date": "01.02.2020",
         "value": "6.92",
-        "value2": "0.29"
+        "value2": "0.28"
       },
       "source": "https://index.minfin.com.ua/ua/tariff/gas/",
       "graphData": [
@@ -2747,6 +2767,10 @@
         {
           "date": "01.01.2020",
           "value": "6.14"
+        },
+        {
+          "date": "01.02.2020",
+          "value": "6.92"
         }
       ],
       "mediaInfoData": [
@@ -2776,7 +2800,7 @@
       "currentData": {
         "date": "01.02.2020",
         "value": "26.54",
-        "value2": "1.13"
+        "value2": "1.07"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3059,6 +3083,10 @@
         {
           "date": "01.01.2020",
           "value": "27.32"
+        },
+        {
+          "date": "01.02.2020",
+          "value": "26.54"
         }
       ],
       "mediaInfoData": [
@@ -3083,7 +3111,7 @@
       "currentData": {
         "date": "01.02.2020",
         "value": "26.13",
-        "value2": "1.11"
+        "value2": "1.05"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3362,6 +3390,10 @@
         {
           "date": "01.01.2020",
           "value": "26.80"
+        },
+        {
+          "date": "01.02.2020",
+          "value": "26.13"
         }
       ]
     },
@@ -3379,7 +3411,7 @@
       "currentData": {
         "date": "01.02.2020",
         "value": "30.20",
-        "value2": "1.48"
+        "value2": "1.21"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
       "graphData": [
@@ -3522,6 +3554,10 @@
         {
           "date": "01.01.2020",
           "value": "28.05"
+        },
+        {
+          "date": "01.02.2020",
+          "value": "30.20"
         }
       ]
     },
@@ -3539,7 +3575,7 @@
       "currentData": {
         "date": "01.02.2020",
         "value": "13.45",
-        "value2": "0.56"
+        "value2": "0.54"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=хлебо-булочные&g=хлеб&w=батон",
       "graphData": [
@@ -3678,6 +3714,10 @@
         {
           "date": "01.01.2020",
           "value": "14.40"
+        },
+        {
+          "date": "01.02.2020",
+          "value": "13.45"
         }
       ]
     },
@@ -3830,6 +3870,10 @@
         {
           "date": "01.12.2019",
           "value": "12.54"
+        },
+        {
+          "date": "15.12.2019",
+          "value": "11.85"
         }
       ]
     }
