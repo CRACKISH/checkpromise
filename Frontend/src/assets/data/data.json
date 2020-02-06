@@ -2062,9 +2062,9 @@
         "value": "29538.9"
       },
       "currentData": {
-        "date": "01.01.2020",
+        "date": "01.02.2020",
         "quantity": "млн",
-        "value": "17547.5"
+        "value": "12066.7"
       },
       "source": "https://index.minfin.com.ua/ua/finance/ekr/",
       "graphData": [
@@ -2167,6 +2167,10 @@
         {
           "date": "01.01.2020",
           "value": "17547.5"
+        },
+        {
+          "date": "01.02.2020",
+          "value": "12066.7"
         }
       ]
     },
