@@ -144,5 +144,8 @@
       }
     }
   },
-  "defaultProject": "checkpromise"
+  "defaultProject": "checkpromise",
+  "cli": {
+    "analytics": "812797d4-365f-4fff-8909-57b3ee1af523"
+  }
 }
