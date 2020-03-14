@@ -649,7 +649,7 @@
       "currentData": {
         "date": "14.03.2020",
         "value": "4723",
-        "value2": "192.3"
+        "value2": "182.64"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/min/",
       "graphData": [
@@ -1280,7 +1280,7 @@
       "currentData": {
         "date": "14.03.2020",
         "value": "1638",
-        "value2": "66.69"
+        "value2": "63.34"
       },
       "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html",
       "graphData": [
@@ -2232,7 +2232,7 @@
       "currentData": {
         "date": "14.03.2020",
         "value": "2027",
-        "value2": "82.53"
+        "value2": "78.38"
       },
       "source": "https://index.minfin.com.ua/ua/labour/wagemin/",
       "graphData": [
@@ -2536,7 +2536,7 @@
       "currentData": {
         "date": "14.03.2020",
         "value": "6.06",
-        "value2": "0.25"
+        "value2": "0.23"
       },
       "source": "https://index.minfin.com.ua/ua/tariff/gas/",
       "graphData": [
@@ -2856,7 +2856,7 @@
       "currentData": {
         "date": "14.03.2020",
         "value": "26.42",
-        "value2": "1.08"
+        "value2": "1.02"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3171,7 +3171,7 @@
       "currentData": {
         "date": "14.03.2020",
         "value": "25.81",
-        "value2": "1.05"
+        "value2": "1"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3475,7 +3475,7 @@
       "currentData": {
         "date": "14.03.2020",
         "value": "30.30",
-        "value2": "1.23"
+        "value2": "1.17"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
       "graphData": [
@@ -3643,7 +3643,7 @@
       "currentData": {
         "date": "14.03.2020",
         "value": "13.39",
-        "value2": "0.53"
+        "value2": "0.52"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=хлебо-булочные&g=хлеб&w=батон",
       "graphData": [
@@ -3807,7 +3807,7 @@
       "currentData": {
         "date": "14.03.2020",
         "value": "12.15",
-        "value2": "0.46"
+        "value2": "0.47"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
       "graphData": [
