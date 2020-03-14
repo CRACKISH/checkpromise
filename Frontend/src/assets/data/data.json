@@ -10,8 +10,8 @@
         "value": "26.36"
       },
       "currentData": {
-        "date": "01.03.2020",
-        "value": "24.56"
+        "date": "14.03.2020",
+        "value": "25.86"
       },
       "source": "https://bank.gov.ua/control/uk/curmetal/detail/currency?period=daily",
       "graphData": [
@@ -332,8 +332,8 @@
         "value": "100.7"
       },
       "currentData": {
-        "date": "01.02.2020",
-        "value": "100.2"
+        "date": "01.03.2020",
+        "value": "99.7"
       },
       "source": "https://index.minfin.com.ua/ua/economy/index/inflation/",
       "graphData": [
@@ -628,6 +628,10 @@
         {
           "date": "01.02.2020",
           "value": "100.2"
+        },
+        {
+          "date": "01.03.2020",
+          "value": "99.7"
         }
       ]
     },
@@ -643,7 +647,7 @@
         "value2": "158.31"
       },
       "currentData": {
-        "date": "01.03.2020",
+        "date": "14.03.2020",
         "value": "4723",
         "value2": "192.3"
       },
@@ -1274,7 +1278,7 @@
         "value2": "56.79"
       },
       "currentData": {
-        "date": "01.03.2020",
+        "date": "14.03.2020",
         "value": "1638",
         "value2": "66.69"
       },
@@ -1715,9 +1719,9 @@
         "value": "19402.08"
       },
       "currentData": {
-        "date": "01.02.2020",
+        "date": "01.03.2020",
         "quantity": "млн",
-        "value": "26292.81"
+        "value": "26622.82"
       },
       "source": "https://index.minfin.com.ua/ua/finance/assets/",
       "graphData": [
@@ -1996,6 +2000,10 @@
         {
           "date": "01.02.2020",
           "value": "26292.81"
+        },
+        {
+          "date": "01.03.2020",
+          "value": "26622.82"
         }
       ]
     },
@@ -2222,7 +2230,7 @@
         "value2": "70.3"
       },
       "currentData": {
-        "date": "01.03.2020",
+        "date": "14.03.2020",
         "value": "2027",
         "value2": "82.53"
       },
@@ -2526,7 +2534,7 @@
         "value2": "0.31"
       },
       "currentData": {
-        "date": "01.03.2020",
+        "date": "14.03.2020",
         "value": "6.06",
         "value2": "0.25"
       },
@@ -2846,8 +2854,8 @@
         "value2": "1.15"
       },
       "currentData": {
-        "date": "01.03.2020",
-        "value": "26.47",
+        "date": "14.03.2020",
+        "value": "26.42",
         "value2": "1.08"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
@@ -3161,8 +3169,8 @@
         "value2": "1.13"
       },
       "currentData": {
-        "date": "01.03.2020",
-        "value": "25.88",
+        "date": "14.03.2020",
+        "value": "25.81",
         "value2": "1.05"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
@@ -3465,8 +3473,8 @@
         "value2": "0.64"
       },
       "currentData": {
-        "date": "01.03.2020",
-        "value": "30.15",
+        "date": "14.03.2020",
+        "value": "30.30",
         "value2": "1.23"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
@@ -3633,8 +3641,8 @@
         "value2": "0.51"
       },
       "currentData": {
-        "date": "01.03.2020",
-        "value": "13.09",
+        "date": "14.03.2020",
+        "value": "13.39",
         "value2": "0.53"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=хлебо-булочные&g=хлеб&w=батон",
@@ -3797,8 +3805,8 @@
         "value2": "0.79"
       },
       "currentData": {
-        "date": "01.03.2020",
-        "value": "11.41",
+        "date": "14.03.2020",
+        "value": "12.15",
         "value2": "0.46"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
@@ -4140,8 +4148,8 @@
   ],
   "news": [
     {
-      "date": "01.01.2020",
-      "value": "\n\n«Трекер влади» вітає з Новим Роком!\n\nВсе буде 🇺🇦!\n\nСлава Україні!"
+      "date": "14.03.2020",
+      "value": "\n\nУкраїна була, є, і буде!\n\nСлава Україні!"
     }
   ]
 }
