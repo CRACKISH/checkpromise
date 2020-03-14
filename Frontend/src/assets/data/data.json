@@ -951,9 +951,9 @@
         "value2": "389.57"
       },
       "currentData": {
-        "date": "01.01.2020",
-        "value": "12264",
-        "value2": "517.91"
+        "date": "01.02.2020",
+        "value": "10727",
+        "value2": "430.48"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/average/",
       "graphData": [
@@ -1248,6 +1248,10 @@
         {
           "date": "01.01.2020",
           "value": "12264"
+        },
+        {
+          "date": "01.02.2020",
+          "value": "10727"
         }
       ],
       "mediaInfoData": [
@@ -2090,9 +2094,9 @@
         "value": "29538.9"
       },
       "currentData": {
-        "date": "01.02.2020",
+        "date": "01.03.2020",
         "quantity": "млн",
-        "value": "12066.7"
+        "value": "17181.8"
       },
       "source": "https://index.minfin.com.ua/ua/finance/ekr/",
       "graphData": [
@@ -2199,6 +2203,10 @@
         {
           "date": "01.02.2020",
           "value": "12066.7"
+        },
+        {
+          "date": "01.03.2020",
+          "value": "17181.8"
         }
       ]
     },
