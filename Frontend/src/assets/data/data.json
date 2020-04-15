@@ -653,7 +653,7 @@
       "currentData": {
         "date": "01.04.2020",
         "value": "4723",
-        "value2": "182.64"
+        "value2": "170.94"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/min/",
       "graphData": [
@@ -943,6 +943,10 @@
         },
         {
           "date": "01.03.2020",
+          "value": "4723"
+        },
+        {
+          "date": "01.04.2020",
           "value": "4723"
         }
       ]
@@ -1260,6 +1264,10 @@
         {
           "date": "01.02.2020",
           "value": "10727"
+        },
+        {
+          "date": "01.03.2020",
+          "value": "10847"
         }
       ],
       "mediaInfoData": [
@@ -1284,7 +1292,7 @@
       "currentData": {
         "date": "01.04.2020",
         "value": "1638",
-        "value2": "63.34"
+        "value2": "59.28"
       },
       "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html",
       "graphData": [
@@ -1575,6 +1583,10 @@
         {
           "date": "01.03.2020",
           "value": "1638"
+        },
+        {
+          "date": "01.04.2020",
+          "value": "1638"
         }
       ]
     },
@@ -1702,6 +1714,10 @@
         {
           "date": "31.01.2020",
           "value": "1248430"
+        },
+        {
+          "date": "29.02.2020",
+          "value": "1223574"
         }
       ],
       "mediaInfoData": [
@@ -2027,28 +2043,28 @@
       "source": "https://index.minfin.com.ua/ua/economy/gdp/",
       "graphData": [
         {
-          "date": "31.12.2014",
+          "date": "2014",
           "value": "35834"
         },
         {
-          "date": "31.12.2015",
+          "date": "2015",
           "value": "46210"
         },
         {
-          "date": "31.12.2016",
+          "date": "2016",
           "value": "55853"
         },
         {
-          "date": "31.12.2017",
+          "date": "2017",
           "value": "70224"
-        },
-        {
-          "date": "31.12.2018",
-          "value": "84192"
         },
         {
           "date": "2018",
           "value": "84192"
+        },
+        {
+          "date": "2019",
+          "value": "94589.8"
         }
       ]
     },
@@ -2070,28 +2086,28 @@
       "source": "https://index.minfin.com.ua/ua/economy/gdp/",
       "graphData": [
         {
-          "date": "31.12.2014",
+          "date": "2014",
           "value": "1365123"
         },
         {
-          "date": "31.12.2015",
+          "date": "2015",
           "value": "1430290"
         },
         {
-          "date": "31.12.2016",
+          "date": "2016",
           "value": "2034430"
         },
         {
-          "date": "31.12.2017",
+          "date": "2017",
           "value": "2445587"
-        },
-        {
-          "date": "31.12.2018",
-          "value": "3083409"
         },
         {
           "date": "2018",
           "value": "3083409"
+        },
+        {
+          "date": "2019",
+          "value": "3675728"
         }
       ]
     },
@@ -2236,7 +2252,7 @@
       "currentData": {
         "date": "01.04.2020",
         "value": "2027",
-        "value2": "78.38"
+        "value2": "73.36"
       },
       "source": "https://index.minfin.com.ua/ua/labour/wagemin/",
       "graphData": [
@@ -2523,6 +2539,10 @@
         {
           "date": "01.03.2020",
           "value": "2027"
+        },
+        {
+          "date": "01.04.2020",
+          "value": "2027"
         }
       ]
     },
@@ -2540,7 +2560,7 @@
       "currentData": {
         "date": "01.04.2020",
         "value": "5.38",
-        "value2": "0.23"
+        "value2": "0.19"
       },
       "source": "https://index.minfin.com.ua/ua/tariff/gas/",
       "graphData": [
@@ -2831,6 +2851,10 @@
         {
           "date": "01.03.2020",
           "value": "6.06"
+        },
+        {
+          "date": "01.04.2020",
+          "value": "5.38"
         }
       ],
       "mediaInfoData": [
@@ -2860,7 +2884,7 @@
       "currentData": {
         "date": "01.04.2020",
         "value": "25.35",
-        "value2": "1.02"
+        "value2": "0.92"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3151,6 +3175,10 @@
         {
           "date": "01.03.2020",
           "value": "26.47"
+        },
+        {
+          "date": "01.04.2020",
+          "value": "25.35"
         }
       ],
       "mediaInfoData": [
@@ -3175,7 +3203,7 @@
       "currentData": {
         "date": "01.04.2020",
         "value": "24.76",
-        "value2": "1"
+        "value2": "0.9"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3462,6 +3490,10 @@
         {
           "date": "01.03.2020",
           "value": "25.88"
+        },
+        {
+          "date": "01.04.2020",
+          "value": "24.76"
         }
       ]
     },
@@ -3479,7 +3511,7 @@
       "currentData": {
         "date": "01.04.2020",
         "value": "38.63",
-        "value2": "1.17"
+        "value2": "1.4"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
       "graphData": [
@@ -3630,6 +3662,10 @@
         {
           "date": "01.03.2020",
           "value": "30.15"
+        },
+        {
+          "date": "01.04.2020",
+          "value": "38.63"
         }
       ]
     },
@@ -3647,7 +3683,7 @@
       "currentData": {
         "date": "01.04.2020",
         "value": "13.39",
-        "value2": "0.52"
+        "value2": "0.48"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=хлебо-булочные&g=хлеб&w=батон",
       "graphData": [
@@ -3794,6 +3830,10 @@
         {
           "date": "01.03.2020",
           "value": "13.09"
+        },
+        {
+          "date": "01.04.2020",
+          "value": "13.39"
         }
       ]
     },
@@ -3811,7 +3851,7 @@
       "currentData": {
         "date": "01.04.2020",
         "value": "14.59",
-        "value2": "0.47"
+        "value2": "0.53"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
       "graphData": [
@@ -3954,6 +3994,10 @@
         {
           "date": "01.03.2020",
           "value": "11.41"
+        },
+        {
+          "date": "01.04.2020",
+          "value": "14.59"
         }
       ]
     }
