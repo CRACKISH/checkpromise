@@ -36,6 +36,11 @@ export class AppComponent implements OnInit {
     return isNotLinkFromViberBot && isNotLinkFromTgBot && hasNotCookie;
   }
 
+  protected IsRootUrl(): boolean {
+    const url = this.router.url;
+    return url  === '/' || url.startsWith('/?');
+  }
+
   public ngOnInit() {
     if (this.isNeedShowSubscribeSnackBar()) {
       setTimeout(() => this.snackBar.openFromComponent(SubscribeSnackBarComponent), 500);
@@ -58,11 +63,11 @@ export class AppComponent implements OnInit {
   }
 
   public getSwitchCurrencyVisible(): boolean {
-    return this.router.url === '/';
+    return this.IsRootUrl();
   }
 
   public getFooterAdditionClass(): string {
-    return this.router.url === '/' ? '' : 'bottom-position';
+    return this.IsRootUrl ? '' : 'bottom-position';
   }
 
 }
