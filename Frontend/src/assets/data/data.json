@@ -10,8 +10,8 @@
         "value": "26.36"
       },
       "currentData": {
-        "date": "15.04.2020",
-        "value": "27.09"
+        "date": "01.05.2020",
+        "value": "26.97"
       },
       "source": "https://bank.gov.ua/control/uk/curmetal/detail/currency?period=daily",
       "graphData": [
@@ -306,6 +306,10 @@
         {
           "date": "01.04.2020",
           "value": "27.63"
+        },
+        {
+          "date": "01.05.2020",
+          "value": "26.97"
         }
       ],
       "mediaInfoData": [
@@ -655,9 +659,9 @@
         "value2": "158.31"
       },
       "currentData": {
-        "date": "15.04.2020",
+        "date": "01.05.2020",
         "value": "4723",
-        "value2": "174.34"
+        "value2": "175.12"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/min/",
       "graphData": [
@@ -952,6 +956,10 @@
         {
           "date": "01.04.2020",
           "value": "4723"
+        },
+        {
+          "date": "01.05.2020",
+          "value": "4723"
         }
       ]
     },
@@ -967,9 +975,9 @@
         "value2": "389.57"
       },
       "currentData": {
-        "date": "01.03.2020",
-        "value": "10847",
-        "value2": "441.65"
+        "date": "01.04.2020",
+        "value": "11446",
+        "value2": "414.26"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/average/",
       "graphData": [
@@ -1272,6 +1280,10 @@
         {
           "date": "01.03.2020",
           "value": "10847"
+        },
+        {
+          "date": "01.04.2020",
+          "value": "11446"
         }
       ],
       "mediaInfoData": [
@@ -1294,9 +1306,9 @@
         "value2": "56.79"
       },
       "currentData": {
-        "date": "15.04.2020",
+        "date": "01.05.2020",
         "value": "1638",
-        "value2": "60.47"
+        "value2": "60.73"
       },
       "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html",
       "graphData": [
@@ -1591,6 +1603,10 @@
         {
           "date": "01.04.2020",
           "value": "1638"
+        },
+        {
+          "date": "01.05.2020",
+          "value": "1638"
         }
       ]
     },
@@ -1648,10 +1664,10 @@
         "value2": "49655.61"
       },
       "currentData": {
-        "date": "29.02.2020",
+        "date": "31.03.2020",
         "quantity": "млн",
-        "value": "1223574",
-        "value2": "49819.78"
+        "value": "1387805",
+        "value2": "50228.20"
       },
       "source": "https://index.minfin.com.ua/ua/finance/debtgov/",
       "graphData": [
@@ -1722,6 +1738,10 @@
         {
           "date": "29.02.2020",
           "value": "1223574"
+        },
+        {
+          "date": "31.03.2020",
+          "value": "1387805"
         }
       ],
       "mediaInfoData": [
@@ -2262,9 +2282,9 @@
         "value2": "70.3"
       },
       "currentData": {
-        "date": "15.04.2020",
+        "date": "01.05.2020",
         "value": "2027",
-        "value2": "74.82"
+        "value2": "75.16"
       },
       "source": "https://index.minfin.com.ua/ua/labour/wagemin/",
       "graphData": [
@@ -2555,6 +2575,10 @@
         {
           "date": "01.04.2020",
           "value": "2027"
+        },
+        {
+          "date": "01.05.2020",
+          "value": "2027"
         }
       ]
     },
@@ -2570,9 +2594,9 @@
         "value2": "0.31"
       },
       "currentData": {
-        "date": "15.04.2020",
-        "value": "5.38",
-        "value2": "0.2"
+        "date": "01.05.2020",
+        "value": "4.77",
+        "value2": "0.18"
       },
       "source": "https://index.minfin.com.ua/ua/tariff/gas/",
       "graphData": [
@@ -2867,6 +2891,10 @@
         {
           "date": "01.04.2020",
           "value": "5.38"
+        },
+        {
+          "date": "01.05.2020",
+          "value": "4.77"
         }
       ],
       "mediaInfoData": [
@@ -2894,9 +2922,9 @@
         "value2": "1.15"
       },
       "currentData": {
-        "date": "15.04.2020",
-        "value": "24.30",
-        "value2": "0.9"
+        "date": "01.05.2020",
+        "value": "22.17",
+        "value2": "0.82"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3191,6 +3219,10 @@
         {
           "date": "01.04.2020",
           "value": "25.35"
+        },
+        {
+          "date": "01.05.2020",
+          "value": "22.17"
         }
       ],
       "mediaInfoData": [
@@ -3213,9 +3245,9 @@
         "value2": "1.13"
       },
       "currentData": {
-        "date": "15.04.2020",
-        "value": "23.76",
-        "value2": "0.88"
+        "date": "01.05.2020",
+        "value": "21.62",
+        "value2": "0.8"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3506,6 +3538,10 @@
         {
           "date": "01.04.2020",
           "value": "24.76"
+        },
+        {
+          "date": "01.05.2020",
+          "value": "21.62"
         }
       ]
     },
@@ -3521,9 +3557,9 @@
         "value2": "0.64"
       },
       "currentData": {
-        "date": "15.04.2020",
-        "value": "43.33",
-        "value2": "1.6"
+        "date": "01.05.2020",
+        "value": "39.66",
+        "value2": "1.47"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
       "graphData": [
@@ -3678,6 +3714,10 @@
         {
           "date": "01.04.2020",
           "value": "38.63"
+        },
+        {
+          "date": "01.05.2020",
+          "value": "39.66"
         }
       ]
     },
@@ -3693,8 +3733,8 @@
         "value2": "0.51"
       },
       "currentData": {
-        "date": "15.04.2020",
-        "value": "13.40",
+        "date": "01.05.2020",
+        "value": "13.29",
         "value2": "0.49"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=хлебо-булочные&g=хлеб&w=батон",
@@ -3846,6 +3886,10 @@
         {
           "date": "01.04.2020",
           "value": "13.39"
+        },
+        {
+          "date": "01.05.2020",
+          "value": "13.29"
         }
       ]
     },
@@ -3861,9 +3905,9 @@
         "value2": "0.79"
       },
       "currentData": {
-        "date": "15.04.2020",
-        "value": "15.55",
-        "value2": "0.57"
+        "date": "01.05.2020",
+        "value": "15.70",
+        "value2": "0.58"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
       "graphData": [
@@ -4010,6 +4054,10 @@
         {
           "date": "01.04.2020",
           "value": "14.59"
+        },
+        {
+          "date": "01.05.2020",
+          "value": "15.70"
         }
       ]
     }
