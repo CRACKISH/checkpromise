@@ -669,7 +669,7 @@
       "currentData": {
         "date": "01.06.2020",
         "value": "4723",
-        "value2": "176.3"
+        "value2": "175.77"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/min/",
       "graphData": [
@@ -967,6 +967,10 @@
         },
         {
           "date": "01.05.2020",
+          "value": "4723"
+        },
+        {
+          "date": "01.06.2020",
           "value": "4723"
         }
       ]
@@ -1292,6 +1296,10 @@
         {
           "date": "01.04.2020",
           "value": "11446"
+        },
+        {
+          "date": "01.05.2020",
+          "value": "10430"
         }
       ],
       "mediaInfoData": [
@@ -1316,7 +1324,7 @@
       "currentData": {
         "date": "01.06.2020",
         "value": "1638",
-        "value2": "61.14"
+        "value2": "60.96"
       },
       "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html",
       "graphData": [
@@ -1615,6 +1623,10 @@
         {
           "date": "01.05.2020",
           "value": "1638"
+        },
+        {
+          "date": "01.06.2020",
+          "value": "1638"
         }
       ]
     },
@@ -1750,6 +1762,10 @@
         {
           "date": "31.03.2020",
           "value": "1387805"
+        },
+        {
+          "date": "30.04.2020",
+          "value": "1328841.1"
         }
       ],
       "mediaInfoData": [
@@ -2300,7 +2316,7 @@
       "currentData": {
         "date": "01.06.2020",
         "value": "2027",
-        "value2": "75.66"
+        "value2": "75.44"
       },
       "source": "https://index.minfin.com.ua/ua/labour/wagemin/",
       "graphData": [
@@ -2595,6 +2611,10 @@
         {
           "date": "01.05.2020",
           "value": "2027"
+        },
+        {
+          "date": "01.06.2020",
+          "value": "2027"
         }
       ]
     },
@@ -2612,7 +2632,7 @@
       "currentData": {
         "date": "01.06.2020",
         "value": "4.00",
-        "value2": "0.18"
+        "value2": "0.15"
       },
       "source": "https://index.minfin.com.ua/ua/tariff/gas/",
       "graphData": [
@@ -2911,6 +2931,10 @@
         {
           "date": "01.05.2020",
           "value": "4.77"
+        },
+        {
+          "date": "01.06.2020",
+          "value": "4.00"
         }
       ],
       "mediaInfoData": [
@@ -2940,7 +2964,7 @@
       "currentData": {
         "date": "01.06.2020",
         "value": "21.85",
-        "value2": "0.82"
+        "value2": "0.81"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3239,6 +3263,10 @@
         {
           "date": "01.05.2020",
           "value": "22.17"
+        },
+        {
+          "date": "01.06.2020",
+          "value": "21.85"
         }
       ],
       "mediaInfoData": [
@@ -3558,6 +3586,10 @@
         {
           "date": "01.05.2020",
           "value": "21.62"
+        },
+        {
+          "date": "01.06.2020",
+          "value": "21.29"
         }
       ]
     },
@@ -3575,7 +3607,7 @@
       "currentData": {
         "date": "01.06.2020",
         "value": "42.94",
-        "value2": "1.47"
+        "value2": "1.6"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
       "graphData": [
@@ -3734,6 +3766,10 @@
         {
           "date": "01.05.2020",
           "value": "39.66"
+        },
+        {
+          "date": "01.06.2020",
+          "value": "42.94"
         }
       ]
     },
@@ -3906,6 +3942,10 @@
         {
           "date": "01.05.2020",
           "value": "13.29"
+        },
+        {
+          "date": "01.06.2020",
+          "value": "13.24"
         }
       ]
     },
@@ -3923,7 +3963,7 @@
       "currentData": {
         "date": "01.06.2020",
         "value": "15.95",
-        "value2": "0.62"
+        "value2": "0.59"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
       "graphData": [
@@ -4074,6 +4114,10 @@
         {
           "date": "01.05.2020",
           "value": "15.70"
+        },
+        {
+          "date": "01.06.2020",
+          "value": "15.95"
         }
       ]
     }
