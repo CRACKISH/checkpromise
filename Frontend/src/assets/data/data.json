@@ -664,6 +664,10 @@
         {
           "date": "01.06.2020",
           "value": "100.3"
+        },
+        {
+          "date": "01.07.2020",
+          "value": "100.2"
         }
       ]
     },
@@ -681,7 +685,7 @@
       "currentData": {
         "date": "01.08.2020",
         "value": "4723",
-        "value2": "177.09"
+        "value2": "170.57"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/min/",
       "graphData": [
@@ -987,6 +991,10 @@
         },
         {
           "date": "01.07.2020",
+          "value": "4723"
+        },
+        {
+          "date": "01.08.2020",
           "value": "4723"
         }
       ]
@@ -1349,7 +1357,7 @@
       "currentData": {
         "date": "01.08.2020",
         "value": "1712",
-        "value2": "64.19"
+        "value2": "61.83"
       },
       "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html",
       "graphData": [
@@ -1656,6 +1664,10 @@
         {
           "date": "01.07.2020",
           "value": "1712"
+        },
+        {
+          "date": "01.08.2020",
+          "value": "1712"
         }
       ]
     },
@@ -1697,6 +1709,10 @@
         {
           "date": "2019",
           "value": "8.6"
+        },
+        {
+          "date": "2020",
+          "value": "8.9"
         }
       ]
     },
@@ -1799,6 +1815,10 @@
         {
           "date": "01.06.2020",
           "value": "1303699"
+        },
+        {
+          "date": "01.07.2020",
+          "value": "1364380.3"
         }
       ],
       "mediaInfoData": [
@@ -2117,6 +2137,10 @@
         {
           "date": "01.06.2020",
           "value": "25373.81"
+        },
+        {
+          "date": "01.07.2020",
+          "value": "28515.20"
         }
       ]
     },
@@ -2340,6 +2364,10 @@
         {
           "date": "01.06.2020",
           "value": "32488.6"
+        },
+        {
+          "date": "01.07.2020",
+          "value": "75700.6"
         }
       ]
     },
@@ -2357,7 +2385,7 @@
       "currentData": {
         "date": "01.08.2020",
         "value": "2118",
-        "value2": "79.42"
+        "value2": "76.49"
       },
       "source": "https://index.minfin.com.ua/ua/labour/wagemin/",
       "graphData": [
@@ -2660,6 +2688,10 @@
         {
           "date": "01.07.2020",
           "value": "2118"
+        },
+        {
+          "date": "01.08.2020",
+          "value": "2118"
         }
       ]
     },
@@ -2677,7 +2709,7 @@
       "currentData": {
         "date": "01.08.2020",
         "value": "4.17",
-        "value2": "0.14"
+        "value2": "0.15"
       },
       "source": "https://index.minfin.com.ua/ua/tariff/gas/",
       "graphData": [
@@ -2984,6 +3016,10 @@
         {
           "date": "01.07.2020",
           "value": "3.84"
+        },
+        {
+          "date": "01.08.2020",
+          "value": "4.17"
         }
       ],
       "mediaInfoData": [
@@ -3320,6 +3356,10 @@
         {
           "date": "01.07.2020",
           "value": "22.08"
+        },
+        {
+          "date": "01.08.2020",
+          "value": "22.89"
         }
       ],
       "mediaInfoData": [
@@ -3646,7 +3686,7 @@
         },
         {
           "date": "01.07.2020",
-          "value": "21.53"
+          "value": "22.32"
         }
       ]
     },
@@ -3664,7 +3704,7 @@
       "currentData": {
         "date": "01.08.2020",
         "value": "41.84",
-        "value2": "1.64"
+        "value2": "1.51"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
       "graphData": [
@@ -3831,6 +3871,10 @@
         {
           "date": "01.07.2020",
           "value": "43.84"
+        },
+        {
+          "date": "01.08.2020",
+          "value": "41.84"
         }
       ]
     },
@@ -4011,6 +4055,10 @@
         {
           "date": "01.07.2020",
           "value": "12.49"
+        },
+        {
+          "date": "01.08.2020",
+          "value": "13.09"
         }
       ]
     },
@@ -4028,7 +4076,7 @@
       "currentData": {
         "date": "01.08.2020",
         "value": "15.99",
-        "value2": "0.56"
+        "value2": "0.58"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
       "graphData": [
@@ -4187,6 +4235,10 @@
         {
           "date": "01.07.2020",
           "value": "14.97"
+        },
+        {
+          "date": "01.08.2020",
+          "value": "15.99"
         }
       ]
     }
