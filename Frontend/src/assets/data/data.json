@@ -668,6 +668,10 @@
         {
           "date": "01.07.2020",
           "value": "100.2"
+        },
+        {
+          "date": "01.08.2020",
+          "value": "99.4"
         }
       ]
     },
@@ -685,7 +689,7 @@
       "currentData": {
         "date": "01.09.2020",
         "value": "5000",
-        "value2": "170.57"
+        "value2": "181.42"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/min/",
       "graphData": [
@@ -996,6 +1000,10 @@
         {
           "date": "01.08.2020",
           "value": "4723"
+        },
+        {
+          "date": "01.09.2020",
+          "value": "5000"
         }
       ]
     },
@@ -1333,6 +1341,10 @@
         {
           "date": "01.07.2020",
           "value": "11579"
+        },
+        {
+          "date": "01.08.2020",
+          "value": "11804"
         }
       ],
       "mediaInfoData": [
@@ -1357,7 +1369,7 @@
       "currentData": {
         "date": "01.09.2020",
         "value": "1712",
-        "value2": "61.83"
+        "value2": "62.12"
       },
       "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html",
       "graphData": [
@@ -1668,6 +1680,10 @@
         {
           "date": "01.08.2020",
           "value": "1712"
+        },
+        {
+          "date": "01.09.2020",
+          "value": "1712"
         }
       ]
     },
@@ -1819,6 +1835,10 @@
         {
           "date": "01.07.2020",
           "value": "1364380.3"
+        },
+        {
+          "date": "01.08.2020",
+          "value": "1454789"
         }
       ],
       "mediaInfoData": [
@@ -2141,6 +2161,10 @@
         {
           "date": "01.07.2020",
           "value": "28515.20"
+        },
+        {
+          "date": "01.08.2020",
+          "value": "28802.49"
         }
       ]
     },
@@ -2372,6 +2396,10 @@
         {
           "date": "01.08.2020",
           "value": "51692.9"
+        },
+        {
+          "date": "01.09.2020",
+          "value": "45656.8"
         }
       ]
     },
@@ -2389,7 +2417,7 @@
       "currentData": {
         "date": "01.09.2020",
         "value": "2118",
-        "value2": "76.49"
+        "value2": "76.85"
       },
       "source": "https://index.minfin.com.ua/ua/labour/wagemin/",
       "graphData": [
@@ -2696,6 +2724,10 @@
         {
           "date": "01.08.2020",
           "value": "2118"
+        },
+        {
+          "date": "01.09.2020",
+          "value": "2118"
         }
       ]
     },
@@ -2713,7 +2745,7 @@
       "currentData": {
         "date": "01.09.2020",
         "value": "5.51",
-        "value2": "0.15"
+        "value2": "0.2"
       },
       "source": "https://index.minfin.com.ua/ua/tariff/gas/",
       "graphData": [
@@ -3024,6 +3056,10 @@
         {
           "date": "01.08.2020",
           "value": "4.17"
+        },
+        {
+          "date": "01.09.2020",
+          "value": "5.51"
         }
       ],
       "mediaInfoData": [
@@ -3053,7 +3089,7 @@
       "currentData": {
         "date": "01.09.2020",
         "value": "23.09",
-        "value2": "0.83"
+        "value2": "0.84"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3364,6 +3400,10 @@
         {
           "date": "01.08.2020",
           "value": "22.89"
+        },
+        {
+          "date": "01.09.2020",
+          "value": "23.09"
         }
       ],
       "mediaInfoData": [
@@ -3388,7 +3428,7 @@
       "currentData": {
         "date": "01.09.2020",
         "value": "22.52",
-        "value2": "0.81"
+        "value2": "0.82"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3691,6 +3731,10 @@
         {
           "date": "01.07.2020",
           "value": "22.32"
+        },
+        {
+          "date": "01.09.2020",
+          "value": "22.52"
         }
       ]
     },
@@ -3708,7 +3752,7 @@
       "currentData": {
         "date": "01.09.2020",
         "value": "40.34",
-        "value2": "1.51"
+        "value2": "1.46"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
       "graphData": [
@@ -3879,6 +3923,10 @@
         {
           "date": "01.08.2020",
           "value": "41.84"
+        },
+        {
+          "date": "01.09.2020",
+          "value": "40.34"
         }
       ]
     },
@@ -3896,7 +3944,7 @@
       "currentData": {
         "date": "01.09.2020",
         "value": "13.99",
-        "value2": "0.47"
+        "value2": "0.51"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=хлебо-булочные&g=хлеб&w=батон",
       "graphData": [
@@ -4063,6 +4111,10 @@
         {
           "date": "01.08.2020",
           "value": "13.09"
+        },
+        {
+          "date": "01.09.2020",
+          "value": "13.99"
         }
       ]
     },
@@ -4080,7 +4132,7 @@
       "currentData": {
         "date": "01.09.2020",
         "value": "10.93",
-        "value2": "0.58"
+        "value2": "0.4"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
       "graphData": [
@@ -4243,6 +4295,10 @@
         {
           "date": "01.08.2020",
           "value": "15.99"
+        },
+        {
+          "date": "01.09.2020",
+          "value": "10.93"
         }
       ]
     }
