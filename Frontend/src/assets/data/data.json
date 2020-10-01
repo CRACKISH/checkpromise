@@ -10,8 +10,8 @@
         "value": "26.36"
       },
       "currentData": {
-        "date": "01.09.2020",
-        "value": "27.56"
+        "date": "01.10.2020",
+        "value": "28.31"
       },
       "source": "https://bank.gov.ua/control/uk/curmetal/detail/currency?period=daily",
       "graphData": [
@@ -322,6 +322,10 @@
         {
           "date": "01.08.2020",
           "value": "27.69"
+        },
+        {
+          "date": "01.10.2020",
+          "value": "28.31"
         }
       ],
       "mediaInfoData": [
@@ -352,8 +356,8 @@
         "value": "100.7"
       },
       "currentData": {
-        "date": "01.08.2020",
-        "value": "99.4"
+        "date": "01.09.2020",
+        "value": "99.8"
       },
       "source": "https://index.minfin.com.ua/ua/economy/index/inflation/",
       "graphData": [
@@ -687,7 +691,7 @@
         "value2": "158.31"
       },
       "currentData": {
-        "date": "01.09.2020",
+        "date": "01.10.2020",
         "value": "5000",
         "value2": "181.42"
       },
@@ -1019,9 +1023,9 @@
         "value2": "389.57"
       },
       "currentData": {
-        "date": "01.08.2020",
-        "value": "11804",
-        "value2": "426.29"
+        "date": "01.09.2020",
+        "value": "11446",
+        "value2": "413.36"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/average/",
       "graphData": [
@@ -1367,7 +1371,7 @@
         "value2": "56.79"
       },
       "currentData": {
-        "date": "01.09.2020",
+        "date": "01.10.2020",
         "value": "1712",
         "value2": "62.12"
       },
@@ -1745,10 +1749,10 @@
         "value2": "49655.61"
       },
       "currentData": {
-        "date": "01.08.2020",
+        "date": "01.09.2020",
         "quantity": "млн",
-        "value": "1454789",
-        "value2": "52538.43"
+        "value": "1452001",
+        "value2": "52437.74"
       },
       "source": "https://index.minfin.com.ua/ua/finance/debtgov/",
       "graphData": [
@@ -1860,9 +1864,9 @@
         "value": "19402.08"
       },
       "currentData": {
-        "date": "01.08.2020",
+        "date": "01.09.2020",
         "quantity": "млн",
-        "value": "28802.49"
+        "value": "29048.75"
       },
       "source": "https://index.minfin.com.ua/ua/finance/assets/",
       "graphData": [
@@ -2415,7 +2419,7 @@
         "value2": "70.3"
       },
       "currentData": {
-        "date": "01.09.2020",
+        "date": "01.10.2020",
         "value": "2118",
         "value2": "76.85"
       },
@@ -2743,8 +2747,8 @@
         "value2": "0.31"
       },
       "currentData": {
-        "date": "01.09.2020",
-        "value": "5.51",
+        "date": "01.10.2020",
+        "value": "7.56",
         "value2": "0.2"
       },
       "source": "https://index.minfin.com.ua/ua/tariff/gas/",
@@ -3087,8 +3091,8 @@
         "value2": "1.15"
       },
       "currentData": {
-        "date": "01.09.2020",
-        "value": "23.09",
+        "date": "01.10.2020",
+        "value": "23.01",
         "value2": "0.84"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
@@ -3426,8 +3430,8 @@
         "value2": "1.13"
       },
       "currentData": {
-        "date": "01.09.2020",
-        "value": "22.52",
+        "date": "01.10.2020",
+        "value": "22.43",
         "value2": "0.82"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
@@ -3750,7 +3754,7 @@
         "value2": "0.64"
       },
       "currentData": {
-        "date": "01.09.2020",
+        "date": "01.10.2020",
         "value": "40.34",
         "value2": "1.46"
       },
@@ -3942,7 +3946,7 @@
         "value2": "0.51"
       },
       "currentData": {
-        "date": "01.09.2020",
+        "date": "01.10.2020",
         "value": "13.99",
         "value2": "0.51"
       },
@@ -4130,8 +4134,8 @@
         "value2": "0.79"
       },
       "currentData": {
-        "date": "01.09.2020",
-        "value": "10.93",
+        "date": "01.10.2020",
+        "value": "8.69",
         "value2": "0.4"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
