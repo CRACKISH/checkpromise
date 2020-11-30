@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { IndicatorInfoPageComponent } from './indicator-info-page.component';
 
@@ -6,7 +6,7 @@ describe('IndicatorInfoPageComponent', () => {
   let component: IndicatorInfoPageComponent;
   let fixture: ComponentFixture<IndicatorInfoPageComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ IndicatorInfoPageComponent ]
     })
