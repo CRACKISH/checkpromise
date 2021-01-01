@@ -10,8 +10,8 @@
         "value": "26.36"
       },
       "currentData": {
-        "date": "01.12.2020",
-        "value": "28.50"
+        "date": "01.01.2021",
+        "value": "28.27"
       },
       "source": "https://bank.gov.ua/control/uk/curmetal/detail/currency?period=daily",
       "graphData": [
@@ -334,6 +334,10 @@
         {
           "date": "01.12.2020",
           "value": "28.50"
+        },
+        {
+          "date": "01.01.2021",
+          "value": "28.27"
         }
       ],
       "mediaInfoData": [
@@ -364,8 +368,8 @@
         "value": "100.7"
       },
       "currentData": {
-        "date": "01.11.2020",
-        "value": "101.0"
+        "date": "01.12.2020",
+        "value": "101.3"
       },
       "source": "https://index.minfin.com.ua/ua/economy/index/inflation/",
       "graphData": [
@@ -696,6 +700,10 @@
         {
           "date": "01.11.2020",
           "value": "101.0"
+        },
+        {
+          "date": "01.12.2020",
+          "value": "101.3"
         }
       ]
     },
@@ -711,9 +719,9 @@
         "value2": "158.31"
       },
       "currentData": {
-        "date": "01.12.2020",
-        "value": "5000",
-        "value2": "175.44"
+        "date": "01.01.2021",
+        "value": "6000",
+        "value2": "212.24"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/min/",
       "graphData": [
@@ -1040,6 +1048,10 @@
         {
           "date": "01.12.2020",
           "value": "5000"
+        },
+        {
+          "date": "01.01.2021",
+          "value": "6000"
         }
       ]
     },
@@ -1055,9 +1067,9 @@
         "value2": "389.57"
       },
       "currentData": {
-        "date": "01.11.2020",
-        "value": "12174",
-        "value2": "428.06"
+        "date": "01.12.2020",
+        "value": "11987",
+        "value2": "420.60"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/average/",
       "graphData": [
@@ -1393,6 +1405,10 @@
         {
           "date": "01.11.2020",
           "value": "12174"
+        },
+        {
+          "date": "01.12.2020",
+          "value": "11987"
         }
       ],
       "mediaInfoData": [
@@ -1415,9 +1431,9 @@
         "value2": "56.79"
       },
       "currentData": {
-        "date": "01.12.2020",
+        "date": "01.01.2021",
         "value": "1769",
-        "value2": "62.07"
+        "value2": "62.58"
       },
       "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html",
       "graphData": [
@@ -1744,6 +1760,10 @@
         {
           "date": "01.12.2020",
           "value": "1769"
+        },
+        {
+          "date": "01.01.2021",
+          "value": "1769"
         }
       ]
     },
@@ -1805,10 +1825,10 @@
         "value2": "49655.61"
       },
       "currentData": {
-        "date": "01.11.2020",
+        "date": "01.12.2020",
         "quantity": "млн",
-        "value": "1450268.3",
-        "value2": "50993.96"
+        "value": "1463844",
+        "value2": "51362.95"
       },
       "source": "https://index.minfin.com.ua/ua/finance/debtgov/",
       "graphData": [
@@ -1911,6 +1931,10 @@
         {
           "date": "01.11.2020",
           "value": "1450268.3"
+        },
+        {
+          "date": "01.12.2020",
+          "value": "1463844"
         }
       ],
       "mediaInfoData": [
@@ -1932,9 +1956,9 @@
         "value": "19402.08"
       },
       "currentData": {
-        "date": "01.11.2020",
+        "date": "01.12.2020",
         "quantity": "млн",
-        "value": "26140.39"
+        "value": "26137.11"
       },
       "source": "https://index.minfin.com.ua/ua/finance/assets/",
       "graphData": [
@@ -2249,6 +2273,10 @@
         {
           "date": "01.11.2020",
           "value": "26140.39"
+        },
+        {
+          "date": "01.12.2020",
+          "value": "26137.11"
         }
       ]
     },
@@ -2347,9 +2375,9 @@
         "value": "29538.9"
       },
       "currentData": {
-        "date": "01.11.2020",
+        "date": "01.12.2020",
         "quantity": "млн",
-        "value": "15146.3"
+        "value": "19753.3"
       },
       "source": "https://index.minfin.com.ua/ua/finance/ekr/",
       "graphData": [
@@ -2492,6 +2520,10 @@
         {
           "date": "01.11.2020",
           "value": "15146.3"
+        },
+        {
+          "date": "01.12.2020",
+          "value": "19753.3"
         }
       ]
     },
@@ -2507,9 +2539,9 @@
         "value2": "70.3"
       },
       "currentData": {
-        "date": "01.12.2020",
-        "value": "2189",
-        "value2": "76.81"
+        "date": "01.01.2021",
+        "value": "2393",
+        "value2": "84.65"
       },
       "source": "https://index.minfin.com.ua/ua/labour/wagemin/",
       "graphData": [
@@ -2832,6 +2864,10 @@
         {
           "date": "01.12.2020",
           "value": "2189"
+        },
+        {
+          "date": "01.01.2021",
+          "value": "2393"
         }
       ]
     },
@@ -2847,9 +2883,9 @@
         "value2": "0.31"
       },
       "currentData": {
-        "date": "01.12.2020",
-        "value": "9.26",
-        "value2": "0.32"
+        "date": "01.01.2021",
+        "value": "10.91",
+        "value2": "0.39"
       },
       "source": "https://index.minfin.com.ua/ua/tariff/gas/",
       "graphData": [
@@ -3176,6 +3212,10 @@
         {
           "date": "01.12.2020",
           "value": "9.26"
+        },
+        {
+          "date": "01.01.2021",
+          "value": "10.91"
         }
       ],
       "mediaInfoData": [
@@ -3203,9 +3243,9 @@
         "value2": "1.15"
       },
       "currentData": {
-        "date": "01.12.2020",
-        "value": "24.34",
-        "value2": "0.85"
+        "date": "01.01.2021",
+        "value": "25.18",
+        "value2": "0.89"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3532,6 +3572,10 @@
         {
           "date": "01.12.2020",
           "value": "24.34"
+        },
+        {
+          "date": "01.01.2021",
+          "value": "25.18"
         }
       ],
       "mediaInfoData": [
@@ -3554,9 +3598,9 @@
         "value2": "1.13"
       },
       "currentData": {
-        "date": "01.12.2020",
-        "value": "23.63",
-        "value2": "0.83"
+        "date": "01.01.2021",
+        "value": "24.54",
+        "value2": "0.87"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3875,6 +3919,10 @@
         {
           "date": "01.12.2020",
           "value": "23.63"
+        },
+        {
+          "date": "01.01.2021",
+          "value": "24.54"
         }
       ]
     },
@@ -3890,9 +3938,9 @@
         "value2": "0.64"
       },
       "currentData": {
-        "date": "01.12.2020",
-        "value": "40.44",
-        "value2": "1.42"
+        "date": "01.01.2021",
+        "value": "39.74",
+        "value2": "1.41"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
       "graphData": [
@@ -4079,6 +4127,10 @@
         {
           "date": "01.12.2020",
           "value": "40.44"
+        },
+        {
+          "date": "01.01.2021",
+          "value": "39.74"
         }
       ]
     },
@@ -4094,7 +4146,7 @@
         "value2": "0.51"
       },
       "currentData": {
-        "date": "01.12.2020",
+        "date": "01.01.2021",
         "value": "13.99",
         "value2": "0.49"
       },
@@ -4279,6 +4331,10 @@
         {
           "date": "01.12.2020",
           "value": "13.99"
+        },
+        {
+          "date": "01.01.2021",
+          "value": "13.99"
         }
       ]
     },
@@ -4294,9 +4350,9 @@
         "value2": "0.79"
       },
       "currentData": {
-        "date": "01.12.2020",
-        "value": "8.52",
-        "value2": "0.3"
+        "date": "01.01.2021",
+        "value": "10.76",
+        "value2": "0.38"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
       "graphData": [
@@ -4475,6 +4531,10 @@
         {
           "date": "01.12.2020",
           "value": "8.52"
+        },
+        {
+          "date": "01.01.2021",
+          "value": "10.76"
         }
       ]
     }
