@@ -708,6 +708,10 @@
         {
           "date": "01.12.2020",
           "value": "101.3"
+        },
+        {
+          "date": "01.01.2021",
+          "value": "100.9"
         }
       ]
     },
@@ -725,7 +729,7 @@
       "currentData": {
         "date": "01.02.2021",
         "value": "6000",
-        "value2": "212.24"
+        "value2": "213.3"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/min/",
       "graphData": [
@@ -1055,6 +1059,10 @@
         },
         {
           "date": "01.01.2021",
+          "value": "6000"
+        },
+        {
+          "date": "01.02.2021",
           "value": "6000"
         }
       ]
@@ -1437,7 +1445,7 @@
       "currentData": {
         "date": "01.02.2021",
         "value": "1769",
-        "value2": "62.58"
+        "value2": "62.89"
       },
       "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html",
       "graphData": [
@@ -1768,6 +1776,10 @@
         {
           "date": "01.01.2021",
           "value": "1769"
+        },
+        {
+          "date": "01.02.2021",
+          "value": "1769"
         }
       ]
     },
@@ -1939,6 +1951,10 @@
         {
           "date": "01.12.2020",
           "value": "1463844"
+        },
+        {
+          "date": "01.01.2021",
+          "value": "1518934.8"
         }
       ],
       "mediaInfoData": [
@@ -2281,6 +2297,10 @@
         {
           "date": "01.12.2020",
           "value": "26137.11"
+        },
+        {
+          "date": "01.01.2021",
+          "value": "29132.89"
         }
       ]
     },
@@ -2528,6 +2548,10 @@
         {
           "date": "01.12.2020",
           "value": "19753.3"
+        },
+        {
+          "date": "01.01.2021",
+          "value": "12013"
         }
       ]
     },
@@ -2545,7 +2569,7 @@
       "currentData": {
         "date": "01.02.2021",
         "value": "2189",
-        "value2": "84.65"
+        "value2": "77.82"
       },
       "source": "https://index.minfin.com.ua/ua/labour/wagemin/",
       "graphData": [
@@ -2872,6 +2896,10 @@
         {
           "date": "01.01.2021",
           "value": "2189"
+        },
+        {
+          "date": "01.02.2021",
+          "value": "2189"
         }
       ]
     },
@@ -2889,7 +2917,7 @@
       "currentData": {
         "date": "01.02.2021",
         "value": "8.60",
-        "value2": "0.39"
+        "value2": "0.31"
       },
       "source": "https://index.minfin.com.ua/ua/tariff/gas/",
       "graphData": [
@@ -3220,6 +3248,10 @@
         {
           "date": "01.01.2021",
           "value": "10.91"
+        },
+        {
+          "date": "01.02.2021",
+          "value": "8.60"
         }
       ],
       "mediaInfoData": [
@@ -3249,7 +3281,7 @@
       "currentData": {
         "date": "01.02.2021",
         "value": "25.94",
-        "value2": "0.89"
+        "value2": "0.92"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3580,6 +3612,10 @@
         {
           "date": "01.01.2021",
           "value": "25.18"
+        },
+        {
+          "date": "01.02.2021",
+          "value": "25.94"
         }
       ],
       "mediaInfoData": [
@@ -3604,7 +3640,7 @@
       "currentData": {
         "date": "01.02.2021",
         "value": "25.34",
-        "value2": "0.87"
+        "value2": "0.9"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3927,6 +3963,10 @@
         {
           "date": "01.01.2021",
           "value": "24.54"
+        },
+        {
+          "date": "01.02.2021",
+          "value": "25.34"
         }
       ]
     },
@@ -3944,7 +3984,7 @@
       "currentData": {
         "date": "01.02.2021",
         "value": "40.05",
-        "value2": "1.41"
+        "value2": "1.42"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
       "graphData": [
@@ -4135,6 +4175,10 @@
         {
           "date": "01.01.2021",
           "value": "39.74"
+        },
+        {
+          "date": "01.02.2021",
+          "value": "40.05"
         }
       ]
     },
@@ -4152,7 +4196,7 @@
       "currentData": {
         "date": "01.02.2021",
         "value": "14.99",
-        "value2": "0.49"
+        "value2": "0.53"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=хлебо-булочные&g=хлеб&w=батон",
       "graphData": [
@@ -4339,6 +4383,10 @@
         {
           "date": "01.01.2021",
           "value": "13.99"
+        },
+        {
+          "date": "01.02.2021",
+          "value": "14.99"
         }
       ]
     },
@@ -4356,7 +4404,7 @@
       "currentData": {
         "date": "01.02.2021",
         "value": "12.14",
-        "value2": "0.38"
+        "value2": "0.43"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
       "graphData": [
@@ -4539,6 +4587,10 @@
         {
           "date": "01.01.2021",
           "value": "10.76"
+        },
+        {
+          "date": "01.02.2021",
+          "value": "12.14"
         }
       ]
     }
