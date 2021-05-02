@@ -346,6 +346,10 @@
         {
           "date": "01.03.2021",
           "value": "27.95"
+        },
+        {
+          "date": "01.05.2021",
+          "value": "27.75"
         }
       ],
       "mediaInfoData": [
@@ -720,6 +724,10 @@
         {
           "date": "01.02.2021",
           "value": "101.3"
+        },
+        {
+          "date": "01.04.2021",
+          "value": "101.7"
         }
       ]
     },
@@ -737,7 +745,7 @@
       "currentData": {
         "date": "01.05.2021",
         "value": "6000",
-        "value2": "214.67"
+        "value2": "216.22"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/min/",
       "graphData": [
@@ -1076,6 +1084,10 @@
         {
           "date": "01.03.2021",
           "value": "6000"
+        },
+        {
+          "date": "01.05.2021",
+          "value": "6000"
         }
       ]
     },
@@ -1093,7 +1105,7 @@
       "currentData": {
         "date": "01.04.2021",
         "value": "13612",
-        "value2": "501.56"
+        "value2": "489.29"
       },
       "source": "https://index.minfin.com.ua/ua/labour/salary/average/",
       "graphData": [
@@ -1437,6 +1449,10 @@
         {
           "date": "01.01.2021",
           "value": "14179"
+        },
+        {
+          "date": "01.04.2021",
+          "value": "13612"
         }
       ],
       "mediaInfoData": [
@@ -1461,7 +1477,7 @@
       "currentData": {
         "date": "01.05.2021",
         "value": "1769",
-        "value2": "63.29"
+        "value2": "63.75"
       },
       "source": "http://www.buhoblik.org.ua/kadry-zarplata/pensii/2828-minimalna-pensiya.html",
       "graphData": [
@@ -1800,6 +1816,10 @@
         {
           "date": "01.03.2021",
           "value": "1769"
+        },
+        {
+          "date": "01.05.2021",
+          "value": "1769"
         }
       ]
     },
@@ -1864,7 +1884,7 @@
         "date": "01.04.2021",
         "quantity": "млн",
         "value": "1449746.2",
-        "value2": "53555.67"
+        "value2": "52111.65"
       },
       "source": "https://index.minfin.com.ua/ua/finance/debtgov/",
       "graphData": [
@@ -1979,6 +1999,10 @@
         {
           "date": "01.02.2021",
           "value": "1506520.9"
+        },
+        {
+          "date": "01.04.2021",
+          "value": "1449746.2"
         }
       ],
       "mediaInfoData": [
@@ -2329,6 +2353,10 @@
         {
           "date": "01.02.2021",
           "value": "28821.04"
+        },
+        {
+          "date": "01.04.2021",
+          "value": "27034.79"
         }
       ]
     },
@@ -2370,6 +2398,10 @@
         {
           "date": "2019",
           "value": "94589.8"
+        },
+        {
+          "date": "2020",
+          "value": "100432.5"
         }
       ]
     },
@@ -2413,6 +2445,10 @@
         {
           "date": "2019",
           "value": "3675728"
+        },
+        {
+          "date": "2020",
+          "value": "3818456"
         }
       ]
     },
@@ -2584,6 +2620,10 @@
         {
           "date": "01.03.2021",
           "value": "30037.1"
+        },
+        {
+          "date": "01.04.2021",
+          "value": "30144.5"
         }
       ]
     },
@@ -2601,7 +2641,7 @@
       "currentData": {
         "date": "01.05.2021",
         "value": "2189",
-        "value2": "78.32"
+        "value2": "78.88"
       },
       "source": "https://index.minfin.com.ua/ua/labour/wagemin/",
       "graphData": [
@@ -2936,6 +2976,10 @@
         {
           "date": "01.03.2021",
           "value": "2189"
+        },
+        {
+          "date": "01.05.2021",
+          "value": "2189"
         }
       ]
     },
@@ -2953,7 +2997,7 @@
       "currentData": {
         "date": "01.05.2021",
         "value": "10.45",
-        "value2": "0.31"
+        "value2": "0.38"
       },
       "source": "https://index.minfin.com.ua/ua/tariff/gas/",
       "graphData": [
@@ -3292,6 +3336,10 @@
         {
           "date": "01.03.2021",
           "value": "8.59"
+        },
+        {
+          "date": "01.05.2021",
+          "value": "10.45"
         }
       ],
       "mediaInfoData": [
@@ -3321,7 +3369,7 @@
       "currentData": {
         "date": "01.05.2021",
         "value": "28.65",
-        "value2": "1.01"
+        "value2": "1.03"
       },
       "source": "https://index.minfin.com.ua/ua/markets/fuel/",
       "graphData": [
@@ -3660,6 +3708,10 @@
         {
           "date": "01.03.2021",
           "value": "28.24"
+        },
+        {
+          "date": "01.05.2021",
+          "value": "28.65"
         }
       ],
       "mediaInfoData": [
@@ -4014,7 +4066,7 @@
         },
         {
           "date": "01.03.2021",
-          "value": "27.65"
+          "value": "28.22"
         }
       ]
     },
@@ -4032,7 +4084,7 @@
       "currentData": {
         "date": "01.05.2021",
         "value": "43.87",
-        "value2": "1.45"
+        "value2": "1.58"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=бакалея&g=крупы&k=гречка%3D%3D%3D+1кг",
       "graphData": [
@@ -4231,6 +4283,10 @@
         {
           "date": "01.03.2021",
           "value": "40.44"
+        },
+        {
+          "date": "01.05.2021",
+          "value": "43.87"
         }
       ]
     },
@@ -4248,7 +4304,7 @@
       "currentData": {
         "date": "01.05.2021",
         "value": "15.99",
-        "value2": "0.57"
+        "value2": "0.58"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=хлебо-булочные&g=хлеб&w=батон",
       "graphData": [
@@ -4443,6 +4499,10 @@
         {
           "date": "01.03.2021",
           "value": "15.99"
+        },
+        {
+          "date": "01.05.2021",
+          "value": "15.99"
         }
       ]
     },
@@ -4460,7 +4520,7 @@
       "currentData": {
         "date": "01.05.2021",
         "value": "11.40",
-        "value2": "0.43"
+        "value2": "0.41"
       },
       "source": "https://index.minfin.com.ua/ua/markets/wares/prods/?c=фрукты+и+овощи&g=овощи&w=картофель",
       "graphData": [
@@ -4651,6 +4711,10 @@
         {
           "date": "01.03.2021",
           "value": "11.91"
+        },
+        {
+          "date": "01.05.2021",
+          "value": "11.40"
         }
       ]
     }
@@ -4849,8 +4913,8 @@
   ],
   "news": [
     {
-      "date": "01.01.2021",
-      "value": "\n\nЗ Новим Роком!\n\nВсе буде 🇺🇦\n\nСлава Україні!"
+      "date": "02.05.2021",
+      "value": "\n\nХристос Воскрес!\n\nВоскресне Україна!"
     }
   ]
 }
