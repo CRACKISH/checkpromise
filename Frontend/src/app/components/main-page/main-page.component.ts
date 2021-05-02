@@ -15,13 +15,13 @@ export class MainPageComponent implements OnInit, OnDestroy {
 
   protected subscription: Subscription;
 
-  protected indicatorData: IndicatorData[];
-
   protected promiseData: PromiseData[];
 
   public isUSDChecked = false;
 
   public isLoading = false;
+
+  public indicatorData: IndicatorData[];
 
   public renderedIndicatorData: IndicatorData[];
 
