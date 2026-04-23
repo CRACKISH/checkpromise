@@ -12,6 +12,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CheckPromise.BusinessLayer\CheckPromise.BusinessLayer.csproj" />
     <ProjectReference Include="..\CheckPromise.Data\CheckPromise.Data.csproj" />
+    <ProjectReference Include="..\CheckPromise.Ingestion\CheckPromise.Ingestion.csproj" />
     <ProjectReference Include="..\Checkpromise.Provider\Checkpromise.Provider.csproj" />
   </ItemGroup>
 

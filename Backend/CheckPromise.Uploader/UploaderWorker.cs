@@ -1,4 +1,5 @@
 using CheckPromise.BusinessLayer;
+using CheckPromise.Ingestion;
 using Checkpromise.Provider;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -71,8 +72,12 @@ public class UploaderWorker(
     private async Task RunOnceAsync(CancellationToken cancellationToken)
     {
         await using var scope = _scopeFactory.CreateAsyncScope();
+        var ingestion = scope.ServiceProvider.GetRequiredService<IIndicatorIngestionService>();
         var builder = scope.ServiceProvider.GetRequiredService<IClientDataBuilder>();
         var provider = scope.ServiceProvider.GetRequiredService<IClientDataProvider>();
+
+        _logger.LogInformation("Ingesting fresh datapoints from upstream sources");
+        await ingestion.IngestAllAsync(cancellationToken);
 
         _logger.LogInformation("Building client data snapshot");
         var clientData = await builder.BuildAsync(cancellationToken);

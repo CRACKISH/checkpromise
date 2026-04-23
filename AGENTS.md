@@ -26,8 +26,17 @@ Backend/     .NET 8 worker service — builds data.json and uploads it via FTP
   CheckPromise.Data           -> EF Core 8 domain entities + DbContext (SQL Server)
   CheckPromise.DTO            -> client contract (matches Frontend/src/assets/data/data.json shape)
   CheckPromise.BusinessLayer  -> IClientDataBuilder + Domain→DTO mapping (formatting, ordering)
+  CheckPromise.Ingestion      -> IIndicatorDataSource + IIndicatorIngestionService + per-source scrapers/clients that upsert IndicatorValues
   Checkpromise.Provider       -> IClientDataProvider + FluentFTP implementation (IOptions<FtpClientDataProviderOptions>)
   CheckPromise.Uploader       -> composition root: Microsoft.NET.Sdk.Worker, BackgroundService running once a day
+  ```
+
+- **Daily pipeline** inside `UploaderWorker.RunOnceAsync`:
+
+  ```
+  IIndicatorIngestionService.IngestAllAsync()  -- scrape/call upstream sources, upsert into IndicatorValue
+  IClientDataBuilder.BuildAsync()              -- read DB, map + format into DTO.ClientData
+  IClientDataProvider.PushAsync(clientData)    -- serialize to JSON, push via FTP
   ```
 
 - **Contract authority.** The canonical JSON contract lives in `Frontend/src/assets/data/data.json`. Any DTO change must keep the exact JSON shape (property names, string dates `dd.MM.yyyy`, money values as strings with 2 decimals, etc.).
@@ -35,3 +44,7 @@ Backend/     .NET 8 worker service — builds data.json and uploads it via FTP
 - **Docker.** `Backend/CheckPromise.Uploader/Dockerfile` is a multi-stage build on `mcr.microsoft.com/dotnet/sdk:8.0` → `runtime:8.0`, non-root user. Build context is `Backend/` (so `Directory.*.props` siblings resolve).
 - **Scheduling.** `UploaderWorker` uses `TimeProvider` + `PeriodicTimer`-style delay loop, runs on startup (if `Uploader:RunOnStartup`) and then daily at `Uploader:RunAt` (UTC). No Quartz/Hangfire — keep it in-process.
 - **When touching Backend.** No `Newtonsoft.Json` (use `System.Text.Json`); no `WebClient` / `FtpWebRequest` (use `FluentFTP`); no Onion violations (DTO must not reference `CheckPromise.Data.Models`); favor async + `CancellationToken` at service boundaries.
+
+- **Adding a new indicator source.** Drop a new class under `CheckPromise.Ingestion/Sources/<Provider>/` that implements `IIndicatorDataSource` (hard-code its `IndicatorId`, return `IndicatorDatapoint?` from `FetchLatestAsync`). Register it in `CheckPromise.Ingestion.ServiceCollectionExtensions.AddIndicatorIngestion`: `services.AddHttpClient<TSource>()` + `services.AddScoped<IIndicatorDataSource>(sp => sp.GetRequiredService<TSource>())`. The orchestrator picks up every registered `IIndicatorDataSource` via DI and catches per-source exceptions so one bad scraper does not fail the whole run. For HTML scraping of `index.minfin.com.ua`, add `AngleSharp` to `Directory.Packages.props` when the first HTML source is implemented.
+
+- **Implemented sources so far.** `Sources/Nbu/NbuUsdExchangeRateSource` (IndicatorId=1, USD/UAH via NBU JSON API `bank.gov.ua/NBUStatService/v1/statdirectory/exchange?valcode=USD&json`). Minfin scrapers are not implemented yet — each page has its own HTML layout and must be added one at a time with the actual markup on hand.

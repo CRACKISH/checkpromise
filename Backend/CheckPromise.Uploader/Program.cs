@@ -1,5 +1,6 @@
 using CheckPromise.BusinessLayer;
 using CheckPromise.Data.DataContext;
+using CheckPromise.Ingestion;
 using Checkpromise.Provider;
 using CheckPromise.Uploader;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,7 @@ builder.Services.AddDbContext<CheckPromiseContext>((serviceProvider, options) =>
     options.UseSqlServer(connectionString, sql => sql.CommandTimeout(300));
 });
 
+builder.Services.AddIndicatorIngestion();
 builder.Services.AddClientDataBuilder(builder.Configuration);
 builder.Services.AddFtpClientDataProvider(builder.Configuration);
 

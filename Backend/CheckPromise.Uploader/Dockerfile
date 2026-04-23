@@ -5,6 +5,7 @@ COPY Directory.Build.props Directory.Packages.props ./
 COPY CheckPromise.Data/ CheckPromise.Data/
 COPY CheckPromise.DTO/ CheckPromise.DTO/
 COPY CheckPromise.BusinessLayer/ CheckPromise.BusinessLayer/
+COPY CheckPromise.Ingestion/ CheckPromise.Ingestion/
 COPY Checkpromise.Provider/ Checkpromise.Provider/
 COPY CheckPromise.Uploader/ CheckPromise.Uploader/
 
