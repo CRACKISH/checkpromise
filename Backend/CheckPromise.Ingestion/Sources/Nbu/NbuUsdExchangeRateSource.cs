@@ -22,6 +22,8 @@ public class NbuUsdExchangeRateSource(
 
     public int IndicatorId => 1;
 
+    public IngestionCadence Cadence => IngestionCadence.Daily;
+
     public async Task<IndicatorDatapoint?> FetchLatestAsync(CancellationToken cancellationToken = default)
     {
         var entries = await _httpClient.GetFromJsonAsync<NbuRateEntry[]>(Endpoint, cancellationToken);
