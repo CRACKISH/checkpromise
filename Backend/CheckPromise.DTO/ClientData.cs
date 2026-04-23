@@ -1,15 +1,15 @@
-﻿using CheckPromise.Data.Models;
-using System.Collections.Generic;
-using System.Runtime.Serialization;
+using System.Text.Json.Serialization;
 
-namespace CheckPromise.DTO
+namespace CheckPromise.DTO;
+
+public class ClientData
 {
-	[DataContract()]
-	public class ClientData
-    {
-		[DataMember(Name = "indicatorData")]
-		public IEnumerable<Indicator> IndicatorData { get; set; }
-		[DataMember(Name = "promiseData")]
-		public IEnumerable<Promise> PromiseData { get; set; }
-	}
+    [JsonPropertyName("indicatorData")]
+    public IReadOnlyList<Indicator> IndicatorData { get; set; } = [];
+
+    [JsonPropertyName("promiseData")]
+    public IReadOnlyList<Promise> PromiseData { get; set; } = [];
+
+    [JsonPropertyName("news")]
+    public IReadOnlyList<News> News { get; set; } = [];
 }

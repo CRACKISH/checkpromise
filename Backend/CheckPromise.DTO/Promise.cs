@@ -1,21 +1,22 @@
-﻿using System.Runtime.Serialization;
+using System.Text.Json.Serialization;
 
-namespace CheckPromise.DTO
+namespace CheckPromise.DTO;
+
+public enum PromiseStatus
 {
-	[DataContract]
-	public class Promise
-    {
-		[DataMember(Name = "value")]
-		public string Value { get; set; }
-		[DataMember(Name = "status")]
-		public Data.Models.PromiseStatus Status { get; set; }
-		[DataMember(Name = "source")]
-		public string Source { get; set; }
+    Nothing = 0,
+    Done = 1,
+    NotPerformed = 2
+}
 
-		public Promise(Data.Models.Promise promise) {
-			Value = promise.Value;
-			Status = promise.Status;
-			Source = promise.Source;
-		}
-	}
+public class Promise
+{
+    [JsonPropertyName("description")]
+    public string Description { get; set; } = string.Empty;
+
+    [JsonPropertyName("status")]
+    public PromiseStatus Status { get; set; }
+
+    [JsonPropertyName("source")]
+    public string? Source { get; set; }
 }

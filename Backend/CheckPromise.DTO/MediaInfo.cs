@@ -1,22 +1,15 @@
-﻿using System;
-using System.Runtime.Serialization;
+using System.Text.Json.Serialization;
 
-namespace CheckPromise.DTO
+namespace CheckPromise.DTO;
+
+public class MediaInfo
 {
-	[DataContract]
-	public class MediaInfo
-	{
-		[DataMember(Name = "date")]
-		public DateTime Date { get; set; }
-		[DataMember(Name = "caption")]
-		public string Caption { get; set; }
-		[DataMember(Name = "source")]
-		public string Source { get; set; }
+    [JsonPropertyName("date")]
+    public string Date { get; set; } = string.Empty;
 
-		public MediaInfo(Data.Models.MediaInfo mediaInfo) {
-			Date = mediaInfo.Date;
-			Caption = mediaInfo.Caption;
-			Source = mediaInfo.Source;
-		}
-	}
+    [JsonPropertyName("caption")]
+    public string Caption { get; set; } = string.Empty;
+
+    [JsonPropertyName("source")]
+    public string Source { get; set; } = string.Empty;
 }

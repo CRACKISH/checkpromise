@@ -1,12 +1,8 @@
 namespace CheckPromise.Data.Models;
 
-public class GraphData
+public class News
 {
     public int Id { get; set; }
-
-    public int IndicatorId { get; set; }
-
-    public Indicator? Indicator { get; set; }
 
     public DateTime Date { get; set; }
 

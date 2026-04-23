@@ -1,98 +1,70 @@
-﻿using CheckPromise.Data.Models;
+using CheckPromise.Data.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace CheckPromise.Data.DataContext
+namespace CheckPromise.Data.DataContext;
+
+public class CheckPromiseContext(DbContextOptions<CheckPromiseContext> options) : DbContext(options)
 {
-    public class CheckPromiseContext : DbContext
+    public DbSet<Promise> Promises => Set<Promise>();
+
+    public DbSet<Indicator> Indicators => Set<Indicator>();
+
+    public DbSet<IndicatorValue> IndicatorValues => Set<IndicatorValue>();
+
+    public DbSet<GraphData> GraphData => Set<GraphData>();
+
+    public DbSet<MediaInfo> MediaInfo => Set<MediaInfo>();
+
+    public DbSet<News> News => Set<News>();
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        public CheckPromiseContext(DbContextOptions<CheckPromiseContext> options) : base(options) { }
-
-        public DbSet<Promise> Promise { get; set; }
-		public DbSet<Indicator> Indicator { get; set; }
-        public DbSet<IndicatorValue> IndicatorValue { get; set; }
-		public DbSet<GraphData> GraphData { get; set; }
-		public DbSet<MediaInfo> MediaInfo { get; set; }
-		//public DbSet<Currency> Currency { get; set; }
-        //public DbSet<ExchangeRate> ExchangeRate { get; set; }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        modelBuilder.Entity<Promise>(entity =>
         {
-            modelBuilder.Entity<Promise>()
-                .Property(p => p.Id).ValueGeneratedOnAdd();
-            modelBuilder.Entity<Promise>()
-                .Property(p => p.Value).IsRequired();
-            modelBuilder.Entity<Promise>()
-                .Property(p => p.Status)
-                .HasDefaultValue(PromiseStatus.Nothing);
-			modelBuilder.Entity<Promise>().ToTable("Promise");
+            entity.ToTable("Promise");
+            entity.Property(p => p.Status).HasDefaultValue(PromiseStatus.Nothing);
+        });
 
-			modelBuilder.Entity<Indicator>()
-                .Property(i => i.Id).ValueGeneratedOnAdd();
-			modelBuilder.Entity<Indicator>()
-				.Property(i => i.InvertArrow)
-				.IsRequired()
-				.HasDefaultValue(false);
-			modelBuilder.Entity<Indicator>().ToTable("Indicator");
+        modelBuilder.Entity<Indicator>(entity =>
+        {
+            entity.ToTable("Indicator");
+            entity.Property(i => i.InvertArrow).HasDefaultValue(false);
+            entity.HasMany(i => i.Values)
+                .WithOne(v => v.Indicator!)
+                .HasForeignKey(v => v.IndicatorId)
+                .OnDelete(DeleteBehavior.Cascade);
+            entity.HasMany(i => i.GraphData)
+                .WithOne(g => g.Indicator!)
+                .HasForeignKey(g => g.IndicatorId)
+                .OnDelete(DeleteBehavior.Cascade);
+            entity.HasMany(i => i.MediaInfoData)
+                .WithOne(m => m.Indicator!)
+                .HasForeignKey(m => m.IndicatorId)
+                .OnDelete(DeleteBehavior.Cascade);
+        });
 
-			modelBuilder.Entity<IndicatorValue>()
-                .Property(iv => iv.Id).ValueGeneratedOnAdd();
-            modelBuilder.Entity<IndicatorValue>()
-                .Property(iv => iv.Date)
-                .HasDefaultValueSql("getdate()");
-			modelBuilder.Entity<IndicatorValue>()
-				.Property(iv => iv.Measure)
-				.HasDefaultValue(Measure.Empty);
-			/*modelBuilder.Entity<IndicatorValue>()
-                .HasOne(iv =>iv.Indicator)
-                .WithMany(i => i.Value)
-                .HasForeignKey(iv => iv.Indicator)
-                .HasConstraintName("ForeignKey_IndicatorValue_Indicator");*/
-			modelBuilder.Entity<IndicatorValue>().ToTable("IndicatorValue");
+        modelBuilder.Entity<IndicatorValue>(entity =>
+        {
+            entity.ToTable("IndicatorValue");
+            entity.Property(v => v.Date).HasDefaultValueSql("GETDATE()");
+        });
 
-			modelBuilder.Entity<GraphData>()
-				.Property(p => p.Id).ValueGeneratedOnAdd();
-			modelBuilder.Entity<GraphData>()
-				.Property(gd => gd.Date)
-				.IsRequired()
-				.HasDefaultValueSql("getdate()");
-			/*modelBuilder.Entity<GraphData>()
-				.HasOne(gd => gd.Indicator)
-				.WithMany(i => i.GraphData)
-				.HasForeignKey(gd => gd.Indicator)
-				.HasConstraintName("ForeignKey_GraphData_Indicator");*/
-			modelBuilder.Entity<GraphData>().ToTable("GraphData");
+        modelBuilder.Entity<GraphData>(entity =>
+        {
+            entity.ToTable("GraphData");
+            entity.Property(g => g.Date).HasDefaultValueSql("GETDATE()");
+        });
 
-			modelBuilder.Entity<MediaInfo>()
-				.Property(mi => mi.Id).ValueGeneratedOnAdd();
-			modelBuilder.Entity<MediaInfo>()
-				.Property(mi => mi.Date)
-				.IsRequired()
-				.HasDefaultValueSql("getdate()");
-			modelBuilder.Entity<MediaInfo>()
-				.Property(mi => mi.Caption).IsRequired();
-			modelBuilder.Entity<MediaInfo>()
-				.Property(mi => mi.Source).IsRequired();
-			/*modelBuilder.Entity<MediaInfo>()
-				.HasOne(mi => mi.Indicator)
-				.WithMany(i => i.MediaInfoData);
-				//.HasForeignKey(mi => mi.Indicator)
-				//.HasConstraintName("ForeignKey_MediaInfo_Indicator");*/
-			modelBuilder.Entity<MediaInfo>().ToTable("MediaInfo");
+        modelBuilder.Entity<MediaInfo>(entity =>
+        {
+            entity.ToTable("MediaInfo");
+            entity.Property(m => m.Date).HasDefaultValueSql("GETDATE()");
+        });
 
-			/*modelBuilder.Entity<Currency>()
-                .Property(p => p.Id).ValueGeneratedOnAdd();
-			modelBuilder.Entity<Currency>().ToTable("Currency");
-
-			modelBuilder.Entity<ExchangeRate>()
-                .Property(p => p.Id).ValueGeneratedOnAdd();
-            modelBuilder.Entity<ExchangeRate>()
-                .Property(p => p.Date)
-                .HasDefaultValueSql("getdate()");
-            modelBuilder.Entity<ExchangeRate>()
-                .HasOne(er => er.Currency)
-                .WithMany(c => c.Rates)
-                .HasForeignKey(er => er.Currency)
-                .HasConstraintName("ForeignKey_ExchangeRate_Currency");*/
-		}
-	}
+        modelBuilder.Entity<News>(entity =>
+        {
+            entity.ToTable("News");
+            entity.Property(n => n.Date).HasDefaultValueSql("GETDATE()");
+        });
+    }
 }

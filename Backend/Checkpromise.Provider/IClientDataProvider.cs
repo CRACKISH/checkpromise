@@ -1,9 +1,8 @@
-﻿using CheckPromise.DTO;
+using CheckPromise.DTO;
 
-namespace Checkpromise.Provider
+namespace Checkpromise.Provider;
+
+public interface IClientDataProvider
 {
-	public interface IClientDataProvider
-	{
-		void Push(ClientData clientData);
-	}
+    Task PushAsync(ClientData clientData, CancellationToken cancellationToken = default);
 }

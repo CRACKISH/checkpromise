@@ -1,58 +1,26 @@
-﻿using Checkpromise.Provider;
+using CheckPromise.BusinessLayer;
 using CheckPromise.Data.DataContext;
+using Checkpromise.Provider;
+using CheckPromise.Uploader;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Diagnostics;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 
-namespace CheckPromise.Uploader
+var builder = Host.CreateApplicationBuilder(args);
+
+builder.Services.AddDbContext<CheckPromiseContext>((serviceProvider, options) =>
 {
-	class Program
-	{
+    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+        ?? throw new InvalidOperationException("ConnectionStrings:DefaultConnection is not configured.");
+    options.UseSqlServer(connectionString, sql => sql.CommandTimeout(300));
+});
 
-		private static IConfigurationRoot Configuration { get; set; }
+builder.Services.AddClientDataBuilder(builder.Configuration);
+builder.Services.AddFtpClientDataProvider(builder.Configuration);
 
-		private static void BuildConfiguration() {
-			Configuration = new ConfigurationBuilder()
-				.AddJsonFile("appsettings.json", true, true)
-				.Build();
-		}
+builder.Services.AddSingleton(TimeProvider.System);
+builder.Services.AddOptions<UploaderOptions>()
+    .Bind(builder.Configuration.GetSection(UploaderOptions.SectionName));
 
-		private static void AddDbContext(ServiceCollection serviceCollection) {
-			serviceCollection.AddDbContext<CheckPromiseContext>(options =>
-					options
-						.UseSqlServer(
-							Configuration["ConnectionStrings:DefaultConnection"],
-							sqlServerOptions => sqlServerOptions.CommandTimeout(300))
-						.ConfigureWarnings(warnings => warnings.Throw(RelationalEventId.QueryClientEvaluationWarning)));
-		}
+builder.Services.AddHostedService<UploaderWorker>();
 
-		private static ServiceProvider BuildServiceProvider() {
-			var serviceCollection = new ServiceCollection();
-			serviceCollection.AddScoped<ClientDataUploader>();
-			serviceCollection.AddScoped<IClientDataProvider, ClientDataFtpProvider>();
-			AddDbContext(serviceCollection);
-			return serviceCollection.BuildServiceProvider();
-		}
-
-		private static void InitializeDb(ServiceProvider serviceProvider)
-		{
-			CheckPromiseContext context = serviceProvider.GetRequiredService<CheckPromiseContext>();
-			if (!context.Database.EnsureCreated()) {
-				context.Database.Migrate();
-			}
-		}
-
-		static void Main(string[] args)
-		{
-			BuildConfiguration();
-
-			using (var serviceProvider = BuildServiceProvider()) {
-				InitializeDb(serviceProvider);
-
-				var clientDataUploader = serviceProvider.GetService<ClientDataUploader>();
-				clientDataUploader.UploadData();
-			}
-		}
-	}
-}
+var host = builder.Build();
+await host.RunAsync();
