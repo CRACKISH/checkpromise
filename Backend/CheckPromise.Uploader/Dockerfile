@@ -23,6 +23,10 @@ RUN groupadd --system --gid 1000 app \
     && useradd --system --uid 1000 --gid app --create-home app
 
 COPY --from=build --chown=app:app /app ./
+
+RUN mkdir -p /app/data && chown -R app:app /app/data
+VOLUME /app/data
+
 USER app
 
 ENV DOTNET_RUNNING_IN_CONTAINER=true \

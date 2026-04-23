@@ -23,7 +23,7 @@ Backend/     .NET 8 worker service — builds data.json and uploads it via FTP
 - Onion layering:
 
   ```
-  CheckPromise.Data           -> EF Core 8 domain entities + DbContext (SQL Server)
+  CheckPromise.Data           -> EF Core 8 domain entities + DbContext (SQLite)
   CheckPromise.DTO            -> client contract (matches Frontend/src/assets/data/data.json shape)
   CheckPromise.BusinessLayer  -> IClientDataBuilder + Domain→DTO mapping (formatting, ordering)
   CheckPromise.Ingestion      -> IIndicatorDataSource + IIndicatorIngestionService + per-source scrapers/clients that upsert IndicatorValues
@@ -41,7 +41,9 @@ Backend/     .NET 8 worker service — builds data.json and uploads it via FTP
 
 - **Contract authority.** The canonical JSON contract lives in `Frontend/src/assets/data/data.json`. Any DTO change must keep the exact JSON shape (property names, string dates `dd.MM.yyyy`, money values as strings with 2 decimals, etc.).
 - **Configuration.** Secrets (DB connection string, FTP credentials) must come from user-secrets / environment variables in dev, and env vars / vaults in prod. Never commit real credentials. The `appsettings.json` in `CheckPromise.Uploader/` ships with empty values as the schema.
-- **Docker.** `Backend/CheckPromise.Uploader/Dockerfile` is a multi-stage build on `mcr.microsoft.com/dotnet/sdk:8.0` → `runtime:8.0`, non-root user. Build context is `Backend/` (so `Directory.*.props` siblings resolve).
+- **Docker.** `Backend/CheckPromise.Uploader/Dockerfile` is a multi-stage build on `mcr.microsoft.com/dotnet/sdk:8.0` → `runtime:8.0`, non-root user. Build context is `Backend/` (so `Directory.*.props` siblings resolve). SQLite DB lives at `/app/data/checkpromise.db` — declared as a `VOLUME` so the file survives container restarts (mount a named volume or host path to `/app/data`).
+
+- **Storage.** SQLite (chosen over SQL Server because volume is tiny: ~20 indicators × rare updates). DB file is auto-created on startup via `Database.EnsureCreatedAsync()` in `Program.cs`. No migrations yet — once the schema starts evolving, switch from `EnsureCreated` to `Migrate()` and generate migrations with `dotnet ef migrations add <name> --project CheckPromise.Data --startup-project CheckPromise.Uploader`.
 - **Scheduling.** `UploaderWorker` uses `TimeProvider` + `PeriodicTimer`-style delay loop, runs on startup (if `Uploader:RunOnStartup`) and then daily at `Uploader:RunAt` (UTC). No Quartz/Hangfire — keep it in-process.
 - **When touching Backend.** No `Newtonsoft.Json` (use `System.Text.Json`); no `WebClient` / `FtpWebRequest` (use `FluentFTP`); no Onion violations (DTO must not reference `CheckPromise.Data.Models`); favor async + `CancellationToken` at service boundaries.
 

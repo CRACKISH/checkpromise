@@ -46,25 +46,25 @@ public class CheckPromiseContext(DbContextOptions<CheckPromiseContext> options) 
         modelBuilder.Entity<IndicatorValue>(entity =>
         {
             entity.ToTable("IndicatorValue");
-            entity.Property(v => v.Date).HasDefaultValueSql("GETDATE()");
+            entity.Property(v => v.Date).HasDefaultValueSql("CURRENT_TIMESTAMP");
         });
 
         modelBuilder.Entity<GraphData>(entity =>
         {
             entity.ToTable("GraphData");
-            entity.Property(g => g.Date).HasDefaultValueSql("GETDATE()");
+            entity.Property(g => g.Date).HasDefaultValueSql("CURRENT_TIMESTAMP");
         });
 
         modelBuilder.Entity<MediaInfo>(entity =>
         {
             entity.ToTable("MediaInfo");
-            entity.Property(m => m.Date).HasDefaultValueSql("GETDATE()");
+            entity.Property(m => m.Date).HasDefaultValueSql("CURRENT_TIMESTAMP");
         });
 
         modelBuilder.Entity<News>(entity =>
         {
             entity.ToTable("News");
-            entity.Property(n => n.Date).HasDefaultValueSql("GETDATE()");
+            entity.Property(n => n.Date).HasDefaultValueSql("CURRENT_TIMESTAMP");
         });
     }
 }

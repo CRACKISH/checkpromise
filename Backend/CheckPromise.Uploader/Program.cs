@@ -11,7 +11,7 @@ builder.Services.AddDbContext<CheckPromiseContext>((serviceProvider, options) =>
 {
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
         ?? throw new InvalidOperationException("ConnectionStrings:DefaultConnection is not configured.");
-    options.UseSqlServer(connectionString, sql => sql.CommandTimeout(300));
+    options.UseSqlite(connectionString);
 });
 
 builder.Services.AddIndicatorIngestion();
@@ -25,4 +25,11 @@ builder.Services.AddOptions<UploaderOptions>()
 builder.Services.AddHostedService<UploaderWorker>();
 
 var host = builder.Build();
+
+using (var scope = host.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<CheckPromiseContext>();
+    await context.Database.EnsureCreatedAsync();
+}
+
 await host.RunAsync();
