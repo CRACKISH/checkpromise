@@ -1,26 +1,27 @@
-<app-mask [visible]="isLoading"></app-mask>
+<app-mask [visible]="isLoading()"></app-mask>
 <div class="page-wrap">
   <div class="header-wrap">
     <div class="indicator-wrap">
-      <app-indicator [data]="indicatorData" [invertValue]="isUSDChecked" [disableGraphLink]="true"></app-indicator>
+      <app-indicator [data]="indicatorData()" [invertValue]="isUSDChecked()" [disableGraphLink]="true"></app-indicator>
     </div>
   </div>
   <div class="graph-wrap">
     <canvas baseChart
-      [datasets]="graphData"
-      [labels]="graphLabels"
+      [data]="graphData()"
       [options]="graphOptions"
-      chartType="line">
+      [type]="graphType">
     </canvas>
   </div>
-  <div *ngIf="getInfoMediaVisible()" class="mediaInfo-wrap">
-    <div class="mediaInfo-header">
-      <span>Інформація зі ЗМІ:</span>
+  @if (getInfoMediaVisible()) {
+    <div class="mediaInfo-wrap">
+      <div class="mediaInfo-header">
+        <span>Інформація зі ЗМІ:</span>
+      </div>
+      <div class="mediaInfo-content">
+        @for (mediaInfo of indicatorData().mediaInfoData; track mediaInfo) {
+          <a class="mediaInfo-link" href="{{mediaInfo.source}}" target="_blank">{{getMediaInfoCaption(mediaInfo)}}</a>
+        }
+      </div>
     </div>
-    <div class="mediaInfo-content">
-      <ng-container *ngFor="let mediaInfo of indicatorData.mediaInfoData;">
-        <a class="mediaInfo-link" href="{{mediaInfo.source}}" target="_blank">{{getMediaInfoCaption(mediaInfo)}}</a>
-      </ng-container>
-    </div>
-  </div>
+  }
 </div>

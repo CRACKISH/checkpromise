@@ -1,25 +1,16 @@
-import { Injectable } from '@angular/core';
-import { BehaviorSubject, Observable } from 'rxjs';
+import { Injectable, signal } from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ChangeCurrencyService {
 
-  private changeSource$ = new BehaviorSubject<boolean>(false);
+  private readonly _isUSDChecked = signal(false);
 
-  private change$ = this.changeSource$.asObservable();
+  public readonly isUSDChecked = this._isUSDChecked.asReadonly();
 
   public doChange(isUSDChecked: boolean) {
-    this.changeSource$.next(isUSDChecked);
-  }
-
-  public changed(): Observable<boolean> {
-    return this.change$;
-  }
-
-  public isUSDChecked(): boolean {
-    return this.changeSource$.getValue();
+    this._isUSDChecked.set(isUSDChecked);
   }
 
 }

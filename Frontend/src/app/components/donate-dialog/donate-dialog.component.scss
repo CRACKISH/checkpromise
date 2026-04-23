@@ -36,11 +36,25 @@ div {
         float: right;
         width: 16px;
         height: 16px;
-        background: url("./images/close.svg");
-        background-repeat: no-repeat;
+        padding: 0;
+        border: none;
+        background: url("./images/close.svg") no-repeat center / contain transparent;
+        cursor: pointer;
+        opacity: 0.7;
+        transition: opacity 120ms ease;
 
-        &:hover {
-            cursor: pointer;
+        &:hover,
+        &:focus-visible {
+            opacity: 1;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &:focus-visible {
+            outline: 2px solid #0078b4;
+            outline-offset: 2px;
         }
     }
 }

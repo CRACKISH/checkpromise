@@ -5,7 +5,7 @@ export enum PromiseStatus {
 }
 
 export class PromiseData {
-  public description: string;
-  public status: PromiseStatus;
-  public source: string;
+  public description!: string;
+  public status!: PromiseStatus;
+  public source!: string;
 }

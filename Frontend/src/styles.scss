@@ -1,15 +1,22 @@
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-@mixin link() {
-    color: #0078b4;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 16px;
-    text-decoration: none;
-    cursor: pointer;
+.subscribe-snack-bar-panel {
+    --mat-snack-bar-container-color: #323232;
+    --mat-snack-bar-supporting-text-color: #c2c2c2;
+}
+
+.donate-dialog-panel {
+    .mat-mdc-dialog-surface {
+        padding-top: 0 !important;
+    }
+
+    .mat-mdc-dialog-title {
+        padding-top: 0 !important;
+        margin-top: -12px;
+        min-height: 0;
+    }
 }
 
 html {
@@ -23,7 +30,7 @@ body {
     margin: 0;
     color: #333333;
     height: 100%;
-    
+
     .mat-slide-toggle {
 
         &.cdk-focused {
@@ -52,7 +59,7 @@ body {
 
         .mat-slide-toggle-bar {
             background-color: #00b259;
-            
+
             .mat-slide-toggle-thumb {
                 background-color: #fafafa;
             }

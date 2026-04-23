@@ -3,34 +3,38 @@
     <div class="logo" routerLink="/"></div>
   </div>
   <div class="header-inner">
-      <div class="header-block header-block-switcher">
-        <div class="header-back-link" *ngIf="!getSwitchCurrencyVisible()">
-            <label routerLink="/">Назад на головну</label>
+    <div class="header-block header-block-switcher">
+      @if (!switchCurrencyVisible()) {
+        <div class="header-back-link">
+          <label routerLink="/">Назад на головну</label>
         </div>
-        <div class="header-currency-switcher" *ngIf="getSwitchCurrencyVisible()">
-            <span (click)="onChangeCurrency(null)">₴</span><mat-slide-toggle [disableRipple]="true" [checked]="isUSDChecked" (change)="onChangeCurrency($event)">$</mat-slide-toggle>
+      }
+      @if (switchCurrencyVisible()) {
+        <div class="header-currency-switcher">
+          <span (click)="onChangeCurrency(null)">₴</span><mat-slide-toggle [disableRipple]="true" [checked]="isUSDChecked()" (change)="onChangeCurrency($event)">$</mat-slide-toggle>
         </div>
-      </div>
-      <div class="header-block">
-        <div class="header-label">
-          <label>Стежимо за успіхами влади</label>
-          <label>З любов'ю до України ❤️</label>
-        </div>
-      </div>
-      <div class="header-block">
-        <div class="header-help">
-          <label (click)="showDonateDialog()">Допомогти проекту</label>
-        </div>
+      }
+    </div>
+    <div class="header-block">
+      <div class="header-label">
+        <label>Стежимо за успіхами влади</label>
+        <label>З любов'ю до України ❤️</label>
       </div>
     </div>
-  </header>
-  <section class="content-wrap">
-    <router-outlet></router-outlet>
-  </section>
-  <footer class="footer-wrap" [ngClass]="getFooterAdditionClass()">
-    <div class="footer-text">
-      <label>Створено народом України 🇺🇦</label>
-      <br>
+    <div class="header-block">
+      <div class="header-help">
+        <label (click)="showDonateDialog()">Допомогти проекту</label>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="content-wrap">
+  <router-outlet></router-outlet>
+</section>
+<footer class="footer-wrap" [ngClass]="footerAdditionClass()">
+  <div class="footer-text">
+    <label>Створено народом України 🇺🇦</label>
+    <br>
       <a class="mailto" href="mailto:admin@checkpromise.info">Зворотній зв'язок</a>
     </div>
     <div class="footer-share">

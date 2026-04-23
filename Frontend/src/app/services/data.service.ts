@@ -1,33 +1,19 @@
-import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
-import { Observable, pipe } from 'rxjs';
-import { share, map } from 'rxjs/operators';
+import { httpResource } from '@angular/common/http';
+import { Injectable, computed } from '@angular/core';
 
 import { Data } from '../models/data.model';
-import { IndicatorData } from '../models/indicator-data.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class DataService {
 
-  protected dataResponse$: Observable<Data>;
+  private readonly resource = httpResource<Data>(() => '../../assets/data/data.json');
 
-  constructor(private httpClient: HttpClient) { }
+  public readonly isLoading = this.resource.isLoading;
 
-  public get(): Observable<Data> {
-    if (!this.dataResponse$) {
-      this.dataResponse$ = this.httpClient.get<Data>('../../assets/data/data.json').pipe(
-        share()
-      );
-    }
-    return this.dataResponse$;
-  }
+  public readonly indicatorData = computed(() => this.resource.value()?.indicatorData ?? []);
 
-  public getIndicatorData(id: number): Observable<IndicatorData> {
-    return this.get().pipe(
-      map(data => data.indicatorData.find(item => item.id === id))
-    );
-  }
+  public readonly promiseData = computed(() => this.resource.value()?.promiseData ?? []);
 
 }

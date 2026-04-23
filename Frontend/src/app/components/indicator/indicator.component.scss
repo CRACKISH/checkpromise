@@ -1,4 +1,4 @@
-@import '../../../styles.scss';
+@use '../../../shared' as *;
 
 .indicator-wrap {
     min-height: 100px;

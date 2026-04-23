@@ -1,5 +1,5 @@
-import { HttpClientModule } from '@angular/common/http';
-import { NgModule } from '@angular/core';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
+import { NgModule, provideZonelessChangeDetection } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
@@ -7,7 +7,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
-import { ChartsModule } from 'ng2-charts';
+import { BaseChartDirective, provideCharts, withDefaultRegisterables } from 'ng2-charts';
 import { CookieService } from 'ngx-cookie-service';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -21,36 +21,28 @@ import { MainPageComponent } from './components/main-page/main-page.component';
 import { MaskComponent } from './components/mask/mask.component';
 
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    IndicatorComponent,
-    CheckboxComponent,
-    DonateDialogComponent,
-    IndicatorInfoPageComponent,
-    SubscribeSnackBarComponent,
-    MainPageComponent,
-    MaskComponent
-  ],
-  entryComponents: [
-    DonateDialogComponent,
-    SubscribeSnackBarComponent
-  ],
-  imports: [
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    ChartsModule,
-    HttpClientModule,
-    MatButtonModule,
-    MatDialogModule,
-    MatDividerModule,
-    MatIconModule,
-    MatSlideToggleModule,
-    MatSnackBarModule,
-  ],
-  providers: [
-    CookieService
-  ],
-  bootstrap: [AppComponent]
-})
+@NgModule({ declarations: [
+        AppComponent,
+        IndicatorComponent,
+        CheckboxComponent,
+        DonateDialogComponent,
+        IndicatorInfoPageComponent,
+        SubscribeSnackBarComponent,
+        MainPageComponent,
+        MaskComponent
+    ],
+    bootstrap: [AppComponent], imports: [AppRoutingModule,
+        BrowserAnimationsModule,
+        BaseChartDirective,
+        MatButtonModule,
+        MatDialogModule,
+        MatDividerModule,
+        MatIconModule,
+        MatSlideToggleModule,
+        MatSnackBarModule], providers: [
+        CookieService,
+        provideZonelessChangeDetection(),
+        provideHttpClient(withInterceptorsFromDi()),
+        provideCharts(withDefaultRegisterables())
+    ] })
 export class AppModule { }

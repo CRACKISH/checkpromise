@@ -1,9 +1,9 @@
 <div class="content" mat-dialog-title>
   <div class="close-button">
-    <button mat-icon-button [disableRipple]="true" class="close-icon" [mat-dialog-close]></button>
+    <button type="button" class="close-icon" aria-label="Закрити" [mat-dialog-close]></button>
   </div>
   <span class="title">Допомога проекту Check Promise</span>
 </div>
 <div mat-dialog-content class="content">
-  <span>Якщо вам сподобався наш проект і ви волієте  бачити його подальший розвиток, будемо вдячні за підтримку!<br><br>Карта ПриватБанку: <span class="card-number">5169 3600 0512 1722</span></span>
+  <span>Якщо вам сподобався наш проект і ви волієте  бачити його подальший розвиток, будемо вдячні за підтримку!<br><br>Карта ПриватБанку: <span class="card-number" role="button" tabindex="0" title="Скопіювати номер картки" (click)="copyCardNumber()" (keydown.enter)="copyCardNumber()" (keydown.space)="copyCardNumber(); $event.preventDefault()">{{cardNumber}}</span></span>
 </div>

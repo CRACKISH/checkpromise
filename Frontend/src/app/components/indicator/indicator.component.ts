@@ -3,9 +3,10 @@ import { Component, Input } from '@angular/core';
 import { IndicatorData, IndicatorDataValue } from '../../models/indicator-data.model';
 
 @Component({
-  selector: 'app-indicator',
-  templateUrl: './indicator.component.html',
-  styleUrls: ['./indicator.component.scss']
+    selector: 'app-indicator',
+    templateUrl: './indicator.component.html',
+    styleUrls: ['./indicator.component.scss'],
+    standalone: false
 })
 export class IndicatorComponent {
 

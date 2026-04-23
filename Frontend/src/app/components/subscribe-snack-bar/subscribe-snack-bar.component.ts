@@ -3,9 +3,10 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { CookieService } from 'ngx-cookie-service';
 
 @Component({
-  selector: 'app-subscribe-snack-bar',
-  templateUrl: './subscribe-snack-bar.component.html',
-  styleUrls: ['./subscribe-snack-bar.component.scss']
+    selector: 'app-subscribe-snack-bar',
+    templateUrl: './subscribe-snack-bar.component.html',
+    styleUrls: ['./subscribe-snack-bar.component.scss'],
+    standalone: false
 })
 export class SubscribeSnackBarComponent {
 

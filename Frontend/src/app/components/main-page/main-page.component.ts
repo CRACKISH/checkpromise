@@ -1,61 +1,34 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import { Subscription } from 'rxjs';
+import { Component, computed, inject, signal } from '@angular/core';
 
-import { IndicatorData } from '../../models/indicator-data.model';
-import { PromiseData, PromiseStatus } from '../../models/promise-data.model';
+import { PromiseStatus } from '../../models/promise-data.model';
 import { DataService } from '../../services/data.service';
 import { ChangeCurrencyService } from '../../services/change-currency.service';
 
 @Component({
-  selector: 'app-main-page',
-  templateUrl: './main-page.component.html',
-  styleUrls: ['./main-page.component.scss']
+    selector: 'app-main-page',
+    templateUrl: './main-page.component.html',
+    styleUrls: ['./main-page.component.scss'],
+    standalone: false
 })
-export class MainPageComponent implements OnInit, OnDestroy {
+export class MainPageComponent {
 
-  protected subscription: Subscription;
+  protected readonly dataService = inject(DataService);
+  protected readonly changeCurrencyService = inject(ChangeCurrencyService);
 
-  protected promiseData: PromiseData[];
+  public readonly isUSDChecked = this.changeCurrencyService.isUSDChecked;
+  public readonly isLoading = this.dataService.isLoading;
+  public readonly indicatorData = this.dataService.indicatorData;
 
-  public isUSDChecked = false;
+  private readonly filter = signal<PromiseStatus>(PromiseStatus.Nothing);
 
-  public isLoading = false;
-
-  public indicatorData: IndicatorData[];
-
-  public renderedIndicatorData: IndicatorData[];
-
-  public renderedPromiseData: PromiseData[];
-
-  constructor(
-    protected changeCurrencyService: ChangeCurrencyService,
-    protected dataService: DataService
-  ) {}
-
-  public ngOnInit() {
-    this.isLoading = true;
-    this.dataService.get().subscribe(data => {
-      this.indicatorData = data.indicatorData;
-      this.promiseData = data.promiseData;
-      this.renderedIndicatorData = this.indicatorData.map(item => item);
-      this.renderedPromiseData = this.promiseData.map(item => item);
-      this.isLoading = false;
-    });
-    this.isUSDChecked = this.changeCurrencyService.isUSDChecked();
-    this.subscription = this.changeCurrencyService.changed()
-      .subscribe(isUSDChecked => this.isUSDChecked = isUSDChecked);
-  }
-
-  public ngOnDestroy() {
-    this.subscription.unsubscribe();
-  }
+  public readonly renderedPromiseData = computed(() => {
+    const all = this.dataService.promiseData();
+    const type = this.filter();
+    return type === PromiseStatus.Nothing ? all : all.filter(item => item.status === type);
+  });
 
   public onPromiseFilterButtonClick(type: PromiseStatus) {
-    if (type === PromiseStatus.Nothing) {
-      this.renderedPromiseData = this.promiseData.map(item => item);
-    } else {
-      this.renderedPromiseData = this.promiseData.filter(item => item.status === type);
-    }
+    this.filter.set(type);
   }
 
 }
